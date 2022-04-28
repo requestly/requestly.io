@@ -1,0 +1,50 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.slider {
+  background: white;
+  min-height: fit-content;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.slider .slide-track {
+  display: flex;
+}
+.slide-track {
+  width: max-content;
+  transform: translate3d(0px, 0px, 0px);
+  animation: scroll 34s cubic-bezier(0.56, 0.15, 0.99, 0.99) infinite;
+  position: relative;
+  transition: left 0.2s ease-out 0s;
+}
+.slide-track:hover {
+  animation-play-state: paused;
+  cursor: default;
+}
+.slide {
+  margin: 1rem;
+  width: 50ch;
+}
+.slider .slide {
+  height: fit-content;
+}
+.testimonial-keyword {
+  color: #0648b3;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .slider {
+    overflow: hidden;
+  }
+  .slide {
+    width: 30ch;
+  }
+}

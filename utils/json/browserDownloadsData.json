@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "brave",
+    "browserName": "Brave",
+    "downloadLink": "https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa",
+    "storeTitle": "Chrome Web Store",
+    "iconLink": "https://img.icons8.com/fluency/240/000000/chrome-web-store.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Brave1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Brave2.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "chrome",
+    "browserName": "Chrome",
+    "downloadLink": "https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa",
+    "storeTitle": "Chrome Web Store",
+    "iconLink": "https://img.icons8.com/fluency/240/000000/chrome-web-store.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Chrome1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Chrome2.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "edge",
+    "browserName": "Edge",
+    "downloadLink": "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+    "storeTitle": "Microsoft Edge Addons",
+    "iconLink": "https://img.icons8.com/fluency/92/000000/ms-edge-new.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Edge1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Edge2.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "firefox",
+    "browserName": "Firefox",
+    "downloadLink": "https://app.requestly.in/firefox/builds/requestly-latest.xpi",
+    "heading": "Download For",
+    "storeTitle": "Firefox",
+    "iconLink": "/assets/img/icons/firefox.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Firefox1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Firefox2.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Firefox3.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "opera",
+    "browserName": "Opera",
+    "downloadLink": "https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa",
+    "storeTitle": "Chrome Web Store",
+    "iconLink": "https://img.icons8.com/fluency/240/000000/chrome-web-store.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Opera1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Opera2.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "vivaldi",
+    "browserName": "Vivaldi",
+    "downloadLink": "https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa",
+    "storeTitle": "Chrome Web Store",
+    "iconLink": "https://img.icons8.com/fluency/240/000000/chrome-web-store.png",
+    "instructions": [
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Vivaldi1.jpg"
+      },
+      {
+        "text": "",
+        "image": "/assets/img/screenshots/extension-steps/Vivaldi2.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "articles": {
+    "title": "Announcements",
+    "style": "success"
+  },
+  "developers": {
+    "title": "Features",
+    "style": "success"
+  },
+  "product-managers": {
+    "title": "Product Managers",
+    "style": "secondary"
+  },
+  "founders": {
+    "title": "Founders",
+    "style": "success"
+  },
+  "use-cases": {
+    "title": "Use Cases",
+    "style": "info"
+  },
+  "backend-development": {
+    "title": "Backend Development",
+    "style": "secondary"
+  },
+  "frontend-development": {
+    "title": "Frontend Development",
+    "style": "danger"
+  },
+  "docs": {
+    "title": "Guides",
+    "style": "secondary"
+  },
+  "uncategorized": {
+    "title": "Uncategorized",
+    "style": "black"
+  },
+  "latest-news": {
+    "title": "Latest News",
+    "style": "warning"
+  },
+  "alternatives": {
+    "title": "Alternatives",
+    "style": "info"
+  }
+}

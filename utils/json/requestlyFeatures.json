@@ -1,0 +1,719 @@
+[
+  {
+    "displayName": "Redirect URLs (Map Remote)",
+    "displayOnCard": "Redirect URLs (Map Remote)",
+    "meta": "Redirect Rule allows you to redirect pattern based URLs to another URL. Can be used to redirect assets (JS/CSS/API end points) from production to staging/qa/dev environment, set up URL Shortcuts. Supports wildcard and regex based Url matching. Available on Chrome, Firefox & Edge. Reqeustly desktop app can be used on Safari & other desktop apps.",
+    "slug": "redirect-url",
+    "src": "redirect-url",
+    "icon": "fas fa-random",
+    "description": "Redirect a request URL (or matching pattern) to another URL.",
+    "briefContent": "Development is easy, Testing & Debugging is hard. Requestly makes your work easier for you. See how it works.",
+    "walkthrough": "/assets/img/illustrations/redirectRule.png",
+    "showcaseVideo": "/assets/videos/redirect-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Create URL shortcuts for JIRA projects ?",
+        "src": "https://medium.com/requestly-docs/create-url-shortcuts-for-jira-projects-4fd49abdcae7",
+        "description": "Many a times we struggle with browser auto-completing URLs for us which may be different than desired URL we want to open."
+      },
+      {
+        "title": "Overcome your Muscle memory to Stay Calm & Productive",
+        "description": "In this pandemic situation, almost entire tech industry is working from home. Staying focussed & productive is a constant challenge especially when you ...",
+        "src": "https://requestly.medium.com/overcome-your-muscle-memory-to-stay-calm-productive-fce5ffdf1f8f"
+      },
+      {
+        "title": "Replace any image on a webpage with requestly",
+        "src": "https://medium.com/requestly-docs/replace-any-image-on-a-webpage-with-requestly-4e711b37670",
+        "description": "Have you ever wondered how your new logo will look like on the production version of your page? Would you like to see that beautiful new logo in context?"
+      },
+      {
+        "title": "Use your preferred search engine",
+        "src": "https://medium.com/requestly-docs/use-your-preferred-search-engine-31089cb2a9c9",
+        "description": "Using Requestly, a Chrome extension that allows you to mangle requests as they happen, we can configure rules that will make sure that any search query ..."
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Redirect Request feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Redirect Production to Local Environment",
+          "featureContent": "Easily redirect your app from production to local environment in a few easy clicks!",
+          "imgSrc": "/assets/img/screenshots/desktop-app/redirect-rule-s3.png"
+        },
+        {
+          "featureName": "Change API endpoints",
+          "featureContent": "Switching between several different API endpoints is extremely simple with Requestly.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/redirect-rule-s2.png"
+        },
+        {
+          "featureName": "Integrated Files (or Mock) Server",
+          "featureContent": "With Requestly, you get our very own Mock Server Integration out of the box with the Redirect Request Rule. No need to a separate localhost server when the work can be easier!",
+          "imgSrc": "/assets/img/screenshots/desktop-app/redirect-rule-s5.png"
+        },
+        {
+          "featureName": "Debug your Tag on External Sites",
+          "featureContent": "Easily debug & switch between production & dev version of your tag on external sites. More reliable & convenient than Tealium, Adobe Launch, Search Discovery Switch...  ",
+          "imgSrc": "/assets/img/illustrations/redirect-rule-s4.png"
+        },
+        {
+          "featureName": "Remove distractions, Focus on Work",
+          "featureContent": "With Requestly, you can easily set a URL to always redirect to something you should actually spend time on. No distractions.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/redirect-rule-s1.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Carpii UK",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Great extension, very powerful once you learn how to use it. Having tried lots of extensions there's nothing which even comes close (flexible rules and hooks, regexp support, inject javascript etc). Support is excellent, and devs are very responsive. I use Requestly for quite a few different things now, including redirecting local domains to development so I don't have to mess about managing endless dns entries.Very happy with extension especially once you use Premium."
+      },
+      {
+        "name": "Mike Alcock",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "It's the best redirect tool by far, offering much functionality and flexibility above the alternatives. If you use it a lot and could make use of a large number of rules, I'd say it's well worth buying a licence."
+      },
+      {
+        "name": "Zac Gorowski",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "I love this extension! You can redirect/replace small sections of links, which is exactly what I needed. I use it to redirect things like normal Amazon links to the 'smile.amazon' version."
+      },
+      {
+        "name": "Justin L",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "I'm a web dev and thus needed to be able to redirect script calls when in development mode using vue. Had it up and running in seconds. This saved me tonnes of time. Great plugin."
+      }
+    ],
+    "showStackoverflow": true,
+    "stackoverflow": [
+      {
+        "question": "What does it mean when an HTTP request returns status code 0?",
+        "link": "https://stackoverflow.com/questions/872206/what-does-it-mean-when-an-http-request-returns-status-code-0/38750749#38750749"
+      },
+      {
+        "question": "Debugging minified JavaScript function with commas in Chrome",
+        "link": "https://stackoverflow.com/questions/43261811/debugging-minified-javascript-function-with-commas-in-chrome/43268559#43268559"
+      },
+      {
+        "question": "Debug cache-busted scripts in production",
+        "link": "https://stackoverflow.com/questions/35805579/debug-cache-busted-scripts-in-production/35848416#35848416"
+      },
+      {
+        "question": "Change a setting on CDN-hosted JS file without touching file",
+        "link": "https://stackoverflow.com/questions/43242429/change-a-setting-on-cdn-hosted-js-file-without-touching-file/43244557#43244557"
+      },
+      {
+        "question": "Override Javascript file in chrome",
+        "link": "https://stackoverflow.com/questions/35580017/override-javascript-file-in-chrome/37625550#37625550"
+      },
+      {
+        "question": "Trick a browser into loading <script> or <link rel=\"stylesheet\"> URLs from local setup/server?",
+        "link": "https://stackoverflow.com/questions/16302907/trick-a-browser-into-loading-script-or-link-rel-stylesheet-urls-from-local/33447134#33447134"
+      }
+    ]
+  },
+  {
+    "displayName": "Block Network Requests",
+    "displayOnCard": "Block Network Requests",
+    "briefContent": "Block any website or URL with a single click using Requestly's Cancel Request rule, It will make the blocked URL completetly inaccessible. You can block/unblock the url according to your need.",
+    "icon": "fas fa-ban",
+    "slug": "block-network-requests",
+    "src": "block-network-requests",
+    "description": "Block requests, websites by specifying keywords or entire URL",
+    "walkthrough": "/assets/img/illustrations/blockRule.png",
+    "showcaseVideo": "/assets/videos/block-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Can third party resources affect your website",
+        "src": "https://medium.com/requestly-docs/stop-facebook-from-tracking-you-74debeb2cbe7",
+        "description": "In this pandemic situation, almost entire tech industry is working from home. Staying focussed & productive is a constant challenge especially when you ..."
+      },
+      {
+        "title": "Stop facebook from tracking you.",
+        "description": "In this pandemic situation, almost entire tech industry is working from home. Staying focussed & productive is a constant challenge especially when you ...",
+        "src": "https://medium.com/webdevtools/can-third-party-resources-affect-your-website-b14e39c2f53d"
+      },
+      {
+        "title": "How to block web domains using requestly",
+        "src": "https://medium.com/requestly-docs/how-to-block-web-domains-using-requestly-c65296b0349c",
+        "description": "Have you ever wondered how your new logo will look like on the production version of your page? Would you like to see that beautiful new logo in context?"
+      },
+      {
+        "title": "Use your preferred search engine",
+        "src": "https://medium.com/requestly-docs/use-your-preferred-search-engine-31089cb2a9c9",
+        "description": "Using Requestly, a Chrome extension that allows you to mangle requests as they happen, we can configure rules that will make sure that any search query ..."
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Block Network Requests feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Block Request",
+          "featureContent": "Nope, not just the response, Requestly allows you to totally shut down any requests made to a certain URL.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/block-url-s1.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Elior Boukhobza",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Truly great extension. We use it extensively at work to test our website in different conditions already, but I myself use all it's features such as mocking, blocking requests and so on.Very much recommended!"
+      },
+      {
+        "name": "Jitesh Dugar",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Super useful and sleek tool. Would recommend everyone to try this."
+      }
+    ],
+    "showStackoverflow": false,
+    "stackoverflow": [
+      {
+        "question": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "displayName": "Modify HTTP(s) Request & Response Headers",
+    "displayOnCard": "Modify HTTP(s) Request & Response Headers",
+    "meta": "Modify Headers and HTTP(s) Requests in a single click using Requestly. Add, Delete or Replace HTTP(s) Request & Response Headers",
+    "icon": "fas fa-heading",
+    "slug": "modify-request-response-headers",
+    "src": "modify-request-response-headers",
+    "description": "Add, Delete, Replace Request & Response Headers.",
+    "additionalContext": "Can be used to remove X-Frame-Options, Content-Security-Policy, CORS Issues, etc.",
+    "walkthrough": "/assets/img/illustrations/headerRule.png",
+    "briefContent": "HTTP(s) headers are key-value pairs which are used by the client or the server to provide supplementary data along with a HTTP(s) request or response. Our tool, being the best in the game, allows you to modify headers of traffic on your favourite browser. This tool allows you to delete headers to stop online tracking, test your site in production and also remove Content-Security-Policy while testing and so much more",
+    "examples": [
+      {
+        "title": "Prevent browser downloading images",
+        "src": "https://stackoverflow.com/questions/9097781/chrome-downloads-png-image-links-i-want-them-to-open-for-viewing-in-a-new-tab/66595574#66595574",
+        "description": "When a web server sends an unknown MimeType to browsers, browsers automatically download the files as they are unable to understand how to parse and render the response"
+      },
+      {
+        "title": "Open a website in an iframe",
+        "description": "Often companies add a header to their website so that the browser will refuse to open the page within an i-frame. But using Requestly, you can implement a work-around.",
+        "src": "https://medium.com/requestly-docs/how-to-open-a-website-in-iframe-using-requestly-11aa52367cd"
+      }
+    ],
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Modify Headers feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Add, Modify and Remove Headers",
+          "featureContent": "You can add, modify and even remove headers from the URL provided. Modify headers like User-Agent, Access-Control-Allow-Origin, etc.",
+          "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-1.png"
+        },
+        {
+          "featureName": "Modification based on URL",
+          "featureContent": "Configure the criteria of URL on which the rules applies. Options like if the URL contains, equals or matches regex.",
+          "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-2.png"
+        },
+        {
+          "featureName": "Pair Multiple Rules",
+          "featureContent": "Freemium users can pair upto 3 rules and premium users can pair unlimited rules together to match any preferred use case.",
+          "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-3.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Andrew Thompson",
+        "src": "https://pbs.twimg.com/profile_images/1061435355096735746/wkpJLctM_400x400.jpg",
+        "content": "#Requestly #Debug & #Modify #network requests - loved by 100K+ #webdevs If you are a #webdeveloper, Requestly is for you. You can set up #URL #redirects, #rewrites, run custom JS, modify headers, etc. https://requestly.in/?ref=producthunt #requestly #producthunt"
+      },
+      {
+        "name": "Zane",
+        "src": "https://pbs.twimg.com/profile_images/1418380286950260739/1QrhCIM2_400x400.jpg",
+        "content": "Fun fact: if you modify Chrome headers with something like requestly like so, and load this URL, you can access the iOS 4 App Store in Chrome 🤷"
+      },
+      {
+        "name": "Mike Mitchell",
+        "src": "https://pbs.twimg.com/profile_images/453907814436454400/sPVLw1L6_400x400.jpeg",
+        "content": "To my developer and QA people: Check out Requestly, a chrome extension that lets you setup redirects, modify headers, switch hosts, insert user scripts and much more! https://requestly.io via @requestlyIO"
+      },
+      {
+        "name": "Matt Stow",
+        "src": "https://pbs.twimg.com/profile_images/1042000727986458624/hMeIqs52_400x400.jpg",
+        "content": "Requestly is, without a doubt, one of the must have extensions for web developers. I never knew how much I needed to modify network requests on the file until I could http://requestly.io"
+      }
+    ],
+    "showStackoverflow": true,
+    "stackoverflow": [
+      {
+        "question": "Can I run HTML files directly from GitHub, instead of just viewing their source?",
+        "link": "https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source/37912931#37912931"
+      }
+    ]
+  },
+  {
+    "displayName": "Modify Response",
+    "displayOnCard": "Modify Response",
+    "icon": "fa fa-code-branch",
+    "slug": "modify-response",
+    "src": "modify-response",
+    "walkthrough": "/assets/img/illustrations/modifyResponse.png",
+    "description": "This Rule allows you to Mock the Response Body of the AJAX Request",
+    "briefContent": "Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
+    "showcaseVideo": "/assets/videos/modify-response-on-fly-linux.mp4",
+    "examples": [
+      {
+        "title": "Introducing Modify AJAX Response Rule",
+        "src": "https://requestly.io/blog/2020/06/08/introducing-modify-ajax-response-rule/",
+        "description": "With Modify Response Rule, you`ll now be able to modify the response body of AJAX requests."
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Modify Response feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Modify Response",
+          "featureContent": "Easily Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/modify-response-s2.png"
+        },
+        {
+          "featureName": "Simulate Status Code",
+          "featureContent": "Simulate fake status codes using Requestly to see how my website will behave.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/modify-response-s3.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Bob Nicks",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "I've just tried this product for the first time to modify a response to an AJAX call. The tool is great!! I also asked on-line help when I was struck, I got assistance within 2 minutes and the help I received had me up and running within 2 minutes. Seems to be a good product and so far, great support!"
+      },
+      {
+        "name": "Patrik J",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "I was struggling to find how website behaves when 404 status code is received. I tried different products and finally found Requestly, can't be happier."
+      }
+    ],
+    "showStackoverflow": true,
+    "stackoverflow": [
+      {
+        "question": "Modify HTTP responses from a Chrome extension",
+        "link": "https://stackoverflow.com/a/71250307/816213"
+      },
+      {
+        "question": "Simulate fake 404,500 Status Code to check frontend app behaviour",
+        "link": "https://stackoverflow.com/questions/50923170/simulate-fake-404-500-status-code-to-check-frontend-app-behaviour/51098873#51098873"
+      },
+      {
+        "question": "Changing a value of an index in a buffer array",
+        "link": "https://stackoverflow.com/questions/70764577/changing-a-value-of-an-index-in-a-buffer-array"
+      },
+      {
+        "question": "Is it possible to rewrite a status code with Charles Proxy?",
+        "link": "https://stackoverflow.com/questions/14360125/is-it-possible-to-rewrite-a-status-code-with-charles-proxy/70651277#70651277"
+      },
+      {
+        "question": "Change a setting on CDN-hosted JS file without touching file",
+        "link": "https://stackoverflow.com/questions/43242429/change-a-setting-on-cdn-hosted-js-file-without-touching-file/43244557#43244557"
+      }
+    ]
+  },
+  {
+    "displayName": "Cross Device Testing",
+    "displayOnCard": "Cross Device Testing",
+    "meta": "Use Requestly's User Agent Rule to Test your website on Devices Like - Android , iPhone, tablets or Web Browsers like Internet Explorer, Safari, Chrome, Firefox etc. You can also set the version of your browser. Use Custom option to input your requirements",
+    "icon": "fas fa-tablet",
+    "slug": "cross-device-testing",
+    "src": "cross-device-testing",
+    "description": "Check how your site looks on multiple devices, browsers, dimensions etc",
+    "walkthrough": "/assets/img/illustrations/crossDevice.png",
+    "showcaseVideo": "/assets/videos/ua-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Switching User Agent in Browser",
+        "src": "https://medium.com/requestly-docs/switching-user-agent-in-browser-f57fcf42a4b5",
+        "description": "The User-Agent request header is commonly used by servers to identify its client's application type, operating system, etc. Based on this, server selects suitable content to be sent in response"
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's cross device testing feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Mofify User-Agent String",
+          "featureContent": "Easily Modify the useragent string of your system to spoof your device hardware.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/user-agent-s1.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Elior Boukhobza",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Truly great extension. We use it extensively at work to test our website in different conditions already, but I myself use all it's features such as mocking, blocking requests and so on.Very much recommended!"
+      },
+      {
+        "name": "Jitesh Dugar",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Super useful and sleek tool. Would recommend everyone to try this."
+      }
+    ],
+    "showStackoverflow": false,
+    "stackoverflow": [
+      {
+        "question": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "displayName": "Insert Custom Scripts",
+    "displayOnCard": "Insert Custom Scripts",
+    "briefContent": "Easily Customize any Webpage using Requestly's Insert script Rule. Add Custom JavaScript (JS) or Styles (CSS) Remove/hide unwanted sections, add action buttons, add your own libraries to support your script, etc.",
+    "icon": "fas fa-code",
+    "slug": "insert-custom-scripts",
+    "src": "insert-custom-scripts",
+    "description": "Allows you to automate, scrape & change webpage's behaviour with little knowledge of JS & CSS.",
+    "walkthrough": "/assets/img/illustrations/insertRule.png",
+    "showcaseVideo": "/assets/videos/inject-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Inserting scripts dynamically in a webpage",
+        "src": "https://medium.com/requestly-docs/inserting-scripts-dynamically-in-a-webpage-be4af90da20a",
+        "description": "Inject popular libraries or hosted scripts or execute custom code-snippet before or after page load using simple rule builder."
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Insert Custom Scripts feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Inject custom JavaScript",
+          "featureContent": "You can use Requestly to inject custom JS on your specified URL. The possibilities for testing and modifications are endless with Requestly!",
+          "imgSrc": "/assets/img/screenshots/desktop-app/insert-rule-s2.png"
+        },
+        {
+          "featureName": "Inject custom CSS",
+          "featureContent": "You can let Requestly inject custom CSS on your specified URL, letting you test and verify your styles.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/insert-rule-s1.jpg"
+        },
+        {
+          "featureName": "Try out SaaS Apps",
+          "featureContent": "You can directly insert the installation code that you get for integration from the 3rd party app and try it on your website.",
+          "imgSrc": "/assets/img/illustrations/try-out-saas-apps.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Bhaskar Nakka",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Very useful tool for my development and testing tasks - Thanks :-)"
+      },
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ambika Tewari",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Loved this. I am frequently using it to inject js in my website to test  certain things. It reduced the load to maintain a local host server. :)"
+      },
+      {
+        "name": "Jitesh Dugar",
+        "src": "/assets/img/reviews/generic-pfp.png",
+        "content": "Super useful and sleek tool. Would recommend everyone to try this. "
+      }
+    ],
+    "showStackoverflow": true,
+    "stackoverflow": [
+      {
+        "question": "How to inject javascript code?",
+        "link": "https://stackoverflow.com/questions/14273116/inject-javascript-code-into-a-web-page/71089059#71089059"
+      },
+      {
+        "question": "Can we insert javascript into any webpage loaded in the browser",
+        "link": "https://stackoverflow.com/questions/2551067/can-we-insert-javascript-into-any-webpage-loaded-in-the-browser/53112655#53112655"
+      },
+      {
+        "question": "How to skip ad after 5 seconds using the YouTube JS API?",
+        "link": "https://stackoverflow.com/questions/31522813/how-to-skip-ad-after-5-seconds-using-the-youtube-js-api/62530573#62530573"
+      },
+      {
+        "question": "Run my Javascript code on every page on my browser, similar to how a chrome extension would",
+        "link": "https://stackoverflow.com/questions/60292446/run-my-javascript-code-on-every-page-on-my-browser-similar-to-how-a-chrome-exte/60292782#60292782"
+      },
+      {
+        "question": "How to override an extension's content script?",
+        "link": "https://stackoverflow.com/questions/71111161/chrome-override-an-extensions-content-script/71156285#71156285"
+      },
+      {
+        "question": "Enter full screen automatically by inserting script in a webpage using requestly",
+        "link": "https://stackoverflow.com/questions/70965217/enter-full-screen-automatically-by-inserting-script-in-a-webpage-using-requestly"
+      }
+    ]
+  },
+  {
+    "displayName": "Modify Query Params",
+    "displayOnCard": "Modify Query Params",
+    "meta": "Add, Modify or Remove Query Parameters for URL's in a single click by using Requestly's Modify Query Param Rule",
+    "icon": "fas fa-question",
+    "slug": "modify-query-params",
+    "src": "modify-query-params",
+    "walkthrough": "/assets/img/illustrations/queryParams.jpg",
+    "description": "Insert, Modify or Delete query parameters for URLs (or matching pattern)",
+    "showcaseVideo": "/assets/videos/query-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Disable caching of a particular CSS/JS file",
+        "src": "https://dev.to/requestlyio/disable-caching-of-particular-js-css-file-2k82",
+        "description": "Inject popular libraries or hosted scripts or execute custom code-snippet before or after page load using simple rule builder."
+      },
+      {
+        "title": "Introducing Query Param rule",
+        "src": "https://medium.com/requestly-docs/introducing-query-param-rule-d152b28eec08",
+        "description": "QueryParam rule can be used to perform the modify on a given url's query parameters"
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Modify Query Params feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Insert Multiple Query Params",
+          "featureContent": "Inserting Query Params automatically in a URL becomes extremely easy with Requestly. Just enter the parameter and its value and you're done!",
+          "imgSrc": "/assets/img/screenshots/desktop-app/query-params-s1.png"
+        },
+        {
+          "featureName": "Burst Cache",
+          "featureContent": "Using query params, you can burst cache for a request by assigning it a newer version.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/query-params-s2.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/kosbreton.jpeg",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ben Munk",
+        "src": "/assets/img/reviews/benmunk.jpeg",
+        "content": "This is a killer extension. So many good use cases. We use it often."
+      },
+      {
+        "name": "Varun Jain",
+        "src": "/assets/img/reviews/varunjain.jpeg",
+        "content": "Requestly just works :) We are one of the paid users. We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us."
+      },
+      {
+        "name": "Lea Verou",
+        "src": "/assets/img/reviews/leaverou.jpg",
+        "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
+      }
+    ],
+    "showStackoverflow": true,
+    "stackoverflow": [
+      {
+        "question": "How to interrupt or pause http status code 301 request in browser",
+        "link": "https://stackoverflow.com/questions/57049805/how-to-interrupt-or-pause-http-status-code-301-request-in-browser/57071689#57071689"
+      }
+    ]
+  },
+  {
+    "displayName": "Delay Request Rule",
+    "displayOnCard": "Delay Request Rule",
+    "briefContent": "Introduce lag / Delay to the response from specific URLs in a single click by using Requestly's Delay Request Rule",
+    "icon": "far fa-clock",
+    "slug": "delay-request",
+    "src": "delay-request",
+    "walkthrough": "/assets/img/illustrations/delayRequest.png",
+    "description": "Delay requests by specifying keywords or entire URL",
+    "showcaseVideo": "/assets/videos/delay-rule-showcase.mp4",
+    "examples": [
+      {
+        "title": "Adding Delay to Network Requests",
+        "src": "https://requestly.io/blog/2021/07/02/adding-delay-to-network-requests",
+        "description": "It is important for a developer to test the website performance in poor network conditions. This article focuses on the different methods which could enable developers to simulate network conditions."
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Block Network Requests feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Delay Requests",
+          "featureContent": "With Requestly, you can delay your network requests by a specified amount of time. You don't need to emulate a slow internet anymore, the time is in your hands.",
+          "imgSrc": "/assets/img/screenshots/desktop-app/delay-s1.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/kosbreton.jpeg",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ben Munk",
+        "src": "/assets/img/reviews/benmunk.jpeg",
+        "content": "This is a killer extension. So many good use cases. We use it often."
+      },
+      {
+        "name": "Varun Jain",
+        "src": "/assets/img/reviews/varunjain.jpeg",
+        "content": "Requestly just works :) We are one of the paid users. We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us."
+      },
+      {
+        "name": "Lea Verou",
+        "src": "/assets/img/reviews/leaverou.jpg",
+        "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
+      }
+    ],
+    "showStackoverflow": false,
+    "stackoverflow": [
+      {
+        "question": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "displayName": "Mock Server",
+    "displayOnCard": "Mock Server",
+    "meta": "Generate custom API response. Host your HTML/CSS/JS/Other files on our server and test it using a custom URL.",
+    "icon": "fa fa-server",
+    "slug": "mock-server",
+    "src": "mock-server",
+    "walkthrough": "/assets/img/illustrations/mockAPIs.png",
+    "description": "Edit Content-Type, Status Code, and Body of the Response on our Server.",
+    "additionalContext": "Edit and Delete Mock API Responses without building an API. Add/Remove Headers as well",
+    "briefContent": "Using our Mock Server we enable the user to generate custom API responses without actually having a pre-built API or a backend server. We also allow the user to upload HTML/CSS/JS files on our server and see it live in action using the URL generated without actually hosting the project.",
+    "showcaseVideo": "",
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Application and use cases",
+      "description": "Here's how you can use Requestly's Mock Server feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Mock Backend response",
+          "featureContent": "When the backend isn't ready and you want to mock the API response.",
+          "imgSrc": "/assets/img/illustrations/MockApi/feature-1.png"
+        },
+        {
+          "featureName": "Mock different Formats",
+          "featureContent": "Beside from mocking an API Response, we also allow you to write plain HTML/CSS/JS on our editor and test it out without the hassle of deploying.",
+          "imgSrc": "/assets/img/illustrations/MockApi/feature-2.png"
+        },
+        {
+          "featureName": "Control the Mock",
+          "featureContent": "You can edit or delete the Mock. The mock allows you to edit Content-Type, Status Code and body of the response. Also enables you to Add/Remove Headers",
+          "imgSrc": "/assets/img/illustrations/MockApi/feature-3.png"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/kosbreton.jpeg",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ben Munk",
+        "src": "/assets/img/reviews/benmunk.jpeg",
+        "content": "This is a killer extension. So many good use cases. We use it often."
+      },
+      {
+        "name": "Varun Jain",
+        "src": "/assets/img/reviews/varunjain.jpeg",
+        "content": "Requestly just works :) We are one of the paid users. We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us."
+      },
+      {
+        "name": "Lea Verou",
+        "src": "/assets/img/reviews/leaverou.jpg",
+        "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
+      }
+    ],
+    "showStackoverflow": false,
+    "stackoverflow": [
+      {
+        "question": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "displayName": "Selenium on Steroids",
+    "displayOnCard": "",
+    "meta": "Selenium is widely used as a test automation framework for end-to-end testing of web applications. However, it can't intercept and modify network requests. But now you can simulate network conditions, modify headers, redirect network requests - all these and much more with the help of our Selenium package.",
+    "icon": "fa fa-server",
+    "slug": "selenium",
+    "src": "selenium",
+    "walkthrough": "/assets/img/illustrations/selenium.png",
+    "description": "Selenium is widely used as a test automation framework for end-to-end testing of web applications. However, it can't intercept and modify network requests. ",
+    "descriptionOnCard": "Use Requestly rules in Selenium. Modify Headers, Set up Redirects, Block Requests etc in Selenium.",
+    "additionalContext": "But now you can simulate network conditions, modify headers, redirect network requests - all these and much more with the help of our Selenium package.",
+    "briefContent": "Add Network Interception & Modification powers to Selenium without code. Set up Redirects, Modify Headers, Insert Custom Scripts, Add Throttles and much more to Selenium using Requestly.",
+    "examples": [
+      {
+        "title": "Modifying Headers In HTTP(s) Requests In UI Automation Testing",
+        "src": "https://www.smashingmagazine.com/2021/12/headers-https-requests-ui-automation-testing/#approach-2-loading-browser-extension-in-selenium-which-can-modify-headers",
+        "description": "Modify headers - bypass authentication, set cookies and more with Requestly's npm package for Selenium.",
+        "featured": "Smashing Magazine",
+        "featureBackground": "#d33a2c",
+        "featureColor": "#fff"
+      },
+      {
+        "title": "Automate Network Testing via Selenium",
+        "src": "https://requestly.io/blog/automate-testing-via-selenium/",
+        "description": "Ever wondered how you can control network condition for specific requests in your testing environment ? Look no further, we've got you covered. Learn more in the article."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/kosbreton.jpeg",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ben Munk",
+        "src": "/assets/img/reviews/benmunk.jpeg",
+        "content": "This is a killer extension. So many good use cases. We use it often."
+      },
+      {
+        "name": "Varun Jain",
+        "src": "/assets/img/reviews/varunjain.jpeg",
+        "content": "Requestly just works :) We are one of the paid users. We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us."
+      },
+      {
+        "name": "Lea Verou",
+        "src": "/assets/img/reviews/leaverou.jpg",
+        "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
+      }
+    ]
+  },
+  {
+    "displayName": "Remote Rules",
+    "displayOnCard": "",
+    "meta": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
+    "icon": "fa fa-server",
+    "slug": "remote-rules",
+    "src": "remote-rules",
+    "walkthrough": "/assets/img/illustrations/requestly-remote-rules.png",
+    "description": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
+    "descriptionOnCard": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
+    "additionalContext": "",
+    "briefContent": "Remote rules by Requestly offers you control over sharing your rules from a central server. Just share the server url once and we would ensure that the rules in the server would get auto imported periodically. How frequent the rules get auto imported or auto updated can be controlled by the end user.",
+    "secret": "Reach out to contact@requestly.io for free beta access to organisation level remote rules sharing"
+  }
+]

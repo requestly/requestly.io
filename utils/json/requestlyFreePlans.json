@@ -1,0 +1,29 @@
+[
+  {
+    "displayName": "Educational Discount",
+    "slug": "for-education",
+    "meta": "Requestly is free for students and educators. Available on Chrome, Firefox & Edge. Reqeustly desktop app can be used on Safari & other desktop apps.",
+    "sectionTitle": "Requestly is free for students and educators",
+    "benefitCategory": "educational",
+    "formHeader": "Get access to the free Requestly Education plan",
+    "formSupportingDocText": "Any documnet that verfies you are either a student or an educator"
+  },
+  {
+    "displayName": "Opensource Discount",
+    "slug": "for-opensource",
+    "meta": "Requestly is free for opensource community. Available on Chrome, Firefox & Edge. Reqeustly desktop app can be used on Safari & other desktop apps.",
+    "sectionTitle": "Requestly is free for opensource organizations",
+    "benefitCategory": "open-source",
+    "formHeader": "Get the free Requestly open-source plan for your organization",
+    "formSupportingDocText": "Any documnet/screenshot that verifies you are an active member of open source community"
+  },
+  {
+    "displayName": "Non-Profit Discount",
+    "slug": "for-nonprofits",
+    "meta": "Requestly provides 50% discount to non-profits. Available on Chrome, Firefox & Edge. Reqeustly desktop app can be used on Safari & other desktop apps.",
+    "sectionTitle": "Requestly is at 50% discount for non-profits",
+    "benefitCategory": "non-profits",
+    "formHeader": "Get the Requestly non-profit plan for your organization at a special price",
+    "formSupportingDocText": "Any documnet/screenshot that verifies you own a non-profit organization"
+  }
+]

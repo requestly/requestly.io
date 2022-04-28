@@ -1,0 +1,34 @@
+[
+  {
+    "src": "/assets/img/reviews/yogesh-sharma.jpeg",
+    "content": "We've just Integrated Requestly into our Android App & loving the experience. Solves so many issues already. This is a must-have tool for our development team.",
+    "author": "Yogesh Sharma",
+    "cred": "Co-Founder at Headfone",
+    "showOnHomePage": true,
+    "backLink": "https://www.headfone.co.in/?ref=requestly"
+  },
+  {
+    "src": "/assets/img/reviews/vishnu.jpeg",
+    "content": "We got early access to the tool. Integration is quite straightforward and we got all the support from the team. API Inspection & Debugging is a breeze now.",
+    "author": "Vishnu Mohandas",
+    "cred": "Founder, ente.io",
+    "showOnHomePage": true,
+    "backLink": "https://ente.io/?ref=requestly"
+  },
+  {
+    "src": "/assets/img/reviews/nitesh.jpeg",
+    "content": "Such a neat solution. At Blinkit, we use Charles + PasteBin and custom implementation of API Inspector. I can clearly see how Requestly simplifies a lot of things for us.",
+    "author": "Nitesh Jindal",
+    "cred": "Director of Technology, Blinkit",
+    "showOnHomePage": true,
+    "backLink": "https://blinkit.com/?ref=requestly"
+  },
+  {
+    "src": "/assets/img/reviews/nikhil-bansal.jpeg",
+    "content": "We struggle with Charles proxy every day. It is very hard to set up & use. Our QAs can now easily identify whether there is a frontend bug or back-end bug. Feature request - Ability to bookmark a Request/Response and embed the link in the JIRA tickets.",
+    "author": "Nikhil Bansal",
+    "cred": "Co-Founder at Alippo",
+    "showOnHomePage": true,
+    "backLink": "https://alippo.com/?ref=requestly"
+  }
+]

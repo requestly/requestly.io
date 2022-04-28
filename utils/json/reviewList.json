@@ -1,0 +1,151 @@
+[
+  {
+    "src": "/assets/img/reviews/leaverou.jpg",
+    "content": "A while ago I posted  this for changing resource URLs for local debugging: https://bit.ly/3gWRwZ4  Since then I've <span class=\"testimonial-keyword\">switched to using @requestly_ext instead for Chrome</span>: easy on/off toggling and I can use it to debug with the local version of my libraries on remote websites too!",
+    "author": "Lea Verou",
+    "cred": "W3C member, Author CSS Secrets",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/mukulgupta.jpg",
+    "content": "I'd rate it as <span class=\"testimonial-keyword\">one of the best extensions around to boost developer productivity.</span> Even if you're not a developer but need to navigate through loads of seemingly similar web pages, it is highly recommended with a very small learning curve.",
+    "author": "Mukul Gupta",
+    "cred": "Senior Software Engineer at Adobe",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/rafaelgibelli.jpeg",
+    "content": "Requestly is a fantastic tool. It has <span class=\"testimonial-keyword\">made our team's life so much easier and more productive.</span> Totally Recommend!",
+    "author": "Rafael Gibelli",
+    "cred": "Comra Rapido YC W'22",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/robert.jpeg",
+    "content": "Requestly has been a  <span class=\"testimonial-keyword\">lifesaver for testing our product on our customers websites.</span> Everyone's stage sites are a hot mess of half finished dev projects, but Requestly allows us to mock up stage sites in seconds that better reflect the live sites!",
+    "author": "Robert Wharton",
+    "cred": "Senior Product Manager at Metrical",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/varunjain.jpeg",
+    "content": "<span class=\"testimonial-keyword\">Requestly just works :) We are one of the paid users.</span> We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us.",
+    "author": "Varun Jain",
+    "cred": "Co-Founder @ SendX",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/kunalchitkara.jpg",
+    "content": "A really good app for web developers.<span class=\"testimonial-keyword\"> I'm going to make it a must-use app among my reportees.</span>",
+    "author": "Kunal Chitkara",
+    "cred": "Engineering Manager @ RoadZen",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/kosbreton.jpeg",
+    "content": "Thank you for making this <span class=\"testimonial-keyword\">great addon.</span> I just checked out Requestly and indeed it is <span class=\"testimonial-keyword\">very easy to set up.</span> It helps me customize my browsing experience entirely. Keep up the great work!",
+    "author": "Kos Breton",
+    "cred": "Director (Management) at Coinbase",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/shogunsodhani.jpeg",
+    "content": "This extension has made my <span class=\"testimonial-keyword\">developer life much simpler.</span> I recommend it to all my colleagues. Thank you",
+    "author": "Shagun Sodhani",
+    "cred": "Researcher at Facebook AI",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/paramaggarwal.jpeg",
+    "content": "It allows me to convert my <span class=\"testimonial-keyword\">Chrome browser into a supercharged development tool</span> by creating advanced rules to modify the requests that the website is making. Very useful to quickly tweak API parameters and image resolutions <span class=\"testimonial-keyword\">without any code change!</span>",
+    "author": "Param Aggarwal",
+    "cred": "Software Engineer at CureFit",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/benmunk.jpeg",
+    "content": "This is a killer extension. <span class=\"testimonial-keyword\">So many good use cases.</span> We use it often.",
+    "author": "Ben Munk",
+    "cred": "Founder, Product Manager at Sifta",
+    "showOnHomePage": true
+  },
+  {
+    "src": "/assets/img/reviews/lalitsharma.jpg",
+    "content": "Awesome tool,<span class=\"testimonial-keyword\"> it is being used by my whole team.</span> 'Export rules' feature is great !!",
+    "author": "Lalit Sharma",
+    "cred": "Senior Manager Microsoft",
+    "showOnHomePage": true
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjRYBGWwWLQgbKplhEgmL9940sIllVgSJ_XciCf8g=s40-c-k",
+    "content": "The requestly extension is <span class=\"testimonial-keyword\">very nice and very useful.</span> Moreover the support we get from their team is praiseworthy. Thanks a lot Sachin Jain for your support and timely help.",
+    "author": "Kedar Saravate",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GipyzJzt8Mw7-brnVNQds207FvxbMYH0RaEBLej_w=s40-c-k",
+    "content": "I've used this product for three years and it's been extremely useful. <span class=\"testimonial-keyword\">This extension has helped me gain a following of over fifty-thousand subscribers.</span> I couldn't have done it without Requestly. Easy to use yet advanced when you need it.",
+    "author": "Brent Holze",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjQ5Hyj4o1cVwzAF8-6XRtnxKsYbe_TQJ-tsGKA=s40-c-k",
+    "content": "<span class=\"testimonial-keyword\">Very slick and modern UI</span> that also <span class=\"testimonial-keyword\">supports keyboard shortcuts.</span> What's not to love there? I have only used it to make sure I am always giving a forum I support it's Amazon referral link even if I visit Amazon without going through that forum. The 'Modify query parameters' rule allowed me to do that quite easily.",
+    "author": "Dan",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjhI3L0jsw6_Qnt2qNSX2rbLzdDOcxHQYGq4LgQ3VM=s40-c-k",
+    "content": "I use Requestly to seamlessly remove UTM parameters to minimize tracking and more easily avoid duplicates for read-it-later apps like Pocket. Very easy to set up and <span class=\"testimonial-keyword\">support is incredibly responsive!</span>",
+    "author": "Evan",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GhdUNQw8BJnyXaUnZwHIkNkLfp5DnfJu6zug7DuFA=s40-c-k",
+    "content": "I'm surprised how straightforward this extension is - <span class=\"testimonial-keyword\">it did exactly what i need</span> (in my case, adding a url parameter to a specific host), and without any hitches or issues.",
+    "author": "John Doe",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://www.gstatic.com/s2/contacts/images/NoPicture.gif",
+    "content": "<span class=\"testimonial-keyword\">A must have,</span> you can for example very easily enable / disable scripts for testing, setup cache buster especially when you have multiple caching solutions, swap to minify file to beauty files automatically... and I have just started to use the tool. Sachin is very helpful if you any issue.",
+    "author": "Jerome Crametz",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14Ggp-h43SJYCu1pO0jfQj62zawWRoyb0PiHjQA8vkg=s40-c-k",
+    "content": "Best extension, PERIOD. It can basically restore anything without any problems. <span class=\"testimonial-keyword\">No more questions, BEST, EXTENSION, EVER!</span>",
+    "author": "PrestoAnimations",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14Gjl_Hn1-auNN9-mh_pYRJ53ZoBfHymMjBs6sboD=s40-c-k",
+    "content": "This extension can also be used for making boring things in games to something cool like hats in moomoo.io and skins in other games etc. Really now my hats look better in moomoo.io",
+    "author": "Abhay Gaming",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GgInjUEXzOqU0KoNFN09BDggGx_F81McvH2o155=s40-c-k",
+    "content": "<span class=\"testimonial-keyword\">Fantastic, versatile and endlessly useful.</span> I don't know what I'd do without it.",
+    "author": "Alex Koffler",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjaROmjJD6gZ2UycNk9DvmZ2gxKiYQ84T3-G94MbT4=s40-c-k",
+    "content": "<span class=\"testimonial-keyword\">Excellent extension! the only one I found that does exactly what I needed,</span> it's extremely helpful to manage multiple google suite and personnal accounts and saves me tons of time. Also, the support was super helpful when I had some questions initially.",
+    "author": "Mehdi Bellatig",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjEynoCmqS-tXE2TShcsCS0QLoJJqw77nhHtaRd9w=s40-c-k",
+    "content": "<span class=\"testimonial-keyword\">Great product to update links on a page.</span> In my case I want to change a web link to an app link to open links in a specific app and not web and this works great. Also I received some support for what I want and the support was great, fast and really helped me.",
+    "author": "Laurence Cope",
+    "showOnHomePage": false
+  },
+  {
+    "src": "https://lh3.googleusercontent.com/a-/AOh14GjVMdSLmOqOK_joCTQ-4an0VjELsT2su87rC4poHNw=s40-c-k",
+    "content": "Thank you so much for providing a <span class=\"testimonial-keyword\">glorious tool</span> to help retrieve things back in GoAnimate/Vyond, and thanks for replying to my message a few months ago. 5 stars for you! ;-)",
+    "author": "MJ, the Spirit",
+    "showOnHomePage": false
+  }
+]

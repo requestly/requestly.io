@@ -1,0 +1,53 @@
+{
+  "preview": "/assets/customer-stories/wingify/vwo-preview.png",
+  "title": "Wingify uses Requestly to Debug the Delivery of their Campaigns",
+  "permalink": "wingify-uses-requestly-to-debug-the-delivery-of-their-campaigns",
+  "excerpt": "Solving Wingify's problem to debug the delivery of campaigns to their client website with the help of Requestly's Modify Headers Rule saving them lots of time debuggin. This also helps them avoid a lot of headache for the customers thus providing a better User Experience.",
+  "logo": "/assets/customer-stories/wingify/vwo.svg",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "description": [
+        "<a href=\"https://wingify.com/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer noopener\">VWO</a> is world’s leading A/B testing and conversion rate optimization platform that enables growing businesses to conduct qualitative and quantitative visitor research, build an experimentation roadmap and run continuous experiments on their digital properties. VWO’s connected platform allows businesses to optimize their web experience across desktop, mobile, and other devices, to deliver a unique experience based on visitor preferences.",
+        "<a href=\"https://in.linkedin.com/in/nitishmittal17\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer noopener\">Nitish</a> is Director of Engineering at VWO. He has over 10 years of Industry experience with strong hands-on-experience in web development. Nitish & his team looks after the entire campaign set up and campaign delivery in the VWO."
+      ]
+    },
+    {
+      "heading": "The Challenge",
+      "subHeading": "Identifying the potential issues with setting up & delivery of campaigns on Customer websites",
+      "description": [
+        "There are a few challenges when it comes to Identifying issues with a potential customer website. If you can identify the challenges upfront, you can save a lot of headache for the customer by providing a list of prescriptive steps in order to set up campaigns in VWO.",
+        "When it comes to debugging the campaign delivery, there are challenges like FOUC, actions not getting applied, or the action getting applied to different page elements etc. In order to debug these issues, developers need control on the script which is added by the customer on their site. Customers have added minified version of the VWO script hosted on CDN so it made life hard for developers to debug the production version of the tag."
+      ]
+    },
+    {
+      "heading": "Testimonial",
+      "testimonial": "Our dev & QA team actively use Requestly to debug our client websites & debug the campaigns. We have seen hours of productivity jump for everyone. We can now put more energy in building our own product.",
+      "author": {
+        "name": "Nitish Mittal",
+        "title": "Director of Engineering",
+        "mugshot": "/assets/customer-stories/wingify/nitish.jpeg",
+        "companyLogo": "/assets/customer-stories/wingify/vwo.svg"
+      }
+    },
+    {
+      "heading": "The Solution",
+      "subHeading": "Adopting Requestly for testing the client sites and also empowering developers to load their local scripts in runtime for debugging campaigns.",
+      "description": [
+        "Nitish and his team actively use Requestly for development & debugging purposes. In order to identify the potential issues with customer websites, they use <a href=\"https://requestly.io/feature/modify-request-response-headers/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer noopener\">Modify Response headers</a> feature in Requestly and identify the changes to be made at customers end. This avoids a lot of headache for customers and saves a lot of time in debugging.",
+        "Developers at VWO also use Requestly to load local/dev version of the tag instead of production version to test their local changes before the deployment. This also helps them in debugging campaigns and other production issues.",
+        "QAs at VWO use Requestly to block third-party scripts on customer’s websites to identify if there’s any conflict with VWO code or not.."
+      ]
+    },
+    {
+      "heading": "Testimonial",
+      "testimonial": "Requestly is one-stop solution for all our needs at Wingify. Collaboration feature works like a Charm. Our devs & QAs collaborate on Requestly Rules while debugging & testing campaigns. On top of it, The desktop app is extremely helpful is cross-browser testing.",
+      "author": {
+        "name": "Nitish Mittal",
+        "title": "Director of Engineering",
+        "mugshot": "/assets/customer-stories/wingify/nitish.jpeg",
+        "companyLogo": "/assets/customer-stories/wingify/vwo.svg"
+      }
+    }
+  ]
+}

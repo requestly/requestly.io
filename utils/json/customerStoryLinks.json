@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Kushagra Gour",
+    "title": "Frontend Lead",
+    "testimonial": "My team uses Requestly to test local changes on Customers’s websites and ensure we deploy no-breaking changes in production.",
+    "mugshot": "/assets/customer-stories/pushowl/kushagra.webp",
+    "companyLogo": "/assets/customer-stories/pushowl/pushowl.svg",
+    "companyName": "PushOwl",
+    "href": "/customer-stories/pushowl-uses-requestly-to-enhance-developer-productivity/"
+  },
+  {
+    "name": "Nitish Mittal",
+    "title": "Director of Engineering",
+    "testimonial": "Requestly is one-stop solution for all our testing & debugging needs at Wingify. Collaboration feature works like a Charm.",
+    "mugshot": "/assets/customer-stories/wingify/nitish.jpeg",
+    "companyLogo": "/assets/customer-stories/wingify/vwo.svg",
+    "companyName": "Wingify",
+    "href": "/customer-stories/wingify-uses-requestly-to-debug-the-delivery-of-their-campaigns/"
+  }
+]

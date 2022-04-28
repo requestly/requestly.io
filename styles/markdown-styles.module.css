@@ -1,0 +1,47 @@
+.reactMarkDown {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+.reactMarkDown ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  list-style-type: disc;
+}
+
+.reactMarkDown ul li {
+  margin-left: 2em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style-type: disc;
+}
+
+.reactMarkDown img {
+  display: block;
+  max-width: 50%;
+}
+
+.reactMarkDown a {
+  color: #0648b3 !important;
+  font-weight: bold;
+  font-style: underline;
+}
+
+@media only screen and (min-width: 1400px) {
+  .reactMarkDown img {
+    width: "100%";
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .reactMarkDown img {
+    display: block;
+    max-width: 100%;
+  }
+  .reactMarkDown iframe {
+    display: block;
+    max-width: 100%;
+  }
+}

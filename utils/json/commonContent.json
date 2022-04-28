@@ -1,0 +1,29 @@
+{
+  "download": [
+    {
+      "imgSrc": "https://img.icons8.com/fluency/128/000000/chrome-web-store.png",
+      "src": "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
+      "title": "From Chrome Webstore"
+    },
+    {
+      "imgSrc": "https://img.icons8.com/color/128/000000/firefox.png",
+      "src": "https://app.requestly.in/firefox/builds/requestly-latest.xpi",
+      "title": "From Firefox Addons"
+    },
+    {
+      "imgSrc": "https://img.icons8.com/color/128/000000/ms-edge-new.png",
+      "src": "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+      "title": "From Edge Store"
+    },
+    {
+      "imgSrc": "https://img.icons8.com/color-glass/128/000000/safari.png",
+      "src": "/for-safari",
+      "title": "Safari Extension"
+    },
+    {
+      "imgSrc": "https://img.icons8.com/color/128/000000/monitor--v1.png",
+      "src": "/desktop",
+      "title": "Desktop App"
+    }
+  ]
+}

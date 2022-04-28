@@ -1,0 +1,15 @@
+.customerLogo img {
+  filter: grayscale(1);
+}
+
+.customerLogo img:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1900px) {
+  .customerLogo {
+    flex-basis: 20%;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "preview": "/assets/customer-stories/pushowl/pushowl-preview.png",
+  "title": "PushOwl uses Requestly to Enhance Developer Productivity",
+  "permalink": "pushowl-uses-requestly-to-enhance-developer-productivity",
+  "excerpt": "Solving PushOwl's challenge to test their JS library on external ecommerce sites during development with the help of Requestly's Insert Scripts Rule.",
+  "logo": "/assets/customer-stories/pushowl/pushowl.svg",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "description": [
+        "<a class=\"customer-story-link\" href=\"https://pushowl.com/\" target=\"_blank\" rel=\"noreferrer noopener\">PushOwl</a> is a web push notification app that adds a new marketing channel to your acquisition, retargeting, and loyalty strategies. Now a part of <a class=\"customer-story-link\" href=\"https://www.sendinblue.com/\" target=\"_blank\" rel=\"noreferrer noopener\">SendInBlue</a> team, PushOwl helps more than 20K+ merchants to convert their visitors into customers.",
+        "<a href=\"https://in.linkedin.com/in/chinchang\">Kushagra</a> is frontend lead at Pushowl. He is a very creative guy and has built lots of successful side projects like <a class=\"customer-story-link\" href=\"https://cssbattle.dev/\" target=\"_blank\" rel=\"noreferrer noopener\">CSSBatle</a>, <a  class=\"customer-story-link\" href=\"https://webmaker.app/\" target=\"_blank\" rel=\"noreferrer noopener\">WebMaker</a>. "
+      ]
+    },
+    {
+      "heading": "The Challenge",
+      "subHeading": "Testing PushOwl JS Library on external ecommerce sites",
+      "description": [
+        "At Pushowl, they have a JS Library (Call it tag, snippet, script whatever) which their customers integrate in their websites. During continuous development of the library, they wanted the local build script to be injected into customer websites so that they can test out the changes on the real stores websites and not just simple demo sites."
+      ]
+    },
+    {
+      "heading": "Testimonial",
+      "testimonial": "Requestly just works out-of-the box. Very simple setup and the experience is mind-blowing. Real productivity booster.",
+      "author": {
+        "name": "Kushagra Gour",
+        "title": "Frontend Lead",
+        "mugshot": "/assets/customer-stories/pushowl/kushagra.webp",
+        "companyLogo": "/assets/customer-stories/pushowl/pushowl.svg"
+      }
+    },
+    {
+      "heading": "The Solution",
+      "subHeading": "Adopting Requestly to <a style=\"color:#0648b3\" href=\"/feature/insert-custom-scripts/\" target=\"_blank\" rel=\"noreferrer noopener\"> Insert local scripts on external websites</a>. <a style=\"color:#0648b3\" href=\"https://requestly.io/blog/share-rules-with-other-users/\" target=\"_blank\" rel=\"noreferrer noopener\">Collaborating with team </a> on any production issue using common Requestly rules.",
+      "description": [
+        "Kushagra & his team actively use Requestly to test their local script changes on the production websites. Requestly rules make it super easy for our team to manage any external tag on any website.",
+        "They also use <a href=\"/feature/redirect-url/\" target=\"_blank\" rel=\"noreferrer noopener\">Requestly to map their existing production tags on customer stores to their local scripts</a> which makes debugging a piece of cake.",
+        "Similarly, In order to work on their backend APIs, they map the API URLs to their local ngrok URLs and it reduces a lot of collaboration effort between frontend and backend developers."
+      ]
+    },
+    {
+      "heading": "Testimonial",
+      "testimonial": "Requestly’s Script Modification Rule feels like magic. Me & my team actively use Requestly to test our local changes on the customers websites and ensure we deploy no-breaking changes in production.",
+      "author": {
+        "name": "Kushagra Gour",
+        "title": "Frontend Lead",
+        "mugshot": "/assets/customer-stories/pushowl/kushagra.webp",
+        "companyLogo": "/assets/customer-stories/pushowl/pushowl.svg"
+      }
+    }
+  ]
+}

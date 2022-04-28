@@ -1,0 +1,50 @@
+{
+  "name": "landing-pages-next",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8000",
+    "build": "next build && next export",
+    "start": "next build && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@typeform/embed-react": "^1.16.0",
+    "amplitude-js": "^8.15.0",
+    "axios": "^0.24.0",
+    "firebase": "^9.6.1",
+    "ga-4-react": "^0.1.281",
+    "gray-matter": "^4.0.3",
+    "imagemin-mozjpeg": "^10.0.0",
+    "next": "12.0.7",
+    "next-optimized-images": "^2.6.2",
+    "next-safe": "^3.2.1",
+    "platform-detect": "^3.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.4",
+    "react-code-blocks": "0.0.9-0",
+    "react-dom": "17.0.2",
+    "react-github-btn": "^1.2.2",
+    "react-hotjar": "^4.0.0",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^7.1.1",
+    "react-medium-image-zoom": "^4.3.5",
+    "react-responsive": "^9.0.0-beta.5",
+    "rehype-raw": "^6.1.0",
+    "requestly-master": "file:../..",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.29.3",
+    "typeface-merriweather": "1.1.13",
+    "typeface-montserrat": "1.1.13",
+    "ua-parser-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "next-sitemap": "^2.0.7",
+    "prettier-plugin-sort-imports": "^1.6.0"
+  }
+}

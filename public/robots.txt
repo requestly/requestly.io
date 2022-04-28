@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://requestly.io
+
+# Sitemaps
+Sitemap: https://requestly.io/sitemap.xml
+Sitemap: https://requestly.io/sitemap-0.xml

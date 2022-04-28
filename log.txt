@@ -1,0 +1,13 @@
+2022/02/14 12:05:31 Micro started
+2022/02/14 12:05:31 editorconfig log: Running on file /home/yavin/.zshrc
+2022/02/14 12:05:31 editorconfig log: editorconfig core output: 
+
+2022/02/14 12:05:31 editorconfig log: Done.
+2022/02/14 12:05:48 editorconfig log: Running on file /home/yavin/.zshrc
+2022/02/14 12:05:48 editorconfig log: editorconfig core output: 
+
+2022/02/14 12:05:48 editorconfig log: Done.
+2022/02/14 12:05:58 editorconfig log: Running on file /home/yavin/.zshrc
+2022/02/14 12:05:58 editorconfig log: editorconfig core output: 
+
+2022/02/14 12:05:58 editorconfig log: Done.

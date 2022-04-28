@@ -1,0 +1,12 @@
+.card-stats {
+  margin-bottom: 1rem;
+}
+@media (max-width: 480px) {
+  .download-icon {
+    display: none !important;
+  }
+}
+.squircle-image {
+  display: block;
+  border-radius: 10px;
+}
