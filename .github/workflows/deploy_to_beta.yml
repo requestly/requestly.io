@@ -1,0 +1,64 @@
+name: Beta Deployment
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.17
+
+      - name: Installing Dependencies
+        run: bash install.sh beta
+      - name: Building Components
+        run: bash build.sh beta
+      - name: Running Tests
+        run: bash test.sh
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifacts
+          path: |
+            ./public
+            ./components/landing-pages/out
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      name: beta
+      url: https://beta.requestly.io/
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.17
+      - uses: actions/download-artifact@v2
+        with:
+          name: artifacts
+
+      - run: ls public/
+      - name: Install Firebase tools
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase
+        run: firebase deploy -P requestly-beta --only database,storage,firestore,hosting --token ${{ secrets.FIREBASE_TOKEN }}
+
+  cleanup:
+    name: Cleanup
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    needs: [build, deploy]
+
+    steps:
+      - uses: geekyeggo/delete-artifact@v1
+        with:
+          name: artifacts
+          failOnError: false
