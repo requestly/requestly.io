@@ -1,0 +1,97 @@
+{
+  "database": {
+    "rules": "firebase/configs/database.rules.json"
+  },
+  "firestore": {
+    "rules": "firebase/configs/firestore.rules"
+  },
+  "storage": {
+    "rules": "firebase/configs/storage.rules"
+  },
+  "hosting": [
+    {
+      "target": "home",
+      "public": "components/landing-pages/out",
+      "redirects": [
+        {
+          "source": "/pricing",
+          "destination": "https://app.requestly.io/pricing",
+          "type": 302
+        },
+        {
+          "source": "/privacy-policy",
+          "destination": "/privacy",
+          "type": 302
+        },
+        {
+          "source": "/blog/:year/:month/:date/:post",
+          "destination": "/blog/:post",
+          "type": 301
+        },
+        {
+          "source": "/features/:slug",
+          "destination": "/feature/:slug",
+          "type": 302
+        },
+        {
+          "source": "/android-interceptor",
+          "destination": "/debug-android-apps",
+          "type": 302
+        },
+        {
+          "source": "/mobile-interceptor",
+          "destination": "/debug-android-apps",
+          "type": 302
+        },
+        {
+          "source": "/android-sdk",
+          "destination": "/debug-android-apps",
+          "type": 302
+        }
+      ],
+      "rewrites": [
+        {
+          "source": "/get/**",
+          "function": "getDesktopApp"
+        },
+        {
+          "source": "/get",
+          "function": "getDesktopApp"
+        },
+        {
+          "source": "/",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "source": "firebase/functions",
+    "predeploy": [
+      "npm --prefix \"$RESOURCE_DIR\" run lint && npm --prefix \"$RESOURCE_DIR\" run predeploy"
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "pubsub": {
+      "port": 8085
+    },
+    "ui": {
+      "enabled": true
+    },
+    "firestore": {
+      "port": 8080
+    }
+  }
+}

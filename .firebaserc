@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "project-7820168409702389920",
+    "requestly-beta": "requestly-dev",
+    "requestly-prod": "project-7820168409702389920"
+  },
+  "targets": {
+    "requestly-dev": {
+      "hosting": {
+        "home": [
+          "requestly-dev-home"
+        ]
+      }
+    },
+    "project-7820168409702389920": {
+      "hosting": {
+        "home": [
+          "requestly-prod-home"
+        ]
+      }
+    }
+  }
+}
