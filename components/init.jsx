@@ -9,7 +9,7 @@ const Init = () => {
     initializeFirebase();
 
     // GA
-    initGA(process.env.GA_KEY);
+    initGA(process.env.NEXT_PUBLIC_GA_KEY);
 
     // Amplitude
     addAmplitude();

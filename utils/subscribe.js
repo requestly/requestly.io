@@ -4,7 +4,7 @@
  */
 import axios from "axios";
 
-const API_KEY = process.env.SENDINBLUE_KEY;
+const API_KEY = process.env.NEXT_PUBLIC_SENDINBLUE_KEY;
 const LIST_ID = 47;
 
 // POST email to sib list

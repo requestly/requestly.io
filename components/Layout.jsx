@@ -9,7 +9,7 @@ const MasterNavBar = dynamic(() => import("../components/masterNavBar"), {
 
 const Layout = ({ children }) => {
   useEffect(() => {
-    hotjar.initialize(process.env.HOTJAR_KEY, 6);
+    hotjar.initialize(process.env.NEXT_PUBLIC_HOTJAR_KEY, 6);
   }, []);
 
   return (
