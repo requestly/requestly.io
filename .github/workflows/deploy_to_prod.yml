@@ -61,7 +61,7 @@ jobs:
         run: npm install -g firebase-tools
 
       - name: Deploy to Firebase
-        run: firebase deploy -P requestly-beta --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy -P requestly-prod --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
 
   cleanup:
     name: Cleanup
