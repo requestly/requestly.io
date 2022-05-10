@@ -133,6 +133,7 @@ const AndroidInterceptor = () => {
                           <i className="fa fa-paper-plane mr-2"></i>Get Early
                           Access
                         </PopupButton>
+                        <span style={{ visibility: "hidden" }}>6-Months Free</span>
                       </div>
                       <div className="hero-button-wrapper">
                         <button
