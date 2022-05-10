@@ -54,6 +54,8 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: artifacts
+          path: |
+            ./out
 
       - name: Install Firebase tools
         run: npm install -g firebase-tools
