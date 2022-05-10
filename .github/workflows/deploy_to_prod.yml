@@ -33,7 +33,7 @@ jobs:
       - name: Installing Dependencies
         run: npm install --only=prod
       - name: Building Components
-        run: npm run build
+        run: bash build.sh
 
       - uses: actions/upload-artifact@v2
         with:

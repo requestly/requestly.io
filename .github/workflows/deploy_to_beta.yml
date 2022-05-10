@@ -30,7 +30,7 @@ jobs:
       - name: Installing Dependencies
         run: npm install --only=prod
       - name: Building Components
-        run: npm run build
+        run: bash build.sh 
 
       - uses: actions/upload-artifact@v2
         with:
@@ -60,14 +60,14 @@ jobs:
       - name: Deploy to Firebase
         run: firebase deploy -P requestly-beta --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
 
-  # cleanup:
-  #   name: Cleanup
-  #   runs-on: ubuntu-latest
-  #   if: ${{ always() }}
-  #   needs: [build, deploy]
+  cleanup:
+    name: Cleanup
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    needs: [build, deploy]
 
-  #   steps:
-  #     - uses: geekyeggo/delete-artifact@v1
-  #       with:
-  #         name: artifacts
-  #         failOnError: false
+    steps:
+      - uses: geekyeggo/delete-artifact@v1
+        with:
+          name: artifacts
+          failOnError: false
