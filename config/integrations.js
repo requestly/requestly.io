@@ -7,7 +7,7 @@ let AMPLITUDE_INTEGRATION_DONE = false;
 
 export async function initGA(G) {
   if (!GA4React.isInitialized() && G && process.browser) {
-    ga4react = new GA4React(G, { debug_mode: !process.env.production });
+    ga4react = new GA4React(G, { debug_mode: process.env.ENV !== "production" });
 
     try {
       await ga4react.initialize();
@@ -38,7 +38,7 @@ export function addAmplitude() {
   if (!AMPLITUDE_INTEGRATION_DONE) {
     AMPLITUDE_INTEGRATION_DONE = true;
     // Init Amplitude
-    amplitude.getInstance().init(process.env.NEXT_PUBLIC_AMPLITUDE_ID);
+    amplitude.getInstance().init(process.env.AMPLITUDE_KEY);
   }
 }
 

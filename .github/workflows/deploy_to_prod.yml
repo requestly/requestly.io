@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Build and Test
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
@@ -29,9 +29,21 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    environment:
+      name: Production
+      url: https://requestly.io
     env:
-      name: production
-      url: https://app.requestly.io/
+      AMPLITUDE_KEY: ${{ secrets.AMPLITUDE_KEY }}
+      ENV: ${{ secrets.ENV }}
+      GA_KEY: ${{ secrets.GA_KEY }}
+      FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+      FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+      FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
+      FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+      FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+      HOTJAR_KEY: ${{ secrets.HOTJAR_KEY }}
+      SENDINBLUE_KEY: ${{ secrets.SENDINBLUE_KEY }}
     needs: [build]
 
     steps:
@@ -42,7 +54,6 @@ jobs:
         with:
           name: artifacts
 
-      - run: ls public/
       - name: Install Firebase tools
         run: npm install -g firebase-tools
 

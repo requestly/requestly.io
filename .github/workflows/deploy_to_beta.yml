@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   build:
-    name: Build and Test
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
@@ -27,9 +27,16 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    environment:
+      name: Staging
+      url: https://requestly-dev-home.web.app/
     env:
-      name: beta
-      url: https://beta.requestly.io/
+      FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+      FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+      FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
+      FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+      FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
     needs: [build]
 
     steps:
@@ -40,7 +47,6 @@ jobs:
         with:
           name: artifacts
 
-      - run: ls public/
       - name: Install Firebase tools
         run: npm install -g firebase-tools
 
