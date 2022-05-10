@@ -16,18 +16,15 @@ jobs:
           node-version: 14.17
 
       - name: Installing Dependencies
-        run: bash install.sh prod
+        run: npm install --only=prod
       - name: Building Components
-        run: bash build.sh prod
-      - name: Running Tests
-        run: bash test.sh
+        run: npm run build
 
       - uses: actions/upload-artifact@v2
         with:
           name: artifacts
           path: |
-            ./public
-            ./components/landing-pages/out
+            ./out
 
   deploy:
     name: Deploy
@@ -38,7 +35,6 @@ jobs:
     needs: [build]
 
     steps:
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 14.17
@@ -51,7 +47,7 @@ jobs:
         run: npm install -g firebase-tools
 
       - name: Deploy to Firebase
-        run: firebase deploy -P requestly-prod --only database,storage,firestore,hosting --token ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy -P requestly-beta --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
 
   cleanup:
     name: Cleanup
