@@ -1,10 +1,16 @@
 <img src="https://i.ibb.co/KNVvYWq/image.png" alt="image" border="0" style="border-radius:1rem;" />
 
-This is a <a href="https://nextjs.org/">Next.js</a> project that redesigns the original landing-pages project that was built with Gatsby.
+This is a <a href="https://nextjs.org/">Next.js</a> project that powers the original site & blogposts for requestly.io
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies
+
+```bash
+npm run install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -12,10 +18,7 @@ npm run dev
 
 **This development server is not a static build**
 
-Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
-The port 8000 is only used for the development server, for production server we use the port 3000.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the result. Port 8000 is only used for the development server, for production server we use the port 3000. You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 To get a static server run:
 

@@ -1403,7 +1403,7 @@ pre code {
 .table th,
 .table td {
   padding: 1rem;
-  vertical-align: top;
+  vertical-align: middle;
   border-top: 0.0625rem solid #f4f6fc;
 }
 .table thead th {
@@ -31472,7 +31472,7 @@ article p,
 article ul,
 article ol,
 article blockquote {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 article p,
 article ul li,
@@ -31481,7 +31481,7 @@ article ol li {
 }
 article ul li,
 article ol li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 article h1,
 article h2,
@@ -31495,7 +31495,7 @@ article .h3,
 article .h4,
 article .h5,
 article .h6 {
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .folder-structure li {
   font-size: 1.2rem;

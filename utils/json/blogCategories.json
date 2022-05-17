@@ -27,6 +27,14 @@
     "title": "Frontend Development",
     "style": "danger"
   },
+  "android": {
+    "title": "Android Development",
+    "style": "success"
+  },
+  "debugging": {
+    "title": "Debugging",
+    "style": "info"
+  },
   "docs": {
     "title": "Guides",
     "style": "secondary"
