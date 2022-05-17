@@ -28,7 +28,7 @@ themify_used_global_styles:
   - 'a:1:{i:0;s:0:"";}'
 ---
 
-If you are an android developer, you must already be knowing about [Chucker - An In-app HTTP Inspector](https://github.com/ChuckerTeam/chucker) and [Charles Proxy - A Desktop app based HTTP(s) proxy](https://www.charlesproxy.com/). I have extensively used both the tools for debugging API traffic on Android devices but there are many pain points which the duo fail to solve hence at Requestly we decided to build an [Open-Source and powerful android debugger](/android-interceptor/) which provides the capability of In-App API Inspector as well modifying the API request/response without dealing with SSL certificate and proxy issues. In this article, we will go in-depth to understand the pain points of debugging API traffic and how Requestly debugger addresses them.
+If you are an android developer, you must already be knowing about [Chucker - An In-app HTTP Inspector](https://github.com/ChuckerTeam/chucker) and [Charles Proxy - A Desktop app based HTTP(s) proxy](https://www.charlesproxy.com/). I have extensively used both the tools for debugging API traffic on Android devices but there are many pain points which the duo fail to solve hence at Requestly we decided to build an [Open-Source and powerful android debugger](/debug-android-apps/) which provides the capability of In-App API Inspector as well modifying the API request/response without dealing with SSL certificate and proxy issues. In this article, we will go in-depth to understand the pain points of debugging API traffic and how Requestly debugger addresses them.
 
 ## Chucker (In-app HTTP Inspector)
 Chucker is an [open-source HTTP Inspector](https://github.com/ChuckerTeam/chucker) that shows API traffic directly on the device but Chucker alone isn't sufficient for debugging purposes. It lacks the following things which breaks the debugging experience
@@ -52,7 +52,7 @@ Chucker is an [open-source HTTP Inspector](https://github.com/ChuckerTeam/chucke
 <p></p><br/>
 
 ## Requestly Android Debugger 
-[Requestly Android Debugger](/android-interceptor/) not only combines the power of Chucker and Charles Proxy but also boosts the debugging experience with much more powerful featureset. Requestly Android Debugger is just a simple wrapper on top of Chucker project So the integration steps are also quite similar. It provides the following feature set as of now
+[Requestly Android Debugger](/debug-android-apps/) not only combines the power of Chucker and Charles Proxy but also boosts the debugging experience with much more powerful featureset. Requestly Android Debugger is just a simple wrapper on top of Chucker project So the integration steps are also quite similar. It provides the following feature set as of now
 - In-app API Interceptor with ability to connect to Requestly web service
 - APIs Modification Redirect, Throttle, Modify API Traffic without any Proxy or SSL certificate hassles
 - Onboarding is very simple & Collaboration is also possible
@@ -103,6 +103,11 @@ Chucker is an [open-source HTTP Inspector](https://github.com/ChuckerTeam/chucke
                   <td><strong>Debugging production apps</strong></td>
                   <td>SSL pinned apps not supported</td>
                   <td>Easily configurable to debug production (release) as well as debug builds</td>
+                </tr>
+                <tr>
+                  <td><strong>Debugging on Cloud Services like BrowserStack, LambdaTest</strong></td>
+                  <td>❌</td>
+                  <td>✅</td>
                 </tr>
                 <tr>
                   <td><strong>Inbuilt Mock Server</strong></td>
