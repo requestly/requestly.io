@@ -10,6 +10,7 @@ import HeadTags from "../components/HeadTags";
 import GitHubButton from "react-github-btn";
 import Zoom from "react-medium-image-zoom";
 import Faq from "../components/faq";
+import ProductHuntTag from "../components/ProductHuntTag";
 
 const featuresComingSoon = [
   {
@@ -56,7 +57,6 @@ const AndroidInterceptor = () => {
       <div>
         <section className="section-header bg-primary text-white pb-6 pt-7 pt-lg-7">
           <div className="container mx-0" style={{ maxWidth: "100%" }}>
-            <YCombinatorTag />
             <div className="mb-4 row pr-5">
               <div className="d-flex justify-content-center align-items-center">
                 <div className="col-12 col-md-6 mt-lg-0 mt-1 pl-3 pl-lg-5">
@@ -130,8 +130,7 @@ const AndroidInterceptor = () => {
                           className="d-flex justify-content-center align-items-center mx-2 mb-md-2 btn mb-2 mr-2 btn-secondary btn-with-text-below"
                           type="button"
                         >
-                          <i className="fa fa-paper-plane mr-2"></i>Get Early
-                          Access
+                          <i className="fa fa-paper-plane mr-2"></i>Get Started
                         </PopupButton>
                         <span style={{ visibility: "hidden" }}>6-Months Free</span>
                       </div>
@@ -157,6 +156,9 @@ const AndroidInterceptor = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="ml-3">
+                    <ProductHuntTag />
+                  </div> 
                 </div>
                 <div className="rounded-xl">
                   <Zoom>
