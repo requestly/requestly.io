@@ -310,6 +310,16 @@ const Footer = ({ soft }) => {
               <li>
                 <Link
                   onClick={() => {
+                    trackFeatureClickedEvent("replace-rule");
+                  }}
+                  href="https://docs.requestly.io/using-rules/replace-rule"
+                >
+                  Replace Rule
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => {
                     trackFeatureClickedEvent("mock-server");
                   }}
                   href="/feature/mock-server"
