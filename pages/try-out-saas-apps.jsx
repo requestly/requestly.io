@@ -1,6 +1,5 @@
 import HeroSectionDownloadContainer from "../components/HeroSectionDownloadContainer";
 import TestimonialSection from "../components/testimonial";
-import YCombinatorTag from "../components/YCombinatorTag";
 import SectionHeader from "../components/section-header";
 import BraggingStats from "../components/BraggingStats";
 import reviewList from "../utils/json/reviewList.json";
@@ -33,7 +32,6 @@ const TryApps = () => {
 
         <section className="section-header bg-primary text-white pb-0 pt-3 pt-lg-7">
           <div className="container mx-0" style={{ maxWidth: "100%" }}>
-            <YCombinatorTag />
             <div className="row mb-4">
               <div className="col-12 col-md-6 mt-lg-0 mt-1 pl-3 pl-lg-5">
                 <div className="mb-4 mb-lg-5 text-center text-lg-left">

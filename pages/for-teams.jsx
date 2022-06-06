@@ -1,4 +1,3 @@
-import YCombinatorTag from "../components/YCombinatorTag";
 import SectionHeader from "../components/section-header";
 import CompanyLogo from "../components/companyLogo";
 import LearnUsage from "../components/learnUsage";
@@ -42,7 +41,6 @@ const Teams = () => {
         style={{ minHeight: "100vh" }}
       >
         <div className="container mx-0" style={{ maxWidth: "100%" }}>
-          <YCombinatorTag />
           <div className="row mb-4">
             <div
               className="col-12 mt-lg-0 mt-1 px-3 px-lg-5"

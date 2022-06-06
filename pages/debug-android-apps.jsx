@@ -1,6 +1,5 @@
 import androidReviews from "../utils/json/androidReviews.json";
 import TestimonialSection from "../components/testimonial";
-import YCombinatorTag from "../components/YCombinatorTag";
 import { Questions } from "../utils/androidSdkFaqs";
 import { PopupButton } from "@typeform/embed-react";
 import LearnUsage from "../components/learnUsage";

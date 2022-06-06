@@ -4,7 +4,6 @@ import {
 } from "../utils/Analytics";
 import CustomerStories from "../components/CustomerStories";
 import TestimonialSection from "../components/testimonial";
-import YCombinatorTag from "../components/YCombinatorTag";
 import SectionHeader from "../components/section-header";
 import reviewList from "../utils/json/reviewList.json";
 import { Questions } from "../utils/feedbackQuestions";
@@ -44,7 +43,6 @@ const HomePage = () => {
         id="download-now"
       >
         <div className="container mx-0" style={{ maxWidth: "100%" }}>
-          <YCombinatorTag />
           <div className="row mb-4">
             <div
               className="col-12 col-md-7  mt-lg-0 mt-1 pl-3 pl-lg-5"
