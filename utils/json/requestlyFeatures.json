@@ -713,7 +713,68 @@
     "description": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
     "descriptionOnCard": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
     "additionalContext": "",
-    "briefContent": "Remote rules by Requestly offers you control over sharing your rules from a central server. Just share the server url once and we would ensure that the rules in the server would get auto imported periodically. How frequent the rules get auto imported or auto updated can be controlled by the end user.",
-    "secret": "Reach out to contact@requestly.io for free beta access to organisation level remote rules sharing"
+    "briefContent": "Remote rules by Requestly offers you control over sharing your rules from a central server. Just share the server url once and we would ensure that the rules in the server would get auto imported periodically. How frequent the rules get auto imported or auto updated can be controlled by the end user."
+  },
+  {
+    "displayName": "Session Recording",
+    "displayOnCard": "Session Recording",
+    "meta": "Session recorder allows you to record activity on a webpage and capture details like console logs and network requests stitched together.",
+    "icon": "",
+    "slug": "session-recording",
+    "src": "session-recording",
+    "walkthrough": "/assets/img/illustrations/requestly-remote-rules.png",
+    "description": "Allows you to record activity on a webpage and capture details like console logs and network requests stitched together.",
+    "additionalContext": "A recorded session can be shared with others for offline review or debugging purposes.",
+    "briefContent": "Browse like a normal user, record and share the bug with your team.",
+    "showcaseVideo": "",
+    "testimonials": [
+      {
+        "name": "Kos Breton",
+        "src": "/assets/img/reviews/kosbreton.jpeg",
+        "content": "Thank you for making this great addon. I just checked out Requestly and indeed it is very easy to set up. It helps me customize my browsing experience entirely. Keep up the great work!"
+      },
+      {
+        "name": "Ben Munk",
+        "src": "/assets/img/reviews/benmunk.jpeg",
+        "content": "This is a killer extension. So many good use cases. We use it often."
+      },
+      {
+        "name": "Varun Jain",
+        "src": "/assets/img/reviews/varunjain.jpeg",
+        "content": "Requestly just works :) We are one of the paid users. We have been using Requestly to debug SendX Javascript API on our client's websites and Requestly has saved ton of debugging time for us."
+      },
+      {
+        "name": "Lea Verou",
+        "src": "/assets/img/reviews/leaverou.jpg",
+        "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
+      }
+    ],
+    "showMoreInfo": true,
+    "moreInfo": {
+      "title": "Features",
+      "description": "Here's how you can use Requestly's session recording feature in your daily workflow...",
+      "features": [
+        {
+          "featureName": "Configure page sources",
+          "featureContent": "Using the Session Recording feature, you can configure URLs of the web pages on which you want to keep a watch.",
+          "imgSrc": "/assets/img/screenshots/session-recording/configure-page-source.png"
+        },
+        {
+          "featureName": "Browse like a normal user",
+          "featureContent": "Automatically records while browsing.",
+          "imgSrc": "/assets/img/screenshots/session-recording/redirect-prod-to-local-linux.png"
+        },
+        {
+          "featureName": "Generate recording anytime",
+          "featureContent": "Whenever you notice something weird, ask Requestly to generate a recording of the current session along with console logs and network requests details.",
+          "imgSrc": "/assets/img/screenshots/session-recording/generate-recording.png"
+        },
+        {
+          "featureName": "Share the recording",
+          "featureContent": "Share the recording link with your developers to ease the bug reporting process and they can access all details of the session required for the investigation.",
+          "imgSrc": "/assets/img/screenshots/session-recording/share-recording.png"
+        }
+      ]
+    }
   }
 ]

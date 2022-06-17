@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import { CONSTANTS } from "../utils/constants";
 import {
-  submitCustomEvent,
   trackSocialHandlesClickedEvent,
   trackDownloadClickedEvent,
   trackInfoPageClickedEvent,
+  trackFeatureClickedEvent,
 } from "../utils/Analytics";
 import {
   faLinkedin,
@@ -260,6 +259,16 @@ const Footer = ({ soft }) => {
                   href="/feature/selenium"
                 >
                   Supercharge Selenium
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => {
+                    trackFeatureClickedEvent("session-recording");
+                  }}
+                  href="/feature/session-recording"
+                >
+                  Session Recording
                 </Link>
               </li>
             </ul>
