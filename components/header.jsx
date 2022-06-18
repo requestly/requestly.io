@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import GitHubButton from "react-github-btn";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -133,6 +133,10 @@ const Header = ({ theme, isBannerNotVisible }) => {
                 {
                   name: "Sales Tool for SaaS Products",
                   link: "/sales-tool-for-saas-products/",
+                },
+                {
+                  name: "Session Recording",
+                  link: "/feature/session-recording",
                 },
               ]}
             />

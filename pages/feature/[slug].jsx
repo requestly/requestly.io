@@ -3,10 +3,12 @@ import ModifyHeaders from "../../components/modifyHeaders";
 import YoutubeEmbed from "../../components/youtubeEmbed";
 import LearnUsage from "../../components/learnUsage";
 import Container from "../../components/container";
+import "react-medium-image-zoom/dist/styles.css";
 import HeadTags from "../../components/HeadTags";
 import Selenium from "../../components/selenium";
 import { useMediaQuery } from "react-responsive";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Zoom from "react-medium-image-zoom";
 import Faq from "../../components/faq";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -33,6 +35,7 @@ const FeaturePage = ({
   allFeatures,
 }) => {
   const md = useMediaQuery({ minWidth: 900 });
+  const videoRef = useRef(null);
 
   const [mounted, setMounted] = useState(null);
   useEffect(() => {
@@ -116,6 +119,25 @@ const FeaturePage = ({
                           src={currentFeature.walkthrough}
                           name={currentFeature.displayName}
                         />
+                      );
+                    } else if (image.includes("video")) {
+                      return (
+                        <Zoom>
+                          <video
+                            autoPlay
+                            muted
+                            loop
+                            id="myVideo"
+                            ref={videoRef}
+                            width="100%"
+                            className="squircle-image mb-4 mt-4"
+                          >
+                            <source
+                              src={currentFeature.walkthrough}
+                              type="video/mp4"
+                            />
+                          </video>
+                        </Zoom>
                       );
                     }
                     return (

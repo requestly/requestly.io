@@ -26,7 +26,9 @@ const FeaturesExtraInfo = ({ pageContent }) => {
             </video>
           </Zoom>
         )}
-        <span className="h4 lead">{pageContent.briefContent}</span>
+        <span className="h4 lead" style={{ whiteSpace: "pre-line" }}>
+          {pageContent.briefContent}
+        </span>
       </div>
       <div className="section">
         <div className="container">
