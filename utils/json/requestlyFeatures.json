@@ -713,7 +713,8 @@
     "description": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
     "descriptionOnCard": "Share all your rules from a central place. Auto import rules periodically from a remote server.",
     "additionalContext": "",
-    "briefContent": "Remote rules by Requestly offers you control over sharing your rules from a central server. Just share the server url once and we would ensure that the rules in the server would get auto imported periodically. How frequent the rules get auto imported or auto updated can be controlled by the end user."
+    "briefContent": "Remote rules by Requestly offers you control over sharing your rules from a central server. Just share the server url once and we would ensure that the rules in the server would get auto imported periodically. How frequent the rules get auto imported or auto updated can be controlled by the end user.",
+    "secret": "Reach out to contact@requestly.io for free beta access to organisation level remote rules sharing"
   },
   {
     "displayName": "Session Recording",
