@@ -1,12 +1,16 @@
-import React, { useRef } from "react";
-import SectionHeader from "./section-header";
-import Feature from "./feature";
-import ContentCard from "./contentCard";
 import "react-medium-image-zoom/dist/styles.css";
+import React, { useRef, useEffect } from "react";
+import SectionHeader from "./section-header";
 import Zoom from "react-medium-image-zoom";
+import ContentCard from "./contentCard";
+import Feature from "./feature";
 
 const FeaturesExtraInfo = ({ pageContent }) => {
   const videoRef = useRef(null);
+
+  useEffect(() => {
+    videoRef?.current && videoRef.current.play();
+  }, []);
 
   return (
     <>

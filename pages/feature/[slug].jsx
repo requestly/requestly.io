@@ -2,12 +2,12 @@ import FeaturesExtraInfo from "../../components/FeaturesExtraInfo";
 import ModifyHeaders from "../../components/modifyHeaders";
 import YoutubeEmbed from "../../components/youtubeEmbed";
 import LearnUsage from "../../components/learnUsage";
+import { useEffect, useRef, useState } from "react";
 import Container from "../../components/container";
 import "react-medium-image-zoom/dist/styles.css";
 import HeadTags from "../../components/HeadTags";
 import Selenium from "../../components/selenium";
 import { useMediaQuery } from "react-responsive";
-import { useEffect, useRef, useState } from "react";
 import Zoom from "react-medium-image-zoom";
 import Faq from "../../components/faq";
 import dynamic from "next/dynamic";
@@ -38,9 +38,14 @@ const FeaturePage = ({
   const videoRef = useRef(null);
 
   const [mounted, setMounted] = useState(null);
+
   useEffect(() => {
     setMounted(md);
   }, [md]);
+
+  useEffect(() => {
+    videoRef?.current && videoRef.current.play();
+  }, []);
 
   return (
     <div>
