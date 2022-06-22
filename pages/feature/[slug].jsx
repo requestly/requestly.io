@@ -125,7 +125,7 @@ const FeaturePage = ({
                           name={currentFeature.displayName}
                         />
                       );
-                    } else if (image.includes("video")) {
+                    } else if (image.includes(".mp4")) {
                       return (
                         <Zoom>
                           <video
