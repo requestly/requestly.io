@@ -726,7 +726,7 @@
     "walkthrough": "https://d2365d0g6khx9l.cloudfront.net/session_recording_demo.mp4",
     "description": "Allows you to record activity on a webpage and capture details like console logs and network requests stitched together.",
     "additionalContext": "A recorded session can be shared with others for offline review or debugging purposes.",
-    "briefContent": "Browse like a normal user, record and share the bug with your team.",
+    "briefContent": "",
     "showcaseVideo": "",
     "testimonials": [
       {
@@ -750,30 +750,36 @@
         "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
       }
     ],
+    "onlyForBrowserExtension": true,
     "showMoreInfo": true,
     "moreInfo": {
-      "title": "Features",
+      "title": "",
       "description": "Here's how you can use Requestly's session recording feature in your daily workflow...",
       "features": [
         {
           "featureName": "Configure page sources",
           "featureContent": "Using the Session Recording feature, you can configure URLs of the web pages on which you want to keep a watch.",
-          "imgSrc": "/assets/img/screenshots/session-recording/configure-page-source.png"
+          "imgSrc": "/assets/img/screenshots/session-recording/session_recording_config.png"
         },
         {
           "featureName": "Browse like a normal user",
           "featureContent": "Automatically records while browsing.",
-          "imgSrc": "/assets/img/screenshots/session-recording/redirect-prod-to-local-linux.png"
+          "imgSrc": "/assets/img/screenshots/session-recording/browse_website.png"
         },
         {
           "featureName": "Generate recording anytime",
           "featureContent": "Whenever you notice something weird, ask Requestly to generate a recording of the current session along with console logs and network requests details.",
-          "imgSrc": "/assets/img/screenshots/session-recording/generate-recording.png"
+          "imgSrc": "/assets/img/screenshots/session-recording/popup_view_recording.png"
+        },
+        {
+          "featureName": "Save the recording",
+          "featureContent": "Review all the details of the session recording and save.",
+          "imgSrc": "/assets/img/screenshots/session-recording/save_session_recording.png"
         },
         {
           "featureName": "Share the recording",
           "featureContent": "Share the recording link with your developers to ease the bug reporting process and they can access all details of the session required for the investigation.",
-          "imgSrc": "/assets/img/screenshots/session-recording/share-recording.png"
+          "imgSrc": "/assets/img/screenshots/session-recording/share_session_recording.png"
         }
       ]
     }

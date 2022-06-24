@@ -24135,7 +24135,7 @@ button.section-gray-800:focus {
 }
 .section {
   position: relative;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 .section-header {
@@ -24146,7 +24146,7 @@ button.section-gray-800:focus {
 @media (min-width: 576px) {
   .section {
     position: relative;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
   }
   .section-header {
@@ -24174,7 +24174,7 @@ button.section-gray-800:focus {
 @media (min-width: 992px) {
   .section {
     position: relative;
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-bottom: 6rem;
   }
   .section-header {

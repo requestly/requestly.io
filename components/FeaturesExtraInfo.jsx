@@ -30,9 +30,11 @@ const FeaturesExtraInfo = ({ pageContent }) => {
             </video>
           </Zoom>
         )}
-        <span className="h4 lead" style={{ whiteSpace: "pre-line" }}>
-          {pageContent.briefContent}
-        </span>
+        {pageContent.briefContent && pageContent.briefContent !== "" ? (
+          <span className="h4 lead" style={{ whiteSpace: "pre-line" }}>
+            {pageContent.briefContent}
+          </span>
+        ) : null}
       </div>
       <div className="section">
         <div className="container">
@@ -47,6 +49,7 @@ const FeaturesExtraInfo = ({ pageContent }) => {
               imgSrc={feature.imgSrc}
               featureName={feature.featureName}
               featureContent={feature.featureContent}
+              onlyForBrowserExtension={pageContent.onlyForBrowserExtension}
             />
           ))}
         </div>

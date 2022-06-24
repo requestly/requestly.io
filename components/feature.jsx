@@ -1,7 +1,5 @@
 import React from "react";
-import { CONSTANTS } from "../utils/constants";
 import {
-  submitCustomEvent,
   trackFeatureClickedEvent,
 } from "../utils/Analytics";
 import SmallDownloadsContainer from "./smallDownloadsContainer";
@@ -16,6 +14,7 @@ const Feature = ({
   alt,
   link,
   isNpmPackage,
+  onlyForBrowserExtension=false
 }) => {
   const [divClass, setDivClass] = React.useState("col-12 col-md-6");
   const [pClass, setPClass] = React.useState("lead");
@@ -37,7 +36,22 @@ const Feature = ({
           alt: `${featureName} Requestly for selenium |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
         },
       ]
-    : [
+    :onlyForBrowserExtension?[
+      {
+        src: "https://img.icons8.com/fluent/128/000000/chrome.png",
+        href:
+          "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
+        title: "Chrome Extension",
+        alt: `${featureName} Requestly for chrome |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+      },
+      {
+        src: "https://img.icons8.com/color/128/000000/ms-edge-new.png",
+        href:
+          "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+        title: "Edge Extension",
+        alt: `${featureName} Requestly for edge |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+      },
+    ]: [
         {
           src: "https://img.icons8.com/fluent/128/000000/chrome.png",
           href:
