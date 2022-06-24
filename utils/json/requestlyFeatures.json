@@ -750,6 +750,7 @@
         "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
       }
     ],
+    "onlyForBrowserExtension": true,
     "showMoreInfo": true,
     "moreInfo": {
       "title": "",
@@ -771,8 +772,8 @@
           "imgSrc": "/assets/img/screenshots/session-recording/popup_view_recording.png"
         },
         {
-          "featureName":"Save the recording",
-          "featureContent":"Review all the details of the session recording and save.",
+          "featureName": "Save the recording",
+          "featureContent": "Review all the details of the session recording and save.",
           "imgSrc": "/assets/img/screenshots/session-recording/save_session_recording.png"
         },
         {

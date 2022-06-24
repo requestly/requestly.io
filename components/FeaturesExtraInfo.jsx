@@ -49,6 +49,7 @@ const FeaturesExtraInfo = ({ pageContent }) => {
               imgSrc={feature.imgSrc}
               featureName={feature.featureName}
               featureContent={feature.featureContent}
+              onlyForBrowserExtension={pageContent.onlyForBrowserExtension}
             />
           ))}
         </div>

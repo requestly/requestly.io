@@ -110,7 +110,11 @@ const FeaturePage = ({
                 )}
                 {currentFeature.slug !== "mock-server" &&
                   currentFeature.slug !== "selenium" && (
-                    <HeroSectionDownloadContainer />
+                    <HeroSectionDownloadContainer
+                      onlyForBrowserExtension={
+                        currentFeature.onlyForBrowserExtension
+                      }
+                    />
                   )}
               </div>
             </div>
