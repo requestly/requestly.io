@@ -1,7 +1,6 @@
 import androidReviews from "../utils/json/androidReviews.json";
 import TestimonialSection from "../components/testimonial";
 import { Questions } from "../utils/androidSdkFaqs";
-import { PopupButton } from "@typeform/embed-react";
 import LearnUsage from "../components/learnUsage";
 import "react-medium-image-zoom/dist/styles.css";
 import { useMediaQuery } from "react-responsive";
@@ -123,14 +122,19 @@ const AndroidInterceptor = () => {
                   <div className="mt-lg-0 mt-5">
                     <div className="row d-flex justify-content-center justify-content-lg-start align-items-center">
                       <div className="hero-button-wrapper">
-                        <PopupButton
-                          id={"BUsaN1l2"}
+                        <button
                           style={{ fontSize: 15 }}
                           className="d-flex justify-content-center align-items-center mx-2 mb-md-2 btn mb-2 mr-2 btn-secondary btn-with-text-below"
                           type="button"
+                          onClick={() =>
+                            window.open(
+                              "https://app.requestly.io/mobile-debugger",
+                              "_blank"
+                            )
+                          }
                         >
                           <i className="fa fa-paper-plane mr-2"></i>Get Started
-                        </PopupButton>
+                        </button>
                         <span style={{ visibility: "hidden" }}>6-Months Free</span>
                       </div>
                       <div className="hero-button-wrapper">
