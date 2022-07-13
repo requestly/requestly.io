@@ -188,6 +188,15 @@ const FeaturePage = ({
           ></iframe>
         </div>
       )}
+      {currentFeature.slug === "session-recording" && (
+        <div className="d-flex justify-content-center mt-5">
+          <iframe
+            height="360"
+            width="640"
+            src="https://www.youtube.com/embed/g_qXQAzUQgU"
+          ></iframe>
+        </div>
+      )}
       {currentFeature.showMoreInfo && (
         <FeaturesExtraInfo pageContent={currentFeature} />
       )}
