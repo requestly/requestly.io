@@ -264,6 +264,16 @@ const Footer = ({ soft }) => {
               <li>
                 <Link
                   onClick={() => {
+                    trackFeatureClickedEvent("android-debugger");
+                  }}
+                  href="/debug-android-apps"
+                >
+                  Android Debugger
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => {
                     trackFeatureClickedEvent("session-recording");
                   }}
                   href="/feature/session-recording"

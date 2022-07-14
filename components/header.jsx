@@ -135,6 +135,10 @@ const Header = ({ theme, isBannerNotVisible }) => {
                   link: "/sales-tool-for-saas-products/",
                 },
                 {
+                  name: "Android Debugger",
+                  link: "/debug-android-apps",
+                },
+                {
                   name: "Session Recording",
                   link: "/feature/session-recording",
                 },
