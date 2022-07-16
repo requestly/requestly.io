@@ -1,6 +1,6 @@
 ---
 title: "Simulate Fake response status codes using Requestly"
-date: "2021-12-29T17:00:00+05:30"
+date: "2022-07-16T17:00:00+05:30"
 coverImage: "/assets/blog-images/mock-server.png"
 status: publish
 permalink: "simulate-different-api-status-code-using-requestly"
@@ -27,6 +27,8 @@ This article will take you through how to use [Requestly](https://requestly.io) 
 - [Requestly Chrome Extension](https://chrome.google.com/webstore/detail/requestly-modify-headers/mdnleldcmiljblolnjhpnblkcekpdkpa) (2 step)
   <br />
   <br />
+
+> If you want to simulate a different status code for network traffic in Android apps, use our [Android Debugger](/debug-android-apps/)
 
 # Using Desktop App
 

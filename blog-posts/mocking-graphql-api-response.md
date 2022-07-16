@@ -1,6 +1,6 @@
 ---
 title: "Mocking graphQL APIs response"
-date: "2022-02-01T20:43:59+05:30"
+date: "2022-07-16T20:43:59+05:30"
 coverImage: "/assets/blog-images/2022/02/01/graphql-banner.png"
 status: publish
 permalink: mocking-graphql-api-response
@@ -91,6 +91,8 @@ Regardless of the method used, the response always follows a common format. The 
 With this newly acquired understanding of how graphql works, you can now use Requestly to specifically target graphql queries and modify the result that they return using the [Modify Response Rule](https://requestly.io/feature/modify-response/)
 
 We can target the query that is sent using the [Request Payload](https://requestly.io/feature/modify-response/) filter
+
+> If you want to debug graphql requests in Android apps, use our [Android Debugger](/debug-android-apps/)
 
 ### Targeting the request - OperationName
 

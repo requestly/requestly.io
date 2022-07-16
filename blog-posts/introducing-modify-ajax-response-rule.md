@@ -1,6 +1,6 @@
 ---
 title: "Introducing Modify AJAX Response Rule"
-date: "2020-06-08T03:35:00+05:30"
+date: "2022-07-16T03:35:00+05:30"
 coverImage: "/assets/blog-images/defaultBlogImage.jpg"
 status: publish
 permalink: introducing-modify-ajax-response-rule
@@ -32,6 +32,8 @@ With Modify Response Rule, you`ll now be able to modify the response body of AJA
 <span class="wp-block-image size-large">![](https://requestly.io/assets/images/requestly-modify-response-rule.gif)</span>Similar to other Rules, this Rule will also allow you to specify advanced filters including the regular expressions.
 
 An update to our browser extension has been rolled out and all you have to do is just make sure that your extension version matches the latest.
+
+> If you want to use your modify response rules for network traffic in Android apps, use our [Android Debugger](/debug-android-apps/)
 
 ## Example Use Cases
 

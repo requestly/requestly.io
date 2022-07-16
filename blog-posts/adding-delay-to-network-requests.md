@@ -1,7 +1,7 @@
 ---
 title: "Adding Delay to Network Requests"
 coverImage: "/assets/blog-images/networkTab.png"
-date: "2021-07-02T11:31:13+05:30"
+date: "2022-07-16T11:31:13+05:30"
 status: publish
 permalink: adding-delay-to-network-requests
 author: "Requestly Team"
@@ -114,6 +114,8 @@ Requestly delay rule works primarily on client side. This is how you can create 
 - It also works with AJAX requests.
 
 You can also combine this with other rules of requestly, which is helpful in many situations, like somewhere you want to modify the headers of the request after delaying it. It could be easily solved using requestly.
+
+> If you want to add delays for network traffic in Android apps, use our [Android Debugger](/debug-android-apps/)
 
 ### Limitations
 

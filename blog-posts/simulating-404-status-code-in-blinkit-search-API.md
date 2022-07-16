@@ -1,6 +1,6 @@
 ---
 title: "Simulating 404 HTTP status code in Blinkit Search API"
-date: "2021-12-29T17:00:00+05:30"
+date: "2022-07-16T17:00:00+05:30"
 coverImage: "/assets/blog-images/mock-server.png"
 status: publish
 permalink: "simulating-404-status-code-in-blinkit-search-api"
@@ -40,6 +40,8 @@ A QA tester or Product manager would want to mock various error responses to che
 I used it to simulate status code responses on certain prominent websites.
 
 I tried this with the following sites to see how the site handles the simulation of 500- Internal Server Error status code.
+
+> If you want to simulate a different status code for network traffic in Android apps, use our [Android Debugger](/debug-android-apps/)
 
 ## Simulating 404 status code on blinkit search.
 

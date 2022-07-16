@@ -1,7 +1,7 @@
 ---
 title: "⚡5 Ways to make App & Web Debugging extremely easy⚡"
 coverImage: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jtu7vcdk6o5eerad73bi.jpg"
-date: "2022-03-07T11:31:13+05:30"
+date: "2022-07-16T11:31:13+05:30"
 status: publish
 permalink: 5-ways-to-make-debugging-easy
 author: "Requestly Team"
@@ -26,6 +26,8 @@ It's extremely simple to use and all you need to do is open up Requestly and cli
 
 Now you can easily put your production URL first and then mention the localhost path to the code you're trying to test. This will instantly forward all requests to your production path to your local path. You didn't expect this to be this easy, did you?
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a7j8615dqb5byqilg3iw.png)
+
+> Want to debug network traffic in Android apps? Use our [Android Debugger](/debug-android-apps/)
 
 ## 2. Mocking API Response
 
