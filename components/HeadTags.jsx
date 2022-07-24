@@ -40,7 +40,11 @@ const HeadTags = ({ title, description, keywords, url, image }) => {
       />
       <meta
         property="og:image"
-        content={image || "https://requestly.io/assets/img/ogImage.png"}
+        content={
+          image
+            ? `https://requestly.io${image}`
+            : "https://requestly.io/assets/img/ogImage.png"
+        }
       />
       <meta property="og:type" content="website" />
 
@@ -63,7 +67,11 @@ const HeadTags = ({ title, description, keywords, url, image }) => {
       <meta name="twitter:site" content="@RequestlyIO" />
       <meta
         name="twitter:image"
-        content={image || "https://requestly.io/assets/img/ogImage.png"}
+        content={
+          image
+            ? `https://requestly.io${image}`
+            : "https://requestly.io/assets/img/ogImage.png"
+        }
       />
 
       {/* Scripts and Links */}
