@@ -1,7 +1,4 @@
-import {
-  submitCustomEvent,
-  trackDownloadClickedEvent,
-} from "../utils/Analytics";
+import { trackDownloadClickedEvent } from "../utils/Analytics";
 import CustomerStories from "../components/CustomerStories";
 import TestimonialSection from "../components/testimonial";
 import SectionHeader from "../components/section-header";
@@ -10,14 +7,12 @@ import { Questions } from "../utils/feedbackQuestions";
 import ExtraFeature from "../components/extraFeature";
 import CompanyLogo from "../components/companyLogo";
 import LearnUsage from "../components/learnUsage";
-import { CONSTANTS } from "../utils/constants";
 import HeadTags from "../components/HeadTags";
 import Feature from "../components/feature";
 import { useEffect, useRef } from "react";
 import Stats from "../components/stats";
 import Faq from "../components/faq";
 import dynamic from "next/dynamic";
-import { useState } from "react";
 
 // Dynamic Import
 const HeroSectionDownloadContainer = dynamic(
