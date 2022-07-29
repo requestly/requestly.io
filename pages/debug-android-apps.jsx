@@ -266,7 +266,7 @@ const AndroidInterceptor = () => {
                   Managers to CTO can instantly debug requests.
                 </p>
                 <a
-                  href="https://docs.requestly.io/mobile-interceptor/tutorial"
+                  href="https://docs.requestly.io/android-debugger/overview"
                   className="btn btn-primary mt-3 animate-up-2"
                 >
                   Learn More{" "}
@@ -294,7 +294,7 @@ const AndroidInterceptor = () => {
                   Debugging has never been this fast!
                 </p>
                 <a
-                  href="https://docs.requestly.io/mobile-interceptor/tutorial"
+                  href="https://docs.requestly.io/android-debugger/overview"
                   className="btn btn-primary mt-3 animate-up-2"
                 >
                   Learn More{" "}
@@ -326,7 +326,7 @@ const AndroidInterceptor = () => {
                   much more.
                 </p>
                 <a
-                  href="https://docs.requestly.io/mobile-interceptor/tutorial"
+                  href="https://docs.requestly.io/android-debugger/overview"
                   className="btn btn-primary mt-3 animate-up-2"
                 >
                   Learn More{" "}
