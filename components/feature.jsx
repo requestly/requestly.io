@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  trackFeatureClickedEvent,
-} from "../utils/Analytics";
+import { trackFeatureClickedEvent } from "../utils/Analytics";
 import SmallDownloadsContainer from "./smallDownloadsContainer";
 import "react-medium-image-zoom/dist/styles.css";
 import Zoom from "react-medium-image-zoom";
@@ -14,7 +12,7 @@ const Feature = ({
   alt,
   link,
   isNpmPackage,
-  onlyForBrowserExtension=false
+  onlyForBrowserExtension = false,
 }) => {
   const [divClass, setDivClass] = React.useState("col-12 col-md-6");
   const [pClass, setPClass] = React.useState("lead");
@@ -36,26 +34,25 @@ const Feature = ({
           alt: `${featureName} Requestly for selenium |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
         },
       ]
-    :onlyForBrowserExtension?[
-      {
-        src: "https://img.icons8.com/fluent/128/000000/chrome.png",
-        href:
-          "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
-        title: "Chrome Extension",
-        alt: `${featureName} Requestly for chrome |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
-      },
-      {
-        src: "https://img.icons8.com/color/128/000000/ms-edge-new.png",
-        href:
-          "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
-        title: "Edge Extension",
-        alt: `${featureName} Requestly for edge |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
-      },
-    ]: [
+    : onlyForBrowserExtension
+    ? [
         {
           src: "https://img.icons8.com/fluent/128/000000/chrome.png",
-          href:
-            "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
+          href: "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
+          title: "Chrome Extension",
+          alt: `${featureName} Requestly for chrome |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+        },
+        {
+          src: "https://img.icons8.com/color/128/000000/ms-edge-new.png",
+          href: "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+          title: "Edge Extension",
+          alt: `${featureName} Requestly for edge |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+        },
+      ]
+    : [
+        {
+          src: "https://img.icons8.com/fluent/128/000000/chrome.png",
+          href: "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
           title: "Chrome Extension",
           alt: `${featureName} Requestly for chrome |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
         },
@@ -67,8 +64,7 @@ const Feature = ({
         },
         {
           src: "https://img.icons8.com/color/128/000000/ms-edge-new.png",
-          href:
-            "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+          href: "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
           title: "Edge Extension",
           alt: `${featureName} Requestly for edge |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
         },
@@ -124,10 +120,12 @@ const Feature = ({
       <div className={imgClass}>
         <Zoom>
           <img
+            width="645px"
+            height="403px"
             src={imgSrc}
             alt={altText}
-            className="rounded-lg"
             loading="lazy"
+            className="rounded-lg"
           />
         </Zoom>
       </div>
