@@ -20,14 +20,20 @@ themify_used_global_styles:
   - 'a:1:{i:0;s:0:"";}'
 ---
 
+<style>
+*{
+  scroll-padding-top: 80px; /* height of sticky header */
+}
+</style>
+
 Requestly’s prime focus is to simplify the daily workflow for users.
 
 Discover how Requestly fits into your specific use case, whether you work in development, testing and QA, or Digital Marketing.
 
-- [Frontend Development →](#frontend)
-- [Testing and QA →](#testing)
-- [Backend Development →](#backend)
-- [Digital Marketing →](#marketing)
+- [Frontend Development](#frontend)
+- [Testing and QA](#testing)
+- [Backend Development](#backend)
+- [Digital Marketing](#marketing)
 <div id='frontend'> </div>
 
 # Frontend Development

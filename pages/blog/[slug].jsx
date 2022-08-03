@@ -89,7 +89,7 @@ const BlogPostPage = ({ postsData }) => {
                 {content}
               </ReactMarkdown>
             </div>
-            <div className={"container lead text-black"}>
+            {/* <div className={"container lead text-black"}>
               Thanks for reading this through, feel free to get in touch on{" "}
               <a
                 href="https://twitter.com/intent/user?screen_name=RequestlyIO"
@@ -98,7 +98,7 @@ const BlogPostPage = ({ postsData }) => {
                 Twitter
               </a>{" "}
               where we regularly share developer tips and tricks.
-            </div>
+            </div> */}
           </div>
         </article>
       </div>
