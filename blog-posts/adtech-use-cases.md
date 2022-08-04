@@ -1,6 +1,6 @@
 ---
 title: "How Requestly empowers developers & QAs in AdTech Industry"
-coverImage: "/assets/blog-images/2022/08/03/adtech_usecase.png"
+coverImage: "/assets/blog-images/adtech-usecase.png"
 date: "2022-08-03T11:31:13+05:30"
 status: publish
 permalink: adtech-use-cases
@@ -124,7 +124,7 @@ Devs use it to investigate an issue where -- the production environment was too 
 
 Here’s an actual Image from one of our customer’s Jira ticket
 
-![Customer Jira Ticket](/assets/blog-images/2022/08/03/customer_response_adtech.png)
+![Customer Jira Ticket](/assets/blog-images/customer-response-adtech.png)
 
 <div id='BugReporting'> </div>
 
@@ -140,7 +140,7 @@ They pair steps to reproduce with a video of the issue and a .har file. With [se
 Development & Testing of Consent Management Platform (CMP) script
 -----------------------------------------------------------------
 
-Websites typically incorporate Consent Management Platforms (CMPs), such as OneTrust and CookieBot, to convey user consent to the embedded advertisers, with the expectation that the consent will be respected. Only when the users opt-in, can these entities collect, process, and share user data.
+Websites typically incorporate Consent Management Platforms (CMPs), such as [OneTrust](https://www.onetrust.com/) and [CookieBot](https://www.cookiebot.com/), to convey user consent to the embedded advertisers, with the expectation that the consent will be respected. Only when the users opt-in, can these entities collect, process, and share user data.
 
 One of our customers in the AdTech domain uses Requestly for testing & development of CMP dialog in the production environment. [Requestly Redirect Rule](https://requestly.io/feature/redirect-url/) helps them redirect production builds to development builds that they serve on their local server. QAs & Product managers then easily test out the new features in the CMP dialog.
 
