@@ -32999,8 +32999,6 @@ blockquote p {
   border-radius: 8px;
 }
 
-
-
 @media (max-width: 991px) {
   .left-container {
     display: none !important;
