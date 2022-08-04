@@ -12,6 +12,7 @@ import Feature from "../components/feature";
 import { useEffect, useRef } from "react";
 import Stats from "../components/stats";
 import Faq from "../components/faq";
+import YoutubeEmbedIframe from "../components/YoutubeEmbedIframe";
 import dynamic from "next/dynamic";
 
 // Dynamic Import
@@ -73,21 +74,15 @@ const HomePage = () => {
                 style={{
                   position: "absolute",
                   top: "1rem",
-                  right: "1rem",
+                  right: "3rem",
                   zIndex: "1",
                   flexShrink: 0,
                 }}
               >
-                <iframe
-                  width="560"
-                  height="315"
-                  className="demo-video"
-                  src="https://www.youtube.com/embed/KIPbxUGUYq8"
+                <YoutubeEmbedIframe
                   title="Requestly demo."
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                  src="https://www.youtube.com/embed/KIPbxUGUYq8"
+                />
               </div>
             </div>
           </div>
