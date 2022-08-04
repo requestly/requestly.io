@@ -72,6 +72,12 @@ Now refresh the page and check the console. You will also notice the Requestly e
 
 Now you can use all the chrome debugger tools like breakpoints and stack traces to debug this file. 
 
+In case you still feel confused on how to debug remotely with Requestly, here's a video that will help you see these steps in action
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dTg0GNe8-aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Requestly does a lot more than just [redirect routes](https://requestly.io/feature/redirect-url/). You can [modify headers](https://requestly.io/feature/modify-request-response-headers/), [modify responses](https://requestly.io/feature/modify-response/) and even [inject scripts](https://requestly.io/feature/insert-custom-scripts/).
 
 If you found this useful, here are 5 more ways you can use Requestly to debug your web apps - [https://requestly.io/blog/5-ways-to-make-debugging-easy/](https://requestly.io/blog/5-ways-to-make-debugging-easy/)
