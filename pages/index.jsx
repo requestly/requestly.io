@@ -168,7 +168,7 @@ const HomePage = () => {
                 />
               </span>
               <span className="mx-2" style={{ fontSize: "1.5rem" }}>
-                15,000+ Active Users
+                150,000+ Active Users
               </span>
             </div>
           </div>
@@ -213,7 +213,7 @@ const HomePage = () => {
               <Stats title="200,000+" des="Rules Created" />
             </div>
             <div className="col d-flex justify-content-center">
-              <Stats title="15,000+" des="Current Users" />
+              <Stats title="150,000+" des="Current Users" />
             </div>
             <div className="col d-flex justify-content-center">
               <Stats title="10,000+" des="Rules Shared" />

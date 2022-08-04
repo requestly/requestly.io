@@ -58,7 +58,7 @@ const BraggingStats = () => {
           />
         </span>
         <span className="mx-2" style={{ fontSize: "1.5rem" }}>
-          15,000+ Active Users
+          150,000+ Active Users
         </span>
       </div>
     </div>
