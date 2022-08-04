@@ -32991,3 +32991,23 @@ blockquote p {
   padding: 1.5rem;
 }
 /*# sourceMappingURL=front.css.map */
+
+.demo-video {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2 / 1.2;
+  border-radius: 8px;
+}
+
+
+
+@media (max-width: 991px) {
+  .left-container {
+    display: none !important;
+  }
+
+  .row-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
