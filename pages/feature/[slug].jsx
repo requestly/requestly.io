@@ -121,7 +121,13 @@ const FeaturePage = ({
             </div>
             {currentFeature.walkthrough ? (
               <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end">
-                <div>
+                <div
+                  className={
+                    currentFeature.slug === "session-recording"
+                      ? "d-flex justify-content-center align-items-center w-100"
+                      : ""
+                  }
+                >
                   {[[currentFeature.walkthrough]].map(([image, alt], key) => {
                     if (image.includes("youtube")) {
                       if (currentFeature.slug === "session-recording") {
