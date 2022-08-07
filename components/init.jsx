@@ -1,5 +1,5 @@
 // Integrations
-import { addAmplitude, initGA } from "../config/integrations";
+import { addAmplitude, addPostHog, initGA } from "../config/integrations";
 import { initializeFirebase } from "../utils/firebase";
 import React, { useEffect } from "react";
 
@@ -13,6 +13,9 @@ const Init = () => {
 
     // Amplitude
     addAmplitude();
+    
+    // PostHog
+    addPostHog();
   }, []);
 
   return <></>;

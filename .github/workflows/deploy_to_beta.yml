@@ -11,6 +11,7 @@ jobs:
       url: https://requestly-dev-home.web.app/
     env:
       NEXT_PUBLIC_AMPLITUDE_KEY: ${{ secrets.AMPLITUDE_KEY }}
+      NEXT_PUBLIC_POSTHOG_KEY: ${{ secrets.POSTHOG_KEY }}
       NEXT_PUBLIC_ENV: ${{ secrets.ENV }}
       NEXT_PUBLIC_GA_KEY: ${{ secrets.GA_KEY }}
       NEXT_PUBLIC_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
