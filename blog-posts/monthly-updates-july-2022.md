@@ -1,7 +1,7 @@
 ---
 title: "Requestly July’22 Updates"
 date: "2022-08-09T02:53:17+05:30"
-coverImage: "/assets/blog-images/defaultBlogImage.jpg"
+coverImage: "/assets/blog-images/monthly-updates.png"
 status: publish
 permalink: monthly-updates-july-2022
 author: "Sachin Jain"
