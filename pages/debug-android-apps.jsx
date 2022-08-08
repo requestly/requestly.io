@@ -166,7 +166,7 @@ const AndroidInterceptor = () => {
                 <div className="rounded-xl">
                   <Zoom>
                     <img
-                      src={"/assets/img/screenshots/android-interceptor.gif"}
+                      src={"/assets/img/screenshots/mobile-debugger/android-interceptor.gif"}
                       className="rounded-lg"
                       alt="Interceptor"
                     />
@@ -278,7 +278,7 @@ const AndroidInterceptor = () => {
               <div className="col-12 col-md-6 mr-lg-auto">
                 <Zoom>
                   <img
-                    src="/assets/img/screenshots/view-request-android-interceptor.png"
+                    src="/assets/img/screenshots/mobile-debugger/view-request-android-interceptor.png"
                     alt="View Android App Request"
                     className="rounded-lg"
                   />
@@ -287,34 +287,6 @@ const AndroidInterceptor = () => {
             </div>
             <div className="row row-grid align-items-center mb-5 mb-md-7">
               <div className="col-12 col-md-5">
-                <h2 className="font-weight-bolder mb-4">3 line integration</h2>
-
-                <p className="lead">
-                  Integrate Requestly Android Interceptor in just 3 lines!
-                  Debugging has never been this fast!
-                </p>
-                <a
-                  href="https://docs.requestly.io/android-debugger/overview"
-                  className="btn btn-primary mt-3 animate-up-2"
-                >
-                  Learn More{" "}
-                  <span className="icon icon-xs ml-2">
-                    <i className="fas fa-external-link-alt"></i>
-                  </span>
-                </a>
-              </div>
-              <div className="col-12 col-md-6 ml-md-auto">
-                <Zoom>
-                  <img
-                    src="/assets/img/screenshots/5-line-setup-android-interceptor.png"
-                    alt="3 line setup"
-                    className="rounded-lg"
-                  />
-                </Zoom>
-              </div>
-            </div>
-            <div className="row row-grid align-items-center mb-5 mb-md-7">
-              <div className="col-12 col-md-5 order-md-2">
                 <h2 className="font-weight-bolder mb-4">
                   Debug requests from anywhere
                 </h2>
@@ -335,11 +307,39 @@ const AndroidInterceptor = () => {
                   </span>
                 </a>
               </div>
+              <div className="col-12 col-md-6 ml-md-auto">
+                <Zoom>
+                  <img
+                    src="/assets/img/screenshots/mobile-debugger/requestly-rules.png"
+                    alt="Modify Request"
+                    className="rounded-lg"
+                  />
+                </Zoom>
+              </div>
+            </div>
+            <div className="row row-grid align-items-center mb-5 mb-md-7">
+              <div className="col-12 col-md-5 order-md-2">
+                <h2 className="font-weight-bolder mb-4">
+                  Debug Analytics Events
+                </h2>
+                <p className="lead">
+                  Debug & Validate your Analytics Events (Segment, GA & many more) directly from your phone and web. 
+                </p>
+                <a
+                  href="https://docs.requestly.io/android-debugger/analytics-event-debugger"
+                  className="btn btn-primary mt-3 animate-up-2"
+                >
+                  Learn More{" "}
+                  <span className="icon icon-xs ml-2">
+                    <i className="fas fa-external-link-alt"></i>
+                  </span>
+                </a>
+              </div>
               <div className="col-12 col-md-6 mr-lg-auto">
                 <Zoom>
                   <img
-                    src="/assets/img/screenshots/requestly-rules.png"
-                    alt="Modify Request"
+                    src="/assets/img/screenshots/mobile-debugger/analytics-event-debugger.png"
+                    alt="View Android App Request"
                     className="rounded-lg"
                   />
                 </Zoom>
@@ -368,7 +368,7 @@ const AndroidInterceptor = () => {
               <div className="col-12 col-md-6 ml-md-auto">
                 <Zoom>
                   <img
-                    src="/assets/img/screenshots/requestly-github.png"
+                    src="/assets/img/screenshots/mobile-debugger/requestly-github.png"
                     alt="Requestly Github"
                     className="rounded-lg"
                   />
