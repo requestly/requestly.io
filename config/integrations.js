@@ -1,9 +1,11 @@
 import amplitude from "amplitude-js";
+import posthog from "posthog-js";
 import GA4React from "ga-4-react";
 import Router from "next/router";
 
 let ga4react;
 let AMPLITUDE_INTEGRATION_DONE = false;
+let POSTHOG_INTEGRATION_DONE = false;
 
 export async function initGA(G) {
   if (!GA4React.isInitialized() && G && process.browser) {
@@ -73,3 +75,16 @@ export const trackEvent = (name, params) => {
   // Send to Amplitude
   amplitude.getInstance().logEvent(name, newParams);
 };
+
+export function addPostHog() {
+  if (
+    !POSTHOG_INTEGRATION_DONE &&
+    !window.location.host.includes("127.0.0.1") &&
+    !window.location.host.includes("localhost")
+    ) {
+    posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
+      api_host: "https://app.posthog.com",
+    });
+    POSTHOG_INTEGRATION_DONE = true;
+  }
+}
