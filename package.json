@@ -23,6 +23,7 @@
     "next-optimized-images": "^2.6.2",
     "next-safe": "^3.2.1",
     "platform-detect": "^3.0.1",
+    "posthog-js": "^1.28.0",
     "react": "17.0.2",
     "react-bootstrap": "^2.0.4",
     "react-code-blocks": "0.0.9-0",
