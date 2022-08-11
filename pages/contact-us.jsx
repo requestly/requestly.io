@@ -157,6 +157,65 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+      <div className="section section-lg pt-0 line-bottom-light">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-4 text-center px-4 mb-5 mb-lg-0">
+              <div className="icon icon-sm icon-shape icon-shape-primary rounded mb-4">
+                <i className="fas fa-city"></i>
+              </div>
+              <h5 className="mb-3">HQ</h5>
+              <p>
+                RQ Labs, Inc. <br /> 355 Bryant St UNIT 403
+                <br />
+                San Francisco, CA 94107
+              </p>
+              <a
+                className="font-weight-bold text-primary"
+                href="tel:+1-302-476-2431"
+              >
+                +1 (302) 476-2431
+              </a>
+            </div>
+            <div className="col-12 col-md-4 text-center px-4 mb-5 mb-lg-0">
+              <div className="icon icon-sm icon-shape icon-shape-primary rounded mb-4">
+                <i className="fas fa-building"></i>
+              </div>
+              <h5 className="mb-3">Secondary Office</h5>
+              <p>
+                RQ Labs India Pvt Ltd <br /> K-3/10A, Street No.10, Gangotry
+                Vihar
+                <br />
+                West Ghonda, Delhi 110053
+              </p>
+              <a
+                className="font-weight-bold text-primary"
+                href="tel:+91-9996166717"
+              >
+                +91 9996166717
+              </a>
+            </div>
+            <div className="col-12 col-md-4 text-center px-4">
+              <div className="icon icon-sm icon-shape icon-shape-primary rounded mb-4">
+                <i className="fas fa-user-shield"></i>
+              </div>
+              <h5 className="mb-3">Data Privacy Officer</h5>
+              <p>
+                Data Protection requests are currently served directly by the
+                developers of Requestly.
+              </p>
+              <a
+                className="btn btn-sm btn-outline-primary"
+                href="mailto:contact@requestly.io"
+              >
+                Email us
+                <span className="fas fa-long-arrow-alt-right ml-2"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <LearnUsage />
     </>
   );
