@@ -12,6 +12,7 @@ import Feature from "../components/feature";
 import { useEffect, useRef } from "react";
 import Stats from "../components/stats";
 import Faq from "../components/faq";
+import YoutubeEmbedIframe from "../components/YoutubeEmbedIframe";
 import dynamic from "next/dynamic";
 
 // Dynamic Import
@@ -38,9 +39,9 @@ const HomePage = () => {
         id="download-now"
       >
         <div className="container mx-0" style={{ maxWidth: "100%" }}>
-          <div className="row mb-4">
+          <div className="row mb-4 row-container">
             <div
-              className="col-12 col-md-7  mt-lg-0 mt-1 pl-3 pl-lg-5"
+              className="col-12 col-md-7 mt-lg-0 mt-1 pl-3 pl-lg-5 justify-content-center"
               style={{ lineHeight: "2.25rem" }}
             >
               <div className="mb-4 mb-lg-5 text-center text-lg-left">
@@ -58,7 +59,7 @@ const HomePage = () => {
               </div>
               <HeroSectionDownloadContainer />
             </div>
-            <div className="col-12 col-md-5  mt-lg-0 mt-1 pr-0 d-flex justify-content-end">
+            <div className="col-12 col-md-5 mt-lg-0 mt-1 pr-0 d-flex justify-content-end left-container">
               <div
                 style={{
                   width: "300px",
@@ -69,15 +70,18 @@ const HomePage = () => {
                 className="mt-lg-n5 mt-n0 d-none d-lg-block"
               ></div>
               <div
-                className="d-none d-lg-block"
-                style={{ position: "absolute", right: "0px", zIndex: "1" }}
+                className="d-none d-lg-block demo-video-container"
+                style={{
+                  position: "absolute",
+                  top: "1rem",
+                  right: "3rem",
+                  zIndex: "1",
+                  flexShrink: 0,
+                }}
               >
-                <img
-                  width="600px"
-                  height="429px"
-                  fetchpriority="high"
-                  alt="Desktop App Image"
-                  src="/assets/img/home/requestly-mac-app-cut.png"
+                <YoutubeEmbedIframe
+                  title="Requestly demo."
+                  src="https://www.youtube.com/embed/KIPbxUGUYq8"
                 />
               </div>
             </div>

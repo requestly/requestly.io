@@ -12,6 +12,7 @@ import Zoom from "react-medium-image-zoom";
 import Faq from "../../components/faq";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import YoutubeEmbedIframe from "../../components/YoutubeEmbedIframe";
 
 const QuestionsCard = dynamic(() => import("../../components/QuestionsCard"));
 
@@ -120,9 +121,23 @@ const FeaturePage = ({
             </div>
             {currentFeature.walkthrough ? (
               <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end">
-                <div>
+                <div
+                  className={
+                    currentFeature.slug === "session-recording"
+                      ? "d-flex justify-content-center align-items-center w-100"
+                      : ""
+                  }
+                >
                   {[[currentFeature.walkthrough]].map(([image, alt], key) => {
                     if (image.includes("youtube")) {
+                      if (currentFeature.slug === "session-recording") {
+                        return (
+                          <YoutubeEmbedIframe
+                            src={currentFeature.walkthrough}
+                            title={currentFeature.displayName}
+                          />
+                        );
+                      }
                       return (
                         <YoutubeEmbed
                           src={currentFeature.walkthrough}
@@ -188,15 +203,7 @@ const FeaturePage = ({
           ></iframe>
         </div>
       )}
-      {currentFeature.slug === "session-recording" && (
-        <div className="d-flex justify-content-center mt-5">
-          <iframe
-            height="360"
-            width="640"
-            src="https://www.youtube.com/embed/g_qXQAzUQgU"
-          ></iframe>
-        </div>
-      )}
+
       {currentFeature.showMoreInfo && (
         <FeaturesExtraInfo pageContent={currentFeature} />
       )}

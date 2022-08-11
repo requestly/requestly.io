@@ -723,7 +723,7 @@
     "icon": "fa fa-video",
     "slug": "session-recording",
     "src": "session-recording",
-    "walkthrough": "https://d2365d0g6khx9l.cloudfront.net/session_recording_demo.mp4",
+    "walkthrough": "https://www.youtube.com/embed/g_qXQAzUQgU",
     "description": "Allows you to record activity on a webpage and capture details like console logs and network requests stitched together.",
     "additionalContext": "A recorded session can be shared with others for offline review or debugging purposes.",
     "briefContent": "",
