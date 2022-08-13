@@ -5,7 +5,7 @@ date: "2022-08-13T20:43:59+05:30"
 status: publish
 permalink: modify-headers-https-requests
 author: "Nafees Nehar"
-excerpt: ""
+excerpt: "The ability to modify headers is a great tool for developers. It empowers them with great debugging capabilities."
 type: post
 id: 2187
 category:
