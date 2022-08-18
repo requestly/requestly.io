@@ -123,7 +123,12 @@ const FeaturePage = ({
               <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end">
                 <div
                   className={
-                    "d-flex justify-content-center align-items-center w-100"
+                    [
+                      "session-recording",
+                      "modify-request-response-headers",
+                    ].includes(currentFeature.slug)
+                      ? "d-flex justify-content-center align-items-center w-100"
+                      : ""
                   }
                 >
                   {[[currentFeature.walkthrough]].map(([image, alt], key) => {
