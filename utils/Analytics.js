@@ -80,9 +80,9 @@ export const trackCustomerStoryViewedEvent = (story) => {
   trackEvent("customer_story_viewed", params);
 };
 
-export const trackArticleClickedEvent = (story) => {
+export const trackArticleClickedEvent = (title) => {
   const params = {
-    article,
+    article: title,
   };
   trackEvent("article_clicked", params);
 };

@@ -8,7 +8,7 @@
     "icon": "fas fa-random",
     "description": "Redirect a request URL (or matching pattern) to another URL.",
     "briefContent": "Development is easy, Testing & Debugging is hard. Requestly makes your work easier for you. See how it works.",
-    "walkthrough": "/assets/img/illustrations/redirectRule.png",
+    "walkthrough": "https://www.youtube.com/embed/dTg0GNe8-aY",
     "showcaseVideo": "/assets/videos/redirect-rule-showcase.mp4",
     "examples": [
       {
@@ -20,6 +20,11 @@
         "title": "Overcome your Muscle memory to Stay Calm & Productive",
         "description": "In this pandemic situation, almost entire tech industry is working from home. Staying focussed & productive is a constant challenge especially when you ...",
         "src": "https://requestly.medium.com/overcome-your-muscle-memory-to-stay-calm-productive-fce5ffdf1f8f"
+      },
+      {
+        "title": "Remote debugging production javascript",
+        "description": "Redirect requests on live sites to swap production javascript resources with local script. Remote debugging gets a lot simpler with Requestly",
+        "src": "https://requestly.medium.com/remote-debugging-with-requestly-on-production-sites-111195932c9c"
       },
       {
         "title": "Replace any image on a webpage with requestly",
