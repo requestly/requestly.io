@@ -120,7 +120,7 @@ const Feature = ({
       <div className={imgClass}>
         <Zoom>
           <img
-            width="645px"
+            width="750px"
             height="403px"
             src={imgSrc}
             alt={altText}

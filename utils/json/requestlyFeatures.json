@@ -181,15 +181,21 @@
   {
     "displayName": "Modify HTTP(s) Request & Response Headers",
     "displayOnCard": "Modify HTTP(s) Request & Response Headers",
-    "meta": "Modify Headers and HTTP(s) Requests in a single click using Requestly. Add, Delete or Replace HTTP(s) Request & Response Headers",
+    "meta": "Modify Headers and HTTP(s) Requests in a single click using Requestly. Add, Delete or Override HTTP(s) Request & Response Headers",
     "icon": "fas fa-heading",
     "slug": "modify-request-response-headers",
     "src": "modify-request-response-headers",
-    "description": "Add, Delete, Replace Request & Response Headers.",
+    "description": "Add, Delete, Override Request & Response Headers.",
     "additionalContext": "Can be used to remove X-Frame-Options, Content-Security-Policy, CORS Issues, etc.",
-    "walkthrough": "/assets/img/illustrations/headerRule.png",
-    "briefContent": "HTTP(s) headers are key-value pairs which are used by the client or the server to provide supplementary data along with a HTTP(s) request or response. Our tool, being the best in the game, allows you to modify headers of traffic on your favourite browser. This tool allows you to delete headers to stop online tracking, test your site in production and also remove Content-Security-Policy while testing and so much more",
+    "walkthrough": "https://www.youtube.com/embed/CLEHS6NFYZY",
+    "briefContent": "",
     "examples": [
+      {
+        "title":"Modify Headers in HTTP(s) Requests and Responses",
+        "src":"https://requestly.io/blog/modify-headers-https-requests/",
+        "description":"The ability to modify headers is a great tool for developers. It empowers them with great debugging capabilities."
+
+      },
       {
         "title": "Prevent browser downloading images",
         "src": "https://stackoverflow.com/questions/9097781/chrome-downloads-png-image-links-i-want-them-to-open-for-viewing-in-a-new-tab/66595574#66595574",
@@ -201,24 +207,31 @@
         "src": "https://medium.com/requestly-docs/how-to-open-a-website-in-iframe-using-requestly-11aa52367cd"
       }
     ],
+    "showcaseVideo":"",
+    "showMoreInfo":true,
     "moreInfo": {
       "title": "Application and use cases",
       "description": "Here's how you can use Requestly's Modify Headers feature in your daily workflow...",
       "features": [
         {
-          "featureName": "Add, Modify and Remove Headers",
-          "featureContent": "You can add, modify and even remove headers from the URL provided. Modify headers like User-Agent, Access-Control-Allow-Origin, etc.",
-          "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-1.png"
+          "featureName": "Add, Remove and Override HTTP Headers",
+          "featureContent": "You can add, override and even remove headers from the URL provided. Modify headers like Authorization, Access-Control-Allow-Origin, etc.",
+          "imgSrc": "https://d2365d0g6khx9l.cloudfront.net/blog/headers_rule_annotated_editor.png"
         },
         {
-          "featureName": "Modification based on URL",
+          "featureName": "Modify based on URL",
           "featureContent": "Configure the criteria of URL on which the rules applies. Options like if the URL contains, equals or matches regex.",
           "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-2.png"
         },
         {
+          "featureName":"Auto suggest header names",
+          "featureContent":"Request will suggest header names to ease your journey.",
+          "imgSrc": "https://d2365d0g6khx9l.cloudfront.net/features/feature-auto-suggest.png"
+        },
+        {
           "featureName": "Pair Multiple Rules",
-          "featureContent": "Freemium users can pair upto 3 rules and premium users can pair unlimited rules together to match any preferred use case.",
-          "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-3.png"
+          "featureContent": "Add multiple conditions in a rule to match any preferred use case.",
+          "imgSrc": "https://d2365d0g6khx9l.cloudfront.net/features/feature-pairs.png"
         }
       ]
     },
@@ -230,7 +243,7 @@
       },
       {
         "name": "Zane",
-        "src": "https://pbs.twimg.com/profile_images/1418380286950260739/1QrhCIM2_400x400.jpg",
+        "src": "/assets/img/reviews/generic-pfp.png",
         "content": "Fun fact: if you modify Chrome headers with something like requestly like so, and load this URL, you can access the iOS 4 App Store in Chrome 🤷"
       },
       {
