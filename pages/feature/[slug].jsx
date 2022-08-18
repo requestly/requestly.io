@@ -123,25 +123,21 @@ const FeaturePage = ({
               <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end">
                 <div
                   className={
-                    currentFeature.slug === "session-recording"
+                    [
+                      "session-recording",
+                      "modify-request-response-headers",
+                    ].includes(currentFeature.slug)
                       ? "d-flex justify-content-center align-items-center w-100"
                       : ""
                   }
                 >
                   {[[currentFeature.walkthrough]].map(([image, alt], key) => {
                     if (image.includes("youtube")) {
-                      if (currentFeature.slug === "session-recording") {
-                        return (
-                          <YoutubeEmbedIframe
-                            src={currentFeature.walkthrough}
-                            title={currentFeature.displayName}
-                          />
-                        );
-                      }
                       return (
-                        <YoutubeEmbed
+                        <YoutubeEmbedIframe
                           src={currentFeature.walkthrough}
-                          name={currentFeature.displayName}
+                          title={currentFeature.displayName}
+                          key={currentFeature.walkthrough}
                         />
                       );
                     } else if (image.includes(".mp4")) {
@@ -206,9 +202,6 @@ const FeaturePage = ({
 
       {currentFeature.showMoreInfo && (
         <FeaturesExtraInfo pageContent={currentFeature} />
-      )}
-      {currentFeature.slug === "modify-request-response-headers" && (
-        <ModifyHeaders pageContent={currentFeature} />
       )}
       {currentFeature.slug === "selenium" && (
         <Selenium pageContent={currentFeature} />

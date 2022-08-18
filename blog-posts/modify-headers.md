@@ -87,6 +87,12 @@ Modifying headers happens to be a powerful tool in the hands of the developer. T
 
 [Download Request Android Debugger](https://requestly.io/debug-android-apps/) to modify headers in your android app.
 
+Here's a demo video which show modification of headers in action
+
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CLEHS6NFYZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 I hope you enjoyed learning about modifying headers. If you have any questions, feel free to ask them in our [community section](https://community.requestly.io/).
 
 **Happy Debugging 🚀**
