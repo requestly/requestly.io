@@ -16595,9 +16595,9 @@ main {
 main {
   overflow: hidden;
 }
-/* img {
+img {
   max-width: 100%;
-} */
+}
 strong {
   font-weight: 600;
 }
