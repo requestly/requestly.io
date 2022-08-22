@@ -120,7 +120,7 @@ const FeaturePage = ({
               </div>
             </div>
             {currentFeature.walkthrough ? (
-              <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end">
+              <div className="col-12 col-md-5 mt-lg-0 mt-5 d-flex justify-content-end side-gutter">
                 <div
                   className={
                     [
