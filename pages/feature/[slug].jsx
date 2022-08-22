@@ -81,6 +81,18 @@ const FeaturePage = ({
                   {currentFeature.additionalContext}
                 </h4>
               </div>
+
+              {currentFeature.subContentList && (
+                <ul className="rq-landing-list mb-lg-5 text-center text-lg-center sub-content-list">
+                  {currentFeature.subContentList.map(({ content }, index) => (
+                    <li key={index} className="rq-landing-list-item">
+                      <img alt="check" src="/assets/img/icons/check.svg" />
+                      <div className="rq-landing-list-item-text">{content}</div>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
               <div className="mt-lg-0 mt-5">
                 {currentFeature.slug === "mock-server" && (
                   <Link href="https://app.requestly.io/mock-server">
