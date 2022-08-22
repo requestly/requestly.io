@@ -276,7 +276,7 @@
     "icon": "fa fa-code-branch",
     "slug": "modify-response",
     "src": "modify-response",
-    "walkthrough": "/assets/img/illustrations/modifyResponse.png",
+    "walkthrough": "https://www.youtube.com/embed/KIPbxUGUYq8",
     "description": "This Rule allows you to Mock the Response Body of the AJAX Request",
     "briefContent": "Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
     "showcaseVideo": "/assets/videos/modify-response-on-fly-linux.mp4",

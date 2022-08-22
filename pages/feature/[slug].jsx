@@ -124,6 +124,7 @@ const FeaturePage = ({
                 <div
                   className={
                     [
+                      "modify-response",
                       "session-recording",
                       "modify-request-response-headers",
                     ].includes(currentFeature.slug)
@@ -135,9 +136,9 @@ const FeaturePage = ({
                     if (image.includes("youtube")) {
                       return (
                         <YoutubeEmbedIframe
+                          key={currentFeature.slug}
                           src={currentFeature.walkthrough}
                           title={currentFeature.displayName}
-                          key={currentFeature.walkthrough}
                         />
                       );
                     } else if (image.includes(".mp4")) {
