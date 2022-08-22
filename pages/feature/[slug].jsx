@@ -243,7 +243,7 @@ const FeaturePage = ({
       )}
 
       <Container
-        header="Additional Resources"
+        header="Requestly on Web"
         data={currentFeature.examples}
         sectionclassName="section section-sm bg-soft"
       />
