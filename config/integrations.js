@@ -84,6 +84,7 @@ export function addPostHog() {
     ) {
     posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
       api_host: "https://app.posthog.com",
+      autocapture: false,
     });
     POSTHOG_INTEGRATION_DONE = true;
   }
