@@ -172,7 +172,7 @@ const HomePage = () => {
                 />
               </span>
               <span className="mx-2" style={{ fontSize: "1.5rem" }}>
-                150,000+ Active Users
+                150,000+ Happy Users
               </span>
             </div>
           </div>
