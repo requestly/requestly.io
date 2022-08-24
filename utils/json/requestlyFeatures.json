@@ -312,7 +312,8 @@
       {"content": "Faster Debugging"}
     ],
     "briefContent": "Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
-    "showcaseVideo": "/assets/videos/modify-response-on-fly-linux.mp4",
+    "showcaseVideo": "",
+    "showcaseImage": "/assets/img/screenshots/modify-response/modify-response-annotated.png",
     "examples": [
       {
         "title": "Introducing Modify AJAX Response Rule",
