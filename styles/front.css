@@ -33009,3 +33009,7 @@ blockquote p {
     justify-content: center;
   }
 }
+
+.row-gap {
+  row-gap: 4px;
+}
