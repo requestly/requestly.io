@@ -103,8 +103,12 @@ const Header = ({ theme, isBannerNotVisible }) => {
                   link: "/feature/redirect-url/",
                 },
                 {
-                  name: "Modify Request & Response Headers",
+                  name: "Modify Headers",
                   link: "/feature/modify-request-response-headers/",
+                },
+                {
+                  name: "Modify API Response",
+                  link: "/feature/modify-response/",
                 },
                 {
                   name: "Delay Request",
@@ -115,24 +119,12 @@ const Header = ({ theme, isBannerNotVisible }) => {
                   link: "/feature/insert-custom-scripts/",
                 },
                 {
-                  name: "Modify Response",
-                  link: "/feature/modify-response/",
-                },
-                {
                   name: "Modify Query Params",
                   link: "/feature/modify-query-params/",
                 },
                 {
                   name: "Mock Server",
                   link: "/feature/mock-server/",
-                },
-                {
-                  name: "Remote Rules",
-                  link: "/feature/remote-rules/",
-                },
-                {
-                  name: "Sales Tool for SaaS Products",
-                  link: "/sales-tool-for-saas-products/",
                 },
                 {
                   name: "Android Debugger",

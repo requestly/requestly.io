@@ -35,6 +35,30 @@
         "title": "Use your preferred search engine",
         "src": "https://medium.com/requestly-docs/use-your-preferred-search-engine-31089cb2a9c9",
         "description": "Using Requestly, a Chrome extension that allows you to mangle requests as they happen, we can configure rules that will make sure that any search query ..."
+      },
+      {
+        "title": "What does it mean when an HTTP request returns status code 0?",
+        "src": "https://stackoverflow.com/questions/872206/what-does-it-mean-when-an-http-request-returns-status-code-0/38750749#38750749"
+      },
+      {
+        "title": "Debugging minified JavaScript function with commas in Chrome",
+        "src": "https://stackoverflow.com/questions/43261811/debugging-minified-javascript-function-with-commas-in-chrome/43268559#43268559"
+      },
+      {
+        "title": "Debug cache-busted scripts in production",
+        "src": "https://stackoverflow.com/questions/35805579/debug-cache-busted-scripts-in-production/35848416#35848416"
+      },
+      {
+        "title": "Change a setting on CDN-hosted JS file without touching file",
+        "src": "https://stackoverflow.com/questions/43242429/change-a-setting-on-cdn-hosted-js-file-without-touching-file/43244557#43244557"
+      },
+      {
+        "title": "Override Javascript file in chrome",
+        "src": "https://stackoverflow.com/questions/35580017/override-javascript-file-in-chrome/37625550#37625550"
+      },
+      {
+        "title": "Trick a browser into loading <script> or <link rel=\"stylesheet\"> URLs from local setup/server?",
+        "src": "https://stackoverflow.com/questions/16302907/trick-a-browser-into-loading-script-or-link-rel-stylesheet-urls-from-local/33447134#33447134"
       }
     ],
     "showMoreInfo": true,
@@ -91,7 +115,7 @@
         "content": "I'm a web dev and thus needed to be able to redirect script calls when in development mode using vue. Had it up and running in seconds. This saved me tonnes of time. Great plugin."
       }
     ],
-    "showStackoverflow": true,
+    "showStackoverflow": false,
     "stackoverflow": [
       {
         "question": "What does it mean when an HTTP request returns status code 0?",
@@ -196,10 +220,9 @@
     "briefContent": "",
     "examples": [
       {
-        "title":"Modify Headers in HTTP(s) Requests and Responses",
-        "src":"https://requestly.io/blog/modify-headers-https-requests/",
-        "description":"The ability to modify headers is a great tool for developers. It empowers them with great debugging capabilities."
-
+        "title": "Modify Headers in HTTP(s) Requests and Responses",
+        "src": "https://requestly.io/blog/modify-headers-https-requests/",
+        "description": "The ability to modify headers is a great tool for developers. It empowers them with great debugging capabilities."
       },
       {
         "title": "Prevent browser downloading images",
@@ -210,10 +233,14 @@
         "title": "Open a website in an iframe",
         "description": "Often companies add a header to their website so that the browser will refuse to open the page within an i-frame. But using Requestly, you can implement a work-around.",
         "src": "https://medium.com/requestly-docs/how-to-open-a-website-in-iframe-using-requestly-11aa52367cd"
+      },
+      {
+        "title": "Can I run HTML files directly from GitHub, instead of just viewing their source?",
+        "src": "https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source/37912931#37912931"
       }
     ],
-    "showcaseVideo":"",
-    "showMoreInfo":true,
+    "showcaseVideo": "",
+    "showMoreInfo": true,
     "moreInfo": {
       "title": "Application and use cases",
       "description": "Here's how you can use Requestly's Modify Headers feature in your daily workflow...",
@@ -229,8 +256,8 @@
           "imgSrc": "/assets/img/illustrations/ModifyHeaders/feature-2.png"
         },
         {
-          "featureName":"Auto suggest header names",
-          "featureContent":"Request will suggest header names to ease your journey.",
+          "featureName": "Auto suggest header names",
+          "featureContent": "Request will suggest header names to ease your journey.",
           "imgSrc": "https://d2365d0g6khx9l.cloudfront.net/features/feature-auto-suggest.png"
         },
         {
@@ -262,7 +289,7 @@
         "content": "Requestly is, without a doubt, one of the must have extensions for web developers. I never knew how much I needed to modify network requests on the file until I could http://requestly.io"
       }
     ],
-    "showStackoverflow": true,
+    "showStackoverflow": false,
     "stackoverflow": [
       {
         "question": "Can I run HTML files directly from GitHub, instead of just viewing their source?",
@@ -291,6 +318,26 @@
         "title": "Introducing Modify AJAX Response Rule",
         "src": "https://requestly.io/blog/2020/06/08/introducing-modify-ajax-response-rule/",
         "description": "With Modify Response Rule, you`ll now be able to modify the response body of AJAX requests."
+      },
+      {
+        "title": "Modify HTTP responses from a Chrome extension",
+        "rc": "https://stackoverflow.com/a/71250307/816213"
+      },
+      {
+        "title": "Simulate fake 404,500 Status Code to check frontend app behaviour",
+        "src": "https://stackoverflow.com/questions/50923170/simulate-fake-404-500-status-code-to-check-frontend-app-behaviour/51098873#51098873"
+      },
+      {
+        "title": "Changing a value of an index in a buffer array",
+        "src": "https://stackoverflow.com/questions/70764577/changing-a-value-of-an-index-in-a-buffer-array"
+      },
+      {
+        "title": "Is it possible to rewrite a status code with Charles Proxy?",
+        "src": "https://stackoverflow.com/questions/14360125/is-it-possible-to-rewrite-a-status-code-with-charles-proxy/70651277#70651277"
+      },
+      {
+        "title": "Change a setting on CDN-hosted JS file without touching file",
+        "src": "https://stackoverflow.com/questions/43242429/change-a-setting-on-cdn-hosted-js-file-without-touching-file/43244557#43244557"
       }
     ],
     "showMoreInfo": true,
@@ -322,7 +369,7 @@
         "content": "I was struggling to find how website behaves when 404 status code is received. I tried different products and finally found Requestly, can't be happier."
       }
     ],
-    "showStackoverflow": true,
+    "showStackoverflow": false,
     "stackoverflow": [
       {
         "question": "Modify HTTP responses from a Chrome extension",
@@ -410,6 +457,30 @@
         "title": "Inserting scripts dynamically in a webpage",
         "src": "https://medium.com/requestly-docs/inserting-scripts-dynamically-in-a-webpage-be4af90da20a",
         "description": "Inject popular libraries or hosted scripts or execute custom code-snippet before or after page load using simple rule builder."
+      },
+      {
+        "title": "How to inject javascript code?",
+        "src": "https://stackoverflow.com/questions/14273116/inject-javascript-code-into-a-web-page/71089059#71089059"
+      },
+      {
+        "title": "Can we insert javascript into any webpage loaded in the browser",
+        "src": "https://stackoverflow.com/questions/2551067/can-we-insert-javascript-into-any-webpage-loaded-in-the-browser/53112655#53112655"
+      },
+      {
+        "title": "How to skip ad after 5 seconds using the YouTube JS API?",
+        "src": "https://stackoverflow.com/questions/31522813/how-to-skip-ad-after-5-seconds-using-the-youtube-js-api/62530573#62530573"
+      },
+      {
+        "title": "Run my Javascript code on every page on my browser, similar to how a chrome extension would",
+        "src": "https://stackoverflow.com/questions/60292446/run-my-javascript-code-on-every-page-on-my-browser-similar-to-how-a-chrome-exte/60292782#60292782"
+      },
+      {
+        "title": "How to override an extension's content script?",
+        "src": "https://stackoverflow.com/questions/71111161/chrome-override-an-extensions-content-script/71156285#71156285"
+      },
+      {
+        "title": "Enter full screen automatically by inserting script in a webpage using requestly",
+        "src": "https://stackoverflow.com/questions/70965217/enter-full-screen-automatically-by-inserting-script-in-a-webpage-using-requestly"
       }
     ],
     "showMoreInfo": true,
@@ -456,7 +527,7 @@
         "content": "Super useful and sleek tool. Would recommend everyone to try this. "
       }
     ],
-    "showStackoverflow": true,
+    "showStackoverflow": false,
     "stackoverflow": [
       {
         "question": "How to inject javascript code?",
@@ -504,6 +575,10 @@
         "title": "Introducing Query Param rule",
         "src": "https://medium.com/requestly-docs/introducing-query-param-rule-d152b28eec08",
         "description": "QueryParam rule can be used to perform the modify on a given url's query parameters"
+      },
+      {
+        "title": "How to interrupt or pause http status code 301 request in browser",
+        "src": "https://stackoverflow.com/questions/57049805/how-to-interrupt-or-pause-http-status-code-301-request-in-browser/57071689#57071689"
       }
     ],
     "showMoreInfo": true,
@@ -545,7 +620,7 @@
         "content": "Added a Requestly rule for my entire Github Pages domain so that everything resolves locally and I can import between projects I'm working on without specialized rules. Have I said how much I LOVE @RequestlyIO for dev? Def my most essential tool after a browser & a text editor!"
       }
     ],
-    "showStackoverflow": true,
+    "showStackoverflow": false,
     "stackoverflow": [
       {
         "question": "How to interrupt or pause http status code 301 request in browser",
