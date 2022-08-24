@@ -66,6 +66,8 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 }
+
+/* reset */
 *,
 *::before,
 *::after {
@@ -116,6 +118,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
+ol, ul{
+  list-style: none;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -33008,6 +33015,20 @@ blockquote p {
     width: 100%;
     justify-content: center;
   }
+}
+
+.side-gutter {
+  margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  .side-gutter {
+    margin-left: 0;
+  }
+}
+
+.sub-content-list{
+  max-width: 60ch;
 }
 
 .row-gap {

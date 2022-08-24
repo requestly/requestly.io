@@ -15,6 +15,18 @@ const FeaturesExtraInfo = ({ pageContent }) => {
   return (
     <>
       <div className="w-50 mx-auto mt-5 text-center d-flex flex-column justify-content-center align-items-center">
+        {pageContent.showcaseImage && (
+          <Zoom>
+            <img
+              width="720px"
+              height="496px"
+              alt="showcase image"
+              src={pageContent.showcaseImage}
+              className="squircle-image mb-4 mt-4"
+            />
+          </Zoom>
+        )}
+
         {pageContent.showcaseVideo.length > 0 && (
           <Zoom>
             <video

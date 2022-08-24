@@ -303,10 +303,17 @@
     "icon": "fa fa-code-branch",
     "slug": "modify-response",
     "src": "modify-response",
-    "walkthrough": "/assets/img/illustrations/modifyResponse.png",
-    "description": "This Rule allows you to Mock the Response Body of the AJAX Request",
+    "walkthrough": "https://www.youtube.com/embed/KIPbxUGUYq8",
+    "description": "Test edge cases in your app by simulating API responses",
+    "subContentList": [
+      {"content": "Define fixed API responses"},
+      {"content": "Change responses programmatically"},
+      {"content": "Works with XHR and fetch requests"},
+      {"content": "Faster Debugging"}
+    ],
     "briefContent": "Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
-    "showcaseVideo": "/assets/videos/modify-response-on-fly-linux.mp4",
+    "showcaseVideo": "",
+    "showcaseImage": "/assets/img/screenshots/modify-response/modify-response-annotated.png",
     "examples": [
       {
         "title": "Introducing Modify AJAX Response Rule",
@@ -336,8 +343,8 @@
     ],
     "showMoreInfo": true,
     "moreInfo": {
-      "title": "Application and use cases",
-      "description": "Here's how you can use Requestly's Modify Response feature in your daily workflow...",
+      "title": "Achieve Production Grade Quality",
+      "description": "Simulate different API responses and test each & every corner of your app.",
       "features": [
         {
           "featureName": "Modify Response",
