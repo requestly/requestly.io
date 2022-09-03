@@ -55,11 +55,12 @@ export function submitEvent(dataMessage) {
 
   // Send event to Amplitude
   try {
-    amplitude.getInstance().logEvent(dataMessage.eventLabel, {
-      eventCategory: dataMessage.eventCategory,
-      eventAction: dataMessage.eventAction,
-      src: "landing-pages",
-    });
+    // Disabling this temporarly
+    // amplitude.getInstance().logEvent(dataMessage.eventLabel, {
+    //   eventCategory: dataMessage.eventCategory,
+    //   eventAction: dataMessage.eventAction,
+    //   src: "landing-pages",
+    // });
   } catch (e) {
     console.log("Amplitude hasn't loaded yet!");
   }
@@ -73,7 +74,8 @@ export const trackEvent = (name, params) => {
   if (window.gtag) window.gtag("event", name, newParams);
 
   // Send to Amplitude
-  amplitude.getInstance().logEvent(name, newParams);
+  // Disabling this temporarly
+  // amplitude.getInstance().logEvent(name, newParams);
 };
 
 export function addPostHog() {
