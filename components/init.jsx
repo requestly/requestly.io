@@ -15,7 +15,8 @@ const Init = () => {
     addAmplitude();
     
     // PostHog
-    addPostHog();
+    // Disabling it for now. As it was creating uneccessary noise in Posthog.
+    // addPostHog();
   }, []);
 
   return <></>;
