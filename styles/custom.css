@@ -1216,7 +1216,38 @@ article p img {
 /* .comparison-table {
   border: 2px solid #191919 !important;
 } */
+
+.comparison-table {
+  width: 75% !important;
+}
 .comparison-table td,
 .comparison-table th {
-  border: 2px solid #1919191a !important;
+  text-align: center;
+}
+.comparison-table thead {
+  color: #66799e;
+  background-color: #f4f6fc;
+  border-color: #f4f6fc;
+}
+
+.text-container {
+  width: 75%;
+  color: black;
+}
+
+@media (max-width: 786px) {
+  .comparison-table {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .text-container {
+    width: 100%;
+  }
+}
+
+.demo-link {
+  /* display: block; */
+  font-weight: bold;
 }

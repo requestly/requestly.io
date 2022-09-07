@@ -1,6 +1,6 @@
 const ComparisonTable = () => {
   return (
-    <table className="table table-bordered w-75 comparison-table">
+    <table className="table comparison-table">
       <thead>
         <tr>
           <th
@@ -45,15 +45,15 @@ const ComparisonTable = () => {
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Map local & Remote
           </th>
-          <td>Yes</td>
-          <td>Yes</td>
+          <td>✅</td>
+          <td>✅</td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Modify Headers
           </th>
           <td>Complicated but possible through the Rewrite feature</td>
-          <td>Yes</td>
+          <td>✅</td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
@@ -63,50 +63,95 @@ const ComparisonTable = () => {
             Complicated (Put breakpoints to modify responses in real-time, which
             often causes timeouts on the client-side and is very cumbersome)
           </td>
-          <td>Yes (Link to Demo)</td>
+          <td>
+            ✅{" "}
+            <a
+              href="https://www.youtube.com/watch?v=KIPbxUGUYq8"
+              target="_blank"
+              className="demo-link"
+            >
+              Link to Demo
+            </a>
+          </td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Breakpoints
           </th>
-          <td>Yes</td>
-          <td>No</td>
+          <td>✅</td>
+          <td>❌</td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Inject Scripts
           </th>
-          <td>No</td>
-          <td>Yes (Link to Demo)</td>
+          <td>❌</td>
+          <td>
+            ✅{" "}
+            <a
+              href="https://requestly.io/feature/insert-custom-scripts/"
+              target="_blank"
+              className="demo-link"
+            >
+              Link to Demo{" "}
+            </a>
+          </td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Network Throttling
           </th>
-          <td>Yes</td>
-          <td>Yes (Link to Demo)</td>
+          <td>✅</td>
+          <td>
+            ✅{" "}
+            <a
+              href="https://requestly.io/feature/delay-request/"
+              target="_blank"
+              className="demo-link"
+            >
+              Link to Demo
+            </a>
+          </td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Sharing
           </th>
-          <td>No</td>
-          <td>Yes (Link to Demo)</td>
+          <td>❌</td>
+          <td>
+            ✅{" "}
+            <a
+              href="https://requestly.io/blog/share-rules-with-other-users/"
+              target="_blank"
+              className="demo-link"
+            >
+              Link to Demo
+            </a>
+          </td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Mock Server
           </th>
-          <td>No</td>
-          <td>Yes (Host static JS/CSS files and API responses)</td>
+          <td>❌</td>
+          <td>Host static JS/CSS files and API responses</td>
         </tr>
 
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Session Recording
           </th>
-          <td>No</td>
-          <td>Yes (Link to Demo)</td>
+          <td>❌</td>
+          <td>
+            ✅{" "}
+            <a
+              href="https://requestly.io/feature/session-recording/"
+              target="_blank"
+              className="demo-link"
+            >
+              Link to Demo
+            </a>
+          </td>
         </tr>
         <tr>
           <th scope="row" style={{ fontSize: "1.1rem" }}>
@@ -126,7 +171,7 @@ const ComparisonTable = () => {
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             iOS Debugging
           </th>
-          <td>Yes</td>
+          <td>✅</td>
           <td>
             Yes (Using Desktop App) - Almost similar experience, team is working
             on providing native IOS SDK for debug builds.
@@ -136,7 +181,7 @@ const ComparisonTable = () => {
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Automation Testing
           </th>
-          <td>No</td>
+          <td>❌</td>
           <td>
             Provides Selenium Integration (Any modifications inside Requestly
             can be used in your e2e automation tests) (Link to npm page)
@@ -146,7 +191,7 @@ const ComparisonTable = () => {
           <th scope="row" style={{ fontSize: "1.1rem" }}>
             Customer Support
           </th>
-          <td>No</td>
+          <td>❌</td>
           <td>
             Active Support (20% of Chrome Store reviews mentions active support
             from the Requestly team)
