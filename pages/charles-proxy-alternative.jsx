@@ -1,7 +1,43 @@
 import HeadTags from "../components/HeadTags";
 import ComparisonTable from "../components/comparisonTable";
 import LearnUsage from "../components/learnUsage";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
+
 const CharlesAlternative = () => {
+  const platforms = [
+    {
+      src: "https://img.icons8.com/fluent/128/000000/chrome.png",
+      href: "https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa",
+      title: "Chrome Extension",
+      alt: `Requestly for chrome |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+    },
+    {
+      src: "https://img.icons8.com/color/128/000000/firefox.png",
+      href: "https://app.requestly.in/firefox/builds/requestly-latest.xpi",
+      title: "Firefox Extension",
+      alt: `Requestly for firefox |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+    },
+    {
+      src: "https://img.icons8.com/color/128/000000/ms-edge-new.png",
+      href: "https://microsoftedge.microsoft.com/addons/detail/requestly-redirect-url-/ehghoapnlpepjmfbgaomdiilchcjemak",
+      title: "Edge Extension",
+      alt: `Requestly for edge |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+    },
+    {
+      src: "https://img.icons8.com/color/240/000000/safari--v1.png",
+      href: "/for-safari",
+      title: "Safari Extension",
+      alt: `Requestly for safari |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+    },
+    {
+      src: "https://img.icons8.com/ios-filled/128/000000/mac-os.png",
+      href: "https://bit.ly/rq-mac",
+      title: "Desktop App",
+      alt: `Requestly for macos |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
+    },
+  ];
+
   return (
     <div>
       <HeadTags
@@ -12,11 +48,10 @@ const CharlesAlternative = () => {
       <section className="section-header bg-primary text-white pb-9 pb-lg-12 mb-4 mb-lg-6">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-12 col-md-8 w-100 text-center">
-              <h1 className="display-2 mb-3">
+            <div className="col-12 w-100 text-center">
+              <h1 className=" display-2 mb-3">
                 Requestly ➜ Better alternative to Charles Proxy
               </h1>
-              {/* <p className="mb-0">Updated on 21st of March, 2022</p> */}
             </div>
           </div>
         </div>
@@ -56,12 +91,26 @@ const CharlesAlternative = () => {
                       is a lightweight client-side debugging proxy to debug web
                       & mobile apps. For the web, Requestly provides a browser
                       extension on all major browsers and for mobile, Requestly
-                      provides a native Android SDK that provides a Chrome-like
-                      developer tool for Android debug builds. Requestly also
-                      has an In-built mock server and allows developers/QAs to
-                      record the sessions that facilitate data-rich bug
-                      reporting with network logs, console logs, video of the
-                      session, env details, etc.
+                      provides a{" "}
+                      <a
+                        href="https://requestly.io/debug-android-apps/"
+                        target="_blank"
+                        style={{ fontWeight: "bolder" }}
+                      >
+                        native Android SDK
+                      </a>{" "}
+                      that provides a Chrome-like developer tool for Android
+                      debug builds. Requestly also has an{" "}
+                      <a
+                        href="https://requestly.io/feature/mock-server/"
+                        target="_blank"
+                        style={{ fontWeight: "bolder" }}
+                      >
+                        In-built mock server
+                      </a>{" "}
+                      and allows developers/QAs to record the sessions that
+                      facilitate data-rich bug reporting with network logs,
+                      console logs, video of the session, env details, etc.
                     </p>
 
                     <p style={{ fontSize: "1.2rem" }}>
@@ -80,36 +129,25 @@ const CharlesAlternative = () => {
                   </div>
 
                   <div className="mt-3 flex-sm-wrap">
-                    <img
-                      src="https://img.icons8.com/fluent/128/000000/chrome.png"
-                      alt="chrome store"
-                      className="mx-2"
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                    <img
-                      src="https://img.icons8.com/color/128/000000/firefox.png"
-                      alt="firefox store"
-                      className="mx-2"
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                    <img
-                      src="https://img.icons8.com/color/128/000000/ms-edge-new.png"
-                      alt="edge store"
-                      className="mx-2"
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                    <img
-                      src="https://img.icons8.com/color/128/000000/safari.png"
-                      alt="safari store"
-                      className="mx-2"
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                    <img
-                      src="https://img.icons8.com/ios-filled/128/000000/mac-os.png"
-                      alt="android store"
-                      className="mx-2"
-                      style={{ width: "50px", height: "50px" }}
-                    />
+                    {platforms.map((platform, index) => (
+                      <a href={platform.href}>
+                        <OverlayTrigger
+                          placement="bottom"
+                          delay={{ show: 50, hide: 50 }}
+                          overlay={
+                            <Tooltip id={`tooltip-${index}`}>
+                              {platform.title}
+                            </Tooltip>
+                          }
+                        >
+                          <img
+                            src={platform.src}
+                            alt={platform.alt}
+                            className="platform-icon"
+                          />
+                        </OverlayTrigger>
+                      </a>
+                    ))}
                   </div>
                 </div>
                 <div className="d-flex justify-content-lg-center test-class">
