@@ -1,5 +1,6 @@
 import LearnUsage from "../components/learnUsage";
 import HeadTags from "../components/HeadTags";
+import CONSTANTS from "../constants";
 
 const ContactUs = () => {
   return (
@@ -45,7 +46,7 @@ const ContactUs = () => {
                   for an awesome community.
                 </p>
                 <a
-                  href="https://join.slack.com/t/requestlycommunity/shared_invite/zt-z5yz38jp-8Qm7s0VHGkVJTTmbCpa8xA"
+                  href={CONSTANTS.communitySlackUrl}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
