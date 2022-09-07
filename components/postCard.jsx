@@ -47,7 +47,7 @@ const PostInfo = ({ post, featured }) => {
       </Link>
       <div className="d-flex flex-column justify-content-center align-content-center my-3">
         {/* BLOG CATEGORY BADGES */}
-        <div className="d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center flex-xl-wrap row-gap">
           {post.category.map((name, key) => {
             const categoryKey = Object.keys(blogCategories).find(
               (x) =>

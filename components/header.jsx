@@ -6,6 +6,7 @@ import { trackInfoPageClickedEvent } from "../utils/Analytics";
 import DropDownMenu from "./dropDownMenu";
 import { useMediaQuery } from "react-responsive";
 import { FaSlack } from "react-icons/fa";
+import CONSTANTS from "../constants";
 const Init = dynamic(() => import("./init"), { ssr: false });
 
 const Header = ({ theme, isBannerNotVisible }) => {
@@ -227,7 +228,7 @@ const Header = ({ theme, isBannerNotVisible }) => {
                   type="button"
                   onClick={() =>
                     window.open(
-                      "https://join.slack.com/t/requestlycommunity/shared_invite/zt-z5yz38jp-8Qm7s0VHGkVJTTmbCpa8xA",
+                      CONSTANTS.communitySlackUrl,
                       "_blank"
                     )
                   }
