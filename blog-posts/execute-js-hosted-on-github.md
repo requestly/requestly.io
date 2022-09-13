@@ -51,12 +51,24 @@ Using [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmi
 
 Here is a screenshot of the rule:
 
-## ![](/assets/blog-images/remove-x-content-type-header.png)Steps
+<p style="text-align: center;">
+  <img src="/assets/blog-images/remove-x-content-type-header.png" />
+</p>
 
-1. [Install Requestly](https://requestly.io/downloads/) for your browser
-2. Open [Rules Page](https://app.requestly.in/rules)
-3. Click create rule & select Modify Headers in source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
-4. In Response Headers section, `Remove` -&gt; `X-Content-Type-Options`
+## Steps
+
+- [Install Requestly](https://requestly.io/downloads/) for your browser
+- Open [Rules Page](https://app.requestly.in/rules)
+- Click create rule & select Modify Headers in source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
+- In Response Headers section, `Remove` -&gt; `X-Content-Type-Options`
+
+<p style="text-align: center;">
+  <img src="/assets/blog-images/link-execute-js-hosted-on-github-files.png" />
+</p>
+
+<p style="text-align: center;">OR</p>
+
+- Here is the [Link & Execute JS hosted on Github rule](https://app.requestly.io/rules/#sharedList/1663060013399-Link-&-Execute-JS-hosted-on-Github) which you can direclty import in requestly.
 
 ## How to test
 
@@ -68,7 +80,7 @@ We created a simple JS Fiddle to test out if we can use raw github files as scri
 <script src="https://raw.githubusercontent.com/sachinjain024/practicebook/master/web-extensions-master/storage/background.js"></script>
 <script>
   try {
-    if (typeof BG.Methods !== "undefoned") {
+    if (typeof BG.Methods !== "undefined") {
       document.getElementById("msg").innerHTML =
         "Script evaluated successfully!";
     }
