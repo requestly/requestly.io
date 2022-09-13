@@ -1,7 +1,7 @@
 ---
 title: "Link & Execute JS hosted on Github"
 date: "2018-06-16T03:13:17+05:30"
-coverImage: "/assets/blog-images/defaultBlogImage.jpg"
+coverImage: "/assets/blog-images/octocat-and-js.png"
 status: publish
 permalink: execute-js-hosted-on-github
 author: "Requestly Team"
@@ -57,10 +57,10 @@ Here is a screenshot of the rule:
 
 ## Steps
 
-- [Install Requestly](https://requestly.io/downloads/) for your browser
-- Open [Rules Page](https://app.requestly.in/rules)
-- Click create rule & select Modify Headers in source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
-- In Response Headers section, `Remove` -&gt; `X-Content-Type-Options`
+- [Install Requestly](https://requestly.io/downloads/)
+- Open [Rules Page](https://app.requestly.in/rules) & click on Create Rule button
+- Select Modify Headers option and in the source field enter `URL` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
+- In the Response headers section, `Remove Header` -&gt; `X-Content-Type-Options`
 
 <p style="text-align: center;">
   <img src="/assets/blog-images/link-execute-js-hosted-on-github-files.png" />
