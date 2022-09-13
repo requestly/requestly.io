@@ -53,13 +53,10 @@ Here is a screenshot of the rule:
 
 ## ![](/assets/blog-images/remove-x-content-type-header.png)Steps
 
-1. Install Requestly from [https://www.requestly.in](https://www.requestly.in/)
-2. Signin / login if not and go to [Rules Page](https://app.requestly.in/rules)
-3. Click on New Rule to create a rule
-4. Select Modify Headers
-5. Give a Name and Descripton
-6. Select `Remove` -&gt; `Response` -&gt; `X-Content-Type-Options`
-7. In Source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
+1. [Install Requestly](https://requestly.io/downloads/) for your browser
+2. Open [Rules Page](https://app.requestly.in/rules)
+3. Click create rule & select Modify Headers in source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
+4. In Response Headers section, `Remove` -&gt; `X-Content-Type-Options`
 
 ## How to test
 
