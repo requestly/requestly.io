@@ -1,5 +1,5 @@
 ---
-title: "Execute JS hosted on Github"
+title: "Link & Execute JS hosted on Github"
 date: "2018-06-16T03:13:17+05:30"
 coverImage: "/assets/blog-images/defaultBlogImage.jpg"
 status: publish
