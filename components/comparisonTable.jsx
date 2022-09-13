@@ -1,4 +1,91 @@
 const ComparisonTable = () => {
+  const TableContent = [
+    {
+      feature: "Platforms",
+      charles: "Native Desktop Application",
+      requestly: "Browser Extension, Android SDK, Native Desktop Application",
+    },
+    {
+      feature: "Setup",
+      charles: "Requires Configuring Proxy & Installing Certificate",
+      requestly: "No Setup Required",
+    },
+    {
+      feature: "Map Local & Remote",
+      charles: "✅",
+      requestly: "✅",
+    },
+    {
+      feature: "Modify Headers",
+      charles: "Complicated but possible through the Rewrite feature",
+      requestly: "✅",
+    },
+    {
+      feature: "Modify API Response",
+      charles:
+        "Complicated (Put breakpoints to modify responses in real-time, which often causes timeouts on the client-side and is very cumbersome)",
+      requestly: "✅",
+      demoLink: "https://www.youtube.com/watch?v=KIPbxUGUYq8",
+    },
+    {
+      feature: "Breakpoints",
+      charles: "❌",
+      requestly: "✅",
+    },
+    {
+      feature: "Inject Scripts",
+      charles: "❌",
+      requestly: "✅",
+      demoLink: "https://requestly.io/feature/insert-custom-scripts/",
+    },
+    {
+      feature: "Network Throttling",
+      charles: "✅",
+      requestly: "✅",
+      demoLink: "https://requestly.io/feature/delay-request/",
+    },
+    {
+      feature: "Sharing",
+      charles: "✅",
+      requestly: "✅",
+      demoLink: "https://requestly.io/blog/share-rules-with-other-users/",
+    },
+    {
+      feature: "Mock Server",
+      charles: "❌",
+      requestly: "Host static JS/CSS files and API responses",
+    },
+    {
+      feature: "Session Recording",
+      charles: "❌",
+      requestly: "✅",
+      demoLink: "https://requestly.io/feature/session-recording/",
+    },
+    {
+      feature: "Andorid Debugging",
+      charles:
+        " Debug builds only (Requires complicated setup by adding a certificate in code, setting up a proxy on your phone, and installing an SSL certificate on phone)",
+      requestly:
+        " Debug builds only (Requires 3-lines of SDK integration). Provides Network Inspector, Analytics Inspector, Logs & Stacktraces.",
+    },
+    {
+      feature: "iOS Debugging",
+      charles: "✅",
+      requestly:
+        " Yes (Using Desktop App) - Almost similar experience, team is working on providing native IOS SDK for debug builds.",
+    },
+    {
+      feature: "Customer Support",
+      charles: "❌",
+      requestly:
+        " Active Support (20% of Chrome Store reviews mentions active support from the Requestly team)",
+    },
+    {
+      feature: "Pricing",
+      charles: "Limited Free Edition",
+      requestly: "Freemium",
+    },
+  ];
   return (
     <table className="table comparison-table">
       <thead>
@@ -27,183 +114,22 @@ const ComparisonTable = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Platforms
-          </th>
-          <td>Native Desktop Application</td>
-          <td>Browser Extension, Android SDK, Native Desktop Application</td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Setup
-          </th>
-          <td>Requires Configuring Proxy & Installing Certificate</td>
-          <td>No Setup Required</td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Map local & Remote
-          </th>
-          <td>✅</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Modify Headers
-          </th>
-          <td>Complicated but possible through the Rewrite feature</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Modify API response
-          </th>
-          <td>
-            Complicated (Put breakpoints to modify responses in real-time, which
-            often causes timeouts on the client-side and is very cumbersome)
-          </td>
-          <td>
-            ✅{" "}
-            <a
-              href="https://www.youtube.com/watch?v=KIPbxUGUYq8"
-              target="_blank"
-              className="demo-link"
-            >
-              Link to Demo
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Breakpoints
-          </th>
-          <td>✅</td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Inject Scripts
-          </th>
-          <td>❌</td>
-          <td>
-            ✅{" "}
-            <a
-              href="https://requestly.io/feature/insert-custom-scripts/"
-              target="_blank"
-              className="demo-link"
-            >
-              Link to Demo{" "}
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Network Throttling
-          </th>
-          <td>✅</td>
-          <td>
-            ✅{" "}
-            <a
-              href="https://requestly.io/feature/delay-request/"
-              target="_blank"
-              className="demo-link"
-            >
-              Link to Demo
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Sharing
-          </th>
-          <td>❌</td>
-          <td>
-            ✅{" "}
-            <a
-              href="https://requestly.io/blog/share-rules-with-other-users/"
-              target="_blank"
-              className="demo-link"
-            >
-              Link to Demo
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Mock Server
-          </th>
-          <td>❌</td>
-          <td>Host static JS/CSS files and API responses</td>
-        </tr>
-
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Session Recording
-          </th>
-          <td>❌</td>
-          <td>
-            ✅{" "}
-            <a
-              href="https://requestly.io/feature/session-recording/"
-              target="_blank"
-              className="demo-link"
-            >
-              Link to Demo
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Andoid Debugging
-          </th>
-          <td>
-            Debug builds only (Requires complicated setup by adding a
-            certificate in code, setting up a proxy on your phone, and
-            installing an SSL certificate on phone)
-          </td>
-          <td>
-            Debug builds only (Requires 3-lines of SDK integration). Provides
-            Network Inspector, Analytics Inspector, Logs & Stacktraces.
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            iOS Debugging
-          </th>
-          <td>✅</td>
-          <td>
-            Yes (Using Desktop App) - Almost similar experience, team is working
-            on providing native IOS SDK for debug builds.
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Automation Testing
-          </th>
-          <td>❌</td>
-          <td>
-            Provides Selenium Integration (Any modifications inside Requestly
-            can be used in your e2e automation tests) (Link to npm page)
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Customer Support
-          </th>
-          <td>❌</td>
-          <td>
-            Active Support (20% of Chrome Store reviews mentions active support
-            from the Requestly team)
-          </td>
-        </tr>
-        <tr>
-          <th scope="row" style={{ fontSize: "1.1rem" }}>
-            Pricing
-          </th>
-          <td>Limited Free Edition</td>
-          <td>Freemium</td>
-        </tr>
+        {TableContent.map((row, index) => (
+          <tr key={index}>
+            <th scope="row" style={{ fontSize: "1.1rem" }}>
+              {row.feature}
+            </th>
+            <td>{row.charles}</td>
+            <td>
+              {row.requestly}{" "}
+              {row?.demoLink && (
+                <a href={row.demoLink} target="_blank" className="demo-link">
+                  Link to Demo
+                </a>
+              )}
+            </td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );
