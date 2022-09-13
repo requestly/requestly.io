@@ -5,7 +5,7 @@ coverImage: "/assets/blog-images/defaultBlogImage.jpg"
 status: publish
 permalink: execute-js-hosted-on-github
 author: "Requestly Team"
-excerpt: "Github is a well known online project hosting service. Users checkin their scripts, styleshets and other file types as part of their project. Sometimes, We need to refer the scripts present on github in any other project"
+excerpt: "Github is a well known online project hosting service. Users checkin their scripts, stylesheets and other file types as part of their project. Sometimes, We need to refer the scripts present on github in any other project"
 type: post
 id: 363
 category:
