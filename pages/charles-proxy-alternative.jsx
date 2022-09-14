@@ -70,6 +70,7 @@ const CharlesAlternative = () => {
                         style={{ fontWeight: "bolder" }}
                         href="https://www.charlesproxy.com/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Charles
                       </a>{" "}
@@ -96,6 +97,7 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/debug-android-apps/"
                         target="_blank"
                         style={{ fontWeight: "bolder" }}
+                        rel="noreferrer"
                       >
                         native Android SDK
                       </a>{" "}
@@ -105,6 +107,7 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/feature/mock-server/"
                         target="_blank"
                         style={{ fontWeight: "bolder" }}
+                        rel="noreferrer"
                       >
                         In-built mock server
                       </a>{" "}
@@ -130,7 +133,7 @@ const CharlesAlternative = () => {
 
                   <div className="mt-3 flex-sm-wrap">
                     {platforms.map((platform, index) => (
-                      <a href={platform.href}>
+                      <a href={platform.href} key={index + 1}>
                         <OverlayTrigger
                           placement="bottom"
                           delay={{ show: 50, hide: 50 }}
@@ -166,6 +169,7 @@ const CharlesAlternative = () => {
                       <a
                         href="https://www.youtube.com/watch?v=KIPbxUGUYq8&ab_channel=Requestly"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Modifying API responses
                       </a>
