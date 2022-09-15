@@ -99,6 +99,7 @@ const CharlesAlternative = () => {
                         style={{ fontWeight: "bolder" }}
                         href="https://www.charlesproxy.com/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Charles
                       </a>{" "}
@@ -125,6 +126,7 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/debug-android-apps/"
                         target="_blank"
                         style={{ fontWeight: "bolder" }}
+                        rel="noreferrer"
                       >
                         native Android SDK
                       </a>{" "}
@@ -134,6 +136,7 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/feature/mock-server/"
                         target="_blank"
                         style={{ fontWeight: "bolder" }}
+                        rel="noreferrer"
                       >
                         In-built mock server
                       </a>{" "}
@@ -153,10 +156,9 @@ const CharlesAlternative = () => {
                 </div>
 
                 <DownloadRequestlyContainer />
-
-                <div className="d-flex justify-content-center">
-                  <div className="text-container">
-                    <h3 className="h3 font-weight-bolder mt-6 mb-3">
+                <div className="d-flex justify-content-lg-center test-class">
+                  <div className="w-100">
+                    <h3 className="h3 font-weight-bolder mt-5 mb-3">
                       HTTPs Requests Modifications supported by Requestly
                     </h3>
                     <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
@@ -182,6 +184,7 @@ const CharlesAlternative = () => {
                         style={{ fontWeight: "bolder" }}
                         href="https://requestly.io/feature/modify-request-response-headers/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Modifying Headers
                       </a>

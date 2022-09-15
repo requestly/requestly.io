@@ -123,7 +123,12 @@ const ComparisonTable = () => {
             <td>
               {row.requestly}{" "}
               {row?.demoLink && (
-                <a href={row.demoLink} target="_blank" className="demo-link">
+                <a
+                  href={row.demoLink}
+                  target="_blank"
+                  className="demo-link"
+                  rel="noreferrer"
+                >
                   Link to Demo
                 </a>
               )}
