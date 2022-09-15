@@ -156,8 +156,8 @@ const CharlesAlternative = () => {
                 </div>
 
                 <DownloadRequestlyContainer />
-                <div className="d-flex justify-content-lg-center test-class">
-                  <div className="w-100">
+                <div className="d-flex justify-content-center">
+                  <div className="text-container">
                     <h3 className="h3 font-weight-bolder mt-5 mb-3">
                       HTTPs Requests Modifications supported by Requestly
                     </h3>
