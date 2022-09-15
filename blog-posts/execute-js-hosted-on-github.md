@@ -1,11 +1,11 @@
 ---
-title: "Execute JS hosted on Github"
+title: "Link & Execute JS hosted on Github"
 date: "2018-06-16T03:13:17+05:30"
-coverImage: "/assets/blog-images/defaultBlogImage.jpg"
+coverImage: "/assets/blog-images/octocat-and-js.png"
 status: publish
 permalink: execute-js-hosted-on-github
 author: "Requestly Team"
-excerpt: "Github is a well known online project hosting service. Users checkin their scripts, styleshets and other file types as part of their project. Sometimes, We need to refer the scripts present on github in any other project"
+excerpt: "Github is a well known online project hosting service. Users checkin their scripts, stylesheets and other file types as part of their project. Sometimes, We need to refer the scripts present on github in any other project"
 type: post
 id: 363
 category:
@@ -45,34 +45,30 @@ BG.Methods = BG.Methods || {};
 
 We found that Github sends `X-Content-Type-Options` response header which prevents modern browsers to estimate the mime type of content. Hence, browsers render the raw github files as plain text.
 
-## Solution 1
+## Solution
 
 Using [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa), Users can modify request and response headers. We tried removing `X-Content-Type-Options` response header using Requestly which did the trick. Just as simple as that.
 
 Here is a screenshot of the rule:
 
-## ![](/assets/blog-images/remove-x-content-type-header.png)Steps
-
-1. Install Requestly from [https://www.requestly.in](https://www.requestly.in/)
-2. Go to [Rules Page](https://app.requestly.in/rules)
-3. Click on Add Icon to create a rule
-4. Select Modify Headers
-5. Give a Name and Descripton
-6. Select `Remove` -&gt; `Response` -&gt; `X-Content-Type-Options`
-7. In Source field, enter `Url` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
-
-## Solution 2
-
-Using [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa), Users can setup rule to replace host or actually anything in URL. [RawGit](https://rawgit.com/) is an online service which removes this header and adds a mimetype for the files.
-
-![](/assets/blog-images/replace-host-rawgit.png)
+<p style="text-align: center;">
+  <img src="/assets/blog-images/remove-x-content-type-header.png" />
+</p>
 
 ## Steps
 
-1. Install Requestly from [https://www.requestly.in](https://www.requestly.in/)
-2. Go to [Rules Page](https://app.requestly.in/rules)
-3. Click on Add Icon to create a replace rule
-4. Replace raw.githubusercontent.com with rawgit.com
+- [Install Requestly](https://requestly.io/downloads/)
+- Open [Rules Page](https://app.requestly.in/rules) & click on Create Rule button
+- Select Modify Headers option and in the source field enter `URL` -&gt; `Contains` -&gt; `raw.githubusercontent.com`
+- In the Response headers section, `Remove Header` -&gt; `X-Content-Type-Options`
+
+<p style="text-align: center;">
+  <img src="/assets/blog-images/link-execute-js-hosted-on-github-files.png" />
+</p>
+
+<p style="text-align: center;">OR</p>
+
+- Here is the [Link & Execute JS hosted on Github rule](https://app.requestly.io/rules/#sharedList/1663060013399-Link-&-Execute-JS-hosted-on-Github) which you can direclty import in requestly.
 
 ## How to test
 
@@ -84,7 +80,7 @@ We created a simple JS Fiddle to test out if we can use raw github files as scri
 <script src="https://raw.githubusercontent.com/sachinjain024/practicebook/master/web-extensions-master/storage/background.js"></script>
 <script>
   try {
-    if (typeof BG.Methods !== "undefoned") {
+    if (typeof BG.Methods !== "undefined") {
       document.getElementById("msg").innerHTML =
         "Script evaluated successfully!";
     }

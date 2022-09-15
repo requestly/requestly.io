@@ -1212,3 +1212,72 @@ article p img {
 
   outline: rgb(51, 51, 51) none 0px;
 } /*#rq_IMG_13:before*/
+
+/* Charles Proxy alternative article page*/
+
+.comparison-table {
+  width: 75% !important;
+}
+.comparison-table td,
+.comparison-table th {
+  text-align: center;
+}
+.comparison-table thead {
+  color: #66799e;
+  background-color: #f4f6fc;
+  border-color: #f4f6fc;
+}
+
+.text-container {
+  width: 75%;
+  color: black;
+}
+
+@media (max-width: 786px) {
+  .comparison-table {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .text-container {
+    width: 100%;
+  }
+}
+
+.demo-link {
+  /* display: block; */
+  font-weight: bold;
+}
+
+.platform-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 420px) {
+  .platform-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.25rem;
+  }
+}
+
+.charles-alternative-review-card {
+  background: #f0f4f7;
+  color: #333;
+  max-width: 45%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .charles-alternative-review-card {
+    max-width: 100%;
+  }
+}
+.customer-designation {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
