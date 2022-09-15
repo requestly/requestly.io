@@ -1263,3 +1263,21 @@ article p img {
     margin: 0 0.25rem;
   }
 }
+
+.charles-alternative-review-card {
+  background: #f0f4f7;
+  color: #333;
+  max-width: 45%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .charles-alternative-review-card {
+    max-width: 100%;
+  }
+}
+.customer-designation {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}

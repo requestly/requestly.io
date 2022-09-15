@@ -3,8 +3,10 @@ import ComparisonTable from "../components/comparisonTable";
 import LearnUsage from "../components/learnUsage";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import YoutubeEmbedIframe from "../components/YoutubeEmbedIframe";
+import charlesAlternativeReviews from "../utils/json/charlesAlternativeReviews.json";
 
-const CharlesAlternative = () => {
+const DownloadRequestlyContainer = () => {
   const platforms = [
     {
       src: "https://img.icons8.com/fluent/128/000000/chrome.png",
@@ -37,7 +39,34 @@ const CharlesAlternative = () => {
       alt: `Requestly for macos |  proxyman alternatives | mocky.io alternative | Fiddler Alternative | charles proxy alternative`,
     },
   ];
+  return (
+    <div className=" mt-5 w-100 d-flex flex-column justify-content-lg-center align-items-center">
+      <div className="display-4 text-black">Download Requestly for free</div>
 
+      <div className="mt-3 flex-sm-wrap">
+        {platforms.map((platform, index) => (
+          <a href={platform.href} key={index}>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 50, hide: 50 }}
+              overlay={
+                <Tooltip id={`tooltip-${index}`}>{platform.title}</Tooltip>
+              }
+            >
+              <img
+                src={platform.src}
+                alt={platform.alt}
+                className="platform-icon"
+              />
+            </OverlayTrigger>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const CharlesAlternative = () => {
   return (
     <div>
       <HeadTags
@@ -49,7 +78,7 @@ const CharlesAlternative = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 w-100 text-center">
-              <h1 className=" display-2 mb-3">
+              <h1 className=" display-3 mb-3">
                 Requestly ➜ Better alternative to Charles Proxy
               </h1>
             </div>
@@ -65,7 +94,7 @@ const CharlesAlternative = () => {
               <div className="card shadow-soft border-light p-4 p-md-5">
                 <div className="d-flex  justify-content-sm-center">
                   <div className="text-container">
-                    <p style={{ fontSize: "1.2rem" }}>
+                    <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
                       <a
                         style={{ fontWeight: "bolder" }}
                         href="https://www.charlesproxy.com/"
@@ -84,7 +113,7 @@ const CharlesAlternative = () => {
                       debugging proxy that solves all these problems really
                       well.
                     </p>
-                    <p style={{ fontSize: "1.2rem" }}>
+                    <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
                       <strong style={{ fontWeight: "bolder" }}>
                         Requestly
                       </strong>{" "}
@@ -123,53 +152,106 @@ const CharlesAlternative = () => {
                   <ComparisonTable />
                 </div>
 
-                <div className=" mt-5 w-100 d-flex flex-column justify-content-lg-center align-items-center">
-                  <div className="display-4 text-black">
-                    Download Requestly for free
-                  </div>
+                <DownloadRequestlyContainer />
 
-                  <div className="mt-3 flex-sm-wrap">
-                    {platforms.map((platform, index) => (
-                      <a href={platform.href}>
-                        <OverlayTrigger
-                          placement="bottom"
-                          delay={{ show: 50, hide: 50 }}
-                          overlay={
-                            <Tooltip id={`tooltip-${index}`}>
-                              {platform.title}
-                            </Tooltip>
-                          }
-                        >
-                          <img
-                            src={platform.src}
-                            alt={platform.alt}
-                            className="platform-icon"
-                          />
-                        </OverlayTrigger>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-                <div className="d-flex justify-content-lg-center test-class">
-                  <div className="w-100">
-                    <h3 className="h3 font-weight-bolder mt-5 mb-3">
+                <div className="d-flex justify-content-center">
+                  <div className="text-container">
+                    <h3 className="h3 font-weight-bolder mt-6 mb-3">
                       HTTPs Requests Modifications supported by Requestly
                     </h3>
-                    <p style={{ fontSize: "1.2rem" }}>
+                    <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
                       Requestly provides support to modify individual pieces of
-                      HTTP request/response be it Setting up URL Redirects,
-                      Modifying Query Parameters, Modifying Headers, Modifying
-                      API Responses, etc.
-                    </p>
-                    <p style={{ fontSize: "1.2rem" }}>
-                      Here's a demo of{" "}
+                      HTTP request/response be it Setting up{" "}
                       <a
-                        href="https://www.youtube.com/watch?v=KIPbxUGUYq8&ab_channel=Requestly"
+                        style={{ fontWeight: "bolder" }}
+                        href="https://requestly.io/feature/redirect-url/"
                         target="_blank"
                       >
-                        Modifying API responses
+                        URL Redirects
                       </a>
+                      ,{" "}
+                      <a
+                        href="https://requestly.io/feature/modify-query-params/"
+                        target="_blank"
+                        style={{ fontWeight: "bolder" }}
+                      >
+                        Modifying Query Parameters
+                      </a>
+                      ,{" "}
+                      <a
+                        style={{ fontWeight: "bolder" }}
+                        href="https://requestly.io/feature/modify-request-response-headers/"
+                        target="_blank"
+                      >
+                        Modifying Headers
+                      </a>
+                      ,
+                      <a
+                        style={{ fontWeight: "bolder" }}
+                        href="https://requestly.io/feature/modify-response/"
+                        target="_blank"
+                      >
+                        Modifying API Responses
+                      </a>{" "}
+                      , etc.
                     </p>
+                    <div className="d-flex justify-content-center my-4">
+                      <img
+                        src="/assets/blog-images/Create new rule-charles alternative.png"
+                        alt="create new rule"
+                        width={800}
+                      />
+                    </div>
+                    <div
+                      className="d-flex flex-column align-items-center justify-content-center mt-5"
+                      style={{ fontStyle: "italic" }}
+                    >
+                      <YoutubeEmbedIframe
+                        title="Modifying API responses."
+                        src="https://www.youtube.com/embed/KIPbxUGUYq8"
+                      />
+                      <p style={{ fontSize: "1rem" }}>
+                        Here's a demo of Modifying API responses
+                      </p>
+                    </div>
+                    <h3 className="h3 font-weight-bolder mt-6 mb-3">
+                      Requestly users tell a better story
+                    </h3>
+                    <div className="d-flex flex-wrap justify-content-center">
+                      {charlesAlternativeReviews.map((customer, index) => (
+                        <div
+                          key={index}
+                          className="p-4 m-2 d-flex flex-column text-center shadow-sm rounded-xl charles-alternative-review-card"
+                        >
+                          <div className="d-flex justify-content-between align-items-center w-100 mb-4">
+                            <img
+                              className="rounded-circle"
+                              style={{ height: "4rem", width: "4rem" }}
+                              src={customer.image}
+                              alt={customer.name}
+                            />
+                          </div>
+                          <p className="mb-0 text-gray w-100 text-left">
+                            <span
+                              className="text font-weight-bold"
+                              style={{ fontSize: "1rem " }}
+                            >
+                              {customer.name},{" "}
+                            </span>
+                            <div className="customer-designation">
+                              {customer.designation}
+                            </div>
+                          </p>
+                          <h5
+                            className="mb-0 mt-2 lead text-left text-gray"
+                            style={{ fontSize: "1rem " }}
+                          >
+                            “{customer.review}”
+                          </h5>
+                        </div>
+                      ))}
+                    </div>
+                    <DownloadRequestlyContainer />
                   </div>
                 </div>
               </div>

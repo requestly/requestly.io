@@ -1,0 +1,29 @@
+[
+    {
+        "name":"Jared Smith",
+        "designation":"Sr. Analytics Engineer at Zoro",
+        "review":"Requestly is a must-have extension for anyone that works on front-end web. Requestly has totally replaced Charles Proxy, Fiddler, etc. for me due to the ease of use & better interface. 10/10 would recommend!",
+        "image":"/assets/charles-alternative/JaredSmith.jpeg"
+    },
+    {
+        "name":"Timothy Moody",
+        "designation":"Marketing Campaign Manager at Quantum Metric",
+         "review":"This is an amazing plugin. I also use the desktop application on my mac to modify headers for traffic that comes from Safari or other applications. Works like a charm! I don't know of other tools with the same capability, better than Charles Proxy!",
+        "image":"/assets/charles-alternative/TimothyMoody.jpeg"
+        },
+    {
+        "name":"Mike Mitchell",
+        "designation":"QA Engineer at Clayton Homes",
+         "review":"I'm a big fan of Requestly, and use it on a daily basis as a QA Engineer. It removes the need to use Charles pretty often, which is always nice. Not that Charles wouldn't do the job, it's just super convenient to not need to open a separate application to do the same things -- instead I can just use Requestly directly in Chrome",
+         "image":"/assets/charles-alternative/MikeMitchell.jpeg"
+
+        },
+    {
+        "name":"Fabio Krauss Stabel",
+        "designation":"Product Manager at Cobiro",
+         "review":"Great app! way better than setting up Charles proxy and creating a bunch of mumbo jumbo. Totally recommend it!",
+         "image":"/assets/charles-alternative/FabioKrauss.jpeg"
+
+        }
+
+]
