@@ -206,6 +206,19 @@ const Footer = ({ soft }) => {
                   Use with Selenium
                 </Link>
               </li>
+              <li>
+                <Link
+                  onClick={() => {
+                    trackDownloadClickedEvent(
+                      "charles_proxy_alternative",
+                      "footer"
+                    );
+                  }}
+                  href="/charles-proxy-alternative"
+                >
+                  Charles Alternative
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
