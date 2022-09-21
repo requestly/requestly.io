@@ -72,7 +72,9 @@ const CharlesAlternative = () => {
       <HeadTags
         title="Charles Proxy Alternative"
         description="Charles Proxy Alternative"
-        keywords={"Charles Proxy Alternative"}
+        keywords={
+          "Charles Proxy Alternative, Web Debugging Proxy, Debugging HTTPs Requests, Chrome Extension"
+        }
       />
       <section className="section-header bg-primary text-white pb-9 pb-lg-12 mb-4 mb-lg-6">
         <div className="container">
@@ -145,9 +147,9 @@ const CharlesAlternative = () => {
                       console logs, video of the session, env details, etc.
                     </p>
 
-                    <p style={{ fontSize: "1.2rem" }}>
-                      Here's a detailed comparison table of how Requestly fares
-                      with Charles
+                    <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
+                      Here's a detailed comparison of how Requestly fares with
+                      Charles
                     </p>
                   </div>
                 </div>
@@ -200,7 +202,7 @@ const CharlesAlternative = () => {
                     </p>
                     <div className="d-flex justify-content-center my-4">
                       <img
-                        src="/assets/blog-images/Create new rule-charles alternative.png"
+                        src="/assets/charles-alternative/Create new rule.png"
                         alt="create new rule"
                         width={800}
                       />
