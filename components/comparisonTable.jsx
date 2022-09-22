@@ -29,8 +29,8 @@ const ComparisonTable = () => {
     },
     {
       feature: "Breakpoints",
-      charles: "❌",
-      requestly: "✅",
+      charles: "✅",
+      requestly: "❌",
     },
     {
       feature: "Inject Scripts",
@@ -46,7 +46,7 @@ const ComparisonTable = () => {
     },
     {
       feature: "Sharing",
-      charles: "✅",
+      charles: "❌",
       requestly: "✅",
       demoLink: "https://requestly.io/blog/share-rules-with-other-users/",
     },
@@ -54,6 +54,7 @@ const ComparisonTable = () => {
       feature: "Mock Server",
       charles: "❌",
       requestly: "Host static JS/CSS files and API responses",
+      demoLink: "https://requestly.io/feature/mock-server/",
     },
     {
       feature: "Session Recording",
@@ -63,22 +64,36 @@ const ComparisonTable = () => {
     },
     {
       feature: "Andorid Debugging",
-      charles:
-        " Debug builds only (Requires complicated setup by adding a certificate in code, setting up a proxy on your phone, and installing an SSL certificate on phone)",
-      requestly:
-        " Debug builds only (Requires 3-lines of SDK integration). Provides Network Inspector, Analytics Inspector, Logs & Stacktraces.",
+      charles: (
+        <>
+          <strong>Debug builds only</strong> (Requires complicated setup by
+          adding a certificate in code, setting up a proxy on your phone, and
+          installing an SSL certificate on phone)
+        </>
+      ),
+      requestly: (
+        <>
+          <strong>Debug builds only</strong> (Requires 3-lines of SDK
+          integration). Provides Network Inspector, Analytics Inspector, Logs &
+          Stacktraces.
+        </>
+      ),
     },
     {
       feature: "iOS Debugging",
       charles: "✅",
       requestly:
-        " Yes (Using Desktop App) - Almost similar experience, team is working on providing native IOS SDK for debug builds.",
+        " ✅ (Using Desktop App) - Similar experience, team is working on providing native IOS SDK for debug builds.",
     },
     {
       feature: "Customer Support",
       charles: "❌",
-      requestly:
-        " Active Support (20% of Chrome Store reviews mentions active support from the Requestly team)",
+      requestly: (
+        <>
+          <strong> Active Support</strong> (20% of Chrome Store reviews mentions
+          active support from the Requestly team)
+        </>
+      ),
     },
     {
       feature: "Pricing",
@@ -90,25 +105,13 @@ const ComparisonTable = () => {
     <table className="table comparison-table">
       <thead>
         <tr>
-          <th
-            scope="col"
-            className="text-center"
-            style={{ fontSize: "1.2rem" }}
-          >
+          <th scope="col" className="text-center col-heading">
             Feature
           </th>
-          <th
-            scope="col"
-            className="text-center"
-            style={{ fontSize: "1.2rem" }}
-          >
+          <th scope="col" className="text-center col-heading">
             Charles
           </th>
-          <th
-            scope="col"
-            className="text-center"
-            style={{ fontSize: "1.2rem" }}
-          >
+          <th scope="col" className="text-center col-heading">
             Requestly
           </th>
         </tr>
@@ -116,11 +119,11 @@ const ComparisonTable = () => {
       <tbody>
         {TableContent.map((row, index) => (
           <tr key={index}>
-            <th scope="row" style={{ fontSize: "1.1rem" }}>
+            <th scope="row" className="row-feature-heading">
               {row.feature}
             </th>
-            <td>{row.charles}</td>
-            <td>
+            <td className="row-feature">{row.charles}</td>
+            <td className="row-feature">
               {row.requestly}{" "}
               {row?.demoLink && (
                 <a
@@ -129,7 +132,7 @@ const ComparisonTable = () => {
                   className="demo-link"
                   rel="noreferrer"
                 >
-                  Link to Demo
+                  (Demo)
                 </a>
               )}
             </td>

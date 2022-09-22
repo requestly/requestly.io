@@ -1271,6 +1271,30 @@ article p img {
   height: auto;
 }
 
+.col-heading {
+  font-size: 1.2rem;
+}
+.row-feature-heading {
+  font-size: 1.1rem !important;
+  padding: 0.6rem !important;
+}
+
+.row-feature {
+  font-size: 1rem !important;
+}
+
+@media (max-width: 562px) {
+  .col-heading {
+    font-size: 1rem;
+  }
+  .row-feature-heading {
+    font-size: 0.9rem !important;
+  }
+  .row-feature {
+    font-size: 0.8rem !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .charles-alternative-review-card {
     max-width: 100%;
