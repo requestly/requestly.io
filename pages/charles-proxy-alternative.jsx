@@ -107,13 +107,15 @@ const CharlesAlternative = () => {
                       </a>{" "}
                       is widely used when it comes to debugging HTTP traffic.
                       Having used Charles myself, I realized Charles works but
-                      it is a lot clunky and it has been in maintenance mode for
-                      quite some time. Charles has a greater learning curve,
-                      collaboration capabilities are not there, doesn't work
-                      with VPN, requires switching between applications, etc. I
-                      used Charles for the lack of a better product and hence
-                      decided to build Requestly i.e. a modern client-side web
-                      debugging proxy that solves all these problems really
+                      it is a lot clunky and it has been in{" "}
+                      <strong>maintenance mode</strong> for quite some time.
+                      Charles has a greater <strong>learning curve</strong>,{" "}
+                      <strong>collaboration capabilities are not there</strong>,{" "}
+                      <strong>doesn't work with VPN</strong>,
+                      <strong> requires switching between applications </strong>
+                      , etc. I used Charles for the lack of a better product and
+                      hence decided to build Requestly i.e. a modern client-side
+                      web debugging proxy that solves all these problems really
                       well.
                     </p>
                     <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
@@ -132,7 +134,8 @@ const CharlesAlternative = () => {
                       >
                         native Android SDK
                       </a>{" "}
-                      that provides a Chrome-like developer tool for Android
+                      that provides a{" "}
+                      <strong>Chrome-like developer tool</strong> for Android
                       debug builds. Requestly also has an{" "}
                       <a
                         href="https://requestly.io/feature/mock-server/"
@@ -147,10 +150,12 @@ const CharlesAlternative = () => {
                       console logs, video of the session, env details, etc.
                     </p>
 
-                    <p style={{ fontSize: "1.2rem", fontWeight: 300 }}>
+                    <DownloadRequestlyContainer />
+
+                    <h3 className="h3 font-weight-bolder mt-5 mb-3">
                       Here's a detailed comparison of how Requestly fares with
                       Charles
-                    </p>
+                    </h3>
                   </div>
                 </div>
                 <div className="w-100 d-flex justify-content-sm-center mt-5">
@@ -196,9 +201,10 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/feature/modify-response/"
                         target="_blank"
                       >
+                        {" "}
                         Modifying API Responses
                       </a>{" "}
-                      , etc.
+                      etc.
                     </p>
                     <div className="d-flex justify-content-center my-4">
                       <img
