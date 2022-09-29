@@ -32964,6 +32964,7 @@ div span code {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  justify-items: center;
 }
 
 .customer-story-link {
@@ -32981,9 +32982,9 @@ div span code {
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .customer-stories {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

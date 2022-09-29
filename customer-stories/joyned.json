@@ -1,0 +1,50 @@
+{
+    "title":"Joyned uses Requestly to test local JS SDK changes directly on customers’ production sites",
+    "permalink":"joyned-uses-requestly-to-test-local-js-sdk-changes-directly-on-customers-production-sites",
+    "excerpt": "",
+    "logo":"/assets/customer-stories/joyned/joyned.png",
+    "sections":[
+        {
+            "heading": "Introduction",
+            "description": [
+                "<a class=\"customer-story-link\" href=\"https://joyned.co/\" target=\"_blank\" rel=\"noreferrer noopener\">Joyned</a> is Social Commerce as a Service, that provides a cross-website, live shopping experience for online shoppers. E-commerce platforms use Joyned to provide customers with an easy and accessible way to shop together with their peers.",
+                "This testimonial has been given by Joyned team who have been using Requestly for some time."]
+        },
+         {
+            "heading": "The Challenge",
+            "description": [
+              "At Joyned, they built a Javascript  to enable eCommerce sites for shopping together, deployed via a script tag. The Joyned team needs to test their script tags on multiple real customer sites to ensure the code is going to work fine in production. Prospect customers don’t have their script tags installed and existing customers have their old code installed. Joyned doesn’t have control over their client’s websites so testing JS code on external clients' websites is quite a challenge for them.              ",
+              "They used to manually inject the Javascript into the browser console each time they wanted to debug or test out new changes. It was a tedious process and prone to errors. They also wanted to redirect the data from existing script tags on customer websites to the local environment so that they can test out the changes and push the platform to the next environment.              "
+            ]
+          },
+            {
+                "heading": "Testimonial",
+                "testimonial": "Not having access to Client’s Staging website, Its quite tedious to test out the continuous updates we push to our JS script tags.                ",
+                "author": {
+                  "name": "Michael Levinson",
+                  "title": "CPO & Co-Founder",
+                  "mugshot":"/assets/customer-stories/joyned/michael.jpeg",
+                  "companyLogo":"/assets/customer-stories/joyned/joyned.png"
+                }
+          },{
+            "heading": "The Solution",
+            "description": [
+              "The Joyned team actively uses Requestly to insert their script tags on third-party eCommerce websites. They use the <a href=\"https://requestly.io/feature/insert-custom-scripts/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\">Inject Script</a> feature of Requestly to inject their script on eCommerce sites where their tag isn’t present. This removes the need to open up the browser console each time and manually insert the script.",
+              "They also use Requestly to <a href=\"https://requestly.io/feature/redirect-url/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\">redirect their existing plugins on customer websites to their local environment scripts</a> which makes testing a lot easier. After checking out changes with Requestly, they finally publish the script tag updates to their next environment with confidence.",
+              "Since Requestly can inject external Javascript (Joyned script tag) into potential customer sites, the Sales team also leverages this functionality to <a href=\"https://requestly.io/sales-tool-for-saas-products/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\">give engaging demos to their prospective customers</a>.",
+              "Requestly’s rule <a href=\"https://requestly.io/blog/share-rules-with-other-users/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\">Sharing functionality</a> makes it super easy to collaborate between the engineering, QA, support & sales team."
+            ]
+          },
+          {
+            "heading": "Testimonial",
+            "testimonial": "Requestly not just made it easier for us to develop, test & debug our code on our customer sites but It also helps us do engaging product demos to our prospective clients.",
+            "author": {
+              "name": "Michael Levinson",
+              "title": "CPO & Co-Founder",
+              "mugshot":"/assets/customer-stories/joyned/michael.jpeg",
+              "companyLogo":"/assets/customer-stories/joyned/joyned.png"
+            }
+      }
+    ]
+
+}
