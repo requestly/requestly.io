@@ -16,5 +16,14 @@
     "companyLogo": "/assets/customer-stories/wingify/vwo.svg",
     "companyName": "Wingify",
     "href": "/customer-stories/wingify-uses-requestly-to-debug-the-delivery-of-their-campaigns/"
+  },
+  {
+    "name":"Michael Levinson",
+    "title":"CPO & Co-Founder",
+    "testimonial":"Requestly not just made it easier for us to develop, test & debug our code on our customer sites but It also helps us do engaging product demos to our prospective clients.",
+    "mugshot":"/assets/customer-stories/joyned/michael.jpeg",
+    "companyLogo":"/assets/customer-stories/joyned/joyned.png",
+    "companyName":"Joyned",
+    "href":"/customer-stories/joyned-uses-requestly-to-test-local-js-sdk-changes-directly-on-customers-production-sites/"
   }
 ]
