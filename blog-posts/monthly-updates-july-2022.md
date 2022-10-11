@@ -81,15 +81,8 @@ Over the last couple of weeks, we talked to several AdTech customers and publish
 *   Development & Testing of CMP
     
 
-[Give this a quick read!](https://requestly.medium.com/how-requestly-empowers-developers-qas-in-adtech-industry-c513eec21b7d)
+[Give this a quick read!](https://requestly.medium.com/how-requestly-empowers-developers-qas-in-adtech-industry-c513eec21b7d)<br>&nbsp;</p>
 
-Request your support 🙏
----------------------------
+<p>That’s it for now! Hope you enjoyed reading it. Feel free to <a href="mailto:sachin.jain@requestly.io" class="external-link" rel="nofollow"><u>connect</u></a> if you have any questions!<br></p>
 
-As we continue to build the awesome product, I’d love to understand how do you use Requestly. What are the problems do you face while using the product. Here’s my Calendly - [https://calendly.com/sachin-rq](https://calendly.com/sachin-rq) if you’d like to speak with me for quick 10-15mins.
-
-That’s it for now! Hope you enjoyed reading it. You can also respond to this email directly for any questions you have and this hits my inbox directly.
-
-Best,  
 SJ - Founder & CEO, Requestly!  
-[Download](https://requestly.io/downloads/) | [LinkedIn](https://www.linkedin.com/in/sachin-jain-20b20731/) | [Backed by YCombinator](https://www.linkedin.com/posts/sachin-jain-20b20731_were-thrilled-to-announce-that-requestly-activity-6874625382826471425-g5j-/)

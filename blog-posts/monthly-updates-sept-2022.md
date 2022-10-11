@@ -81,8 +81,6 @@ Use the Session Recording feature to 10x your bug reporting within your company.
 As we continue to build the awesome product, I’d love to understand how you use Requestly. What are the problems you face while using the product? Here’s my <a href="https://calendly.com/sachin-rq" class="external-link" rel="nofollow"><u>Calendly</u></a><u> </u>if you’d like to speak with me for quick 10-15mins. <br>
 That’s it for now! Hope you enjoyed reading it. Feel free to <a href="mailto:sachin.jain@requestly.io" class="external-link" rel="nofollow"><u>connect</u></a> if you have any questions!<br>&nbsp;</p>
 
-Best,  
-SJ - Founder & CEO, Requestly!  
-[Download](https://requestly.io/downloads/) | [LinkedIn](https://www.linkedin.com/in/sachin-jain-20b20731/) | [Backed by YCombinator](https://www.linkedin.com/posts/sachin-jain-20b20731_were-thrilled-to-announce-that-requestly-activity-6874625382826471425-g5j-/)
+ [SJ - Founder & CEO, Requestly! ](https://www.linkedin.com/in/sachin-jain-20b20731/)
 
 </td></tr></tbody>
