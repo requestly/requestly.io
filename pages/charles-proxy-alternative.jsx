@@ -175,6 +175,7 @@ const CharlesAlternative = () => {
                         style={{ fontWeight: "bolder" }}
                         href="https://requestly.io/feature/redirect-url/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         URL Redirects
                       </a>
@@ -183,6 +184,7 @@ const CharlesAlternative = () => {
                         href="https://requestly.io/feature/modify-query-params/"
                         target="_blank"
                         style={{ fontWeight: "bolder" }}
+                        rel="noreferrer"
                       >
                         Modifying Query Parameters
                       </a>
@@ -200,6 +202,7 @@ const CharlesAlternative = () => {
                         style={{ fontWeight: "bolder" }}
                         href="https://requestly.io/feature/modify-response/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         Modifying API Responses
