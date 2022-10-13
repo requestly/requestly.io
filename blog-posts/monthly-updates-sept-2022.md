@@ -1,7 +1,7 @@
 ---
 title: "Requestly Sep’22 Updates"
 date: "2022-10-10T02:53:17+05:30"
-coverImage: "/assets/blog-images/Sep-2022-Product-Update-Blog.png"
+coverImage: "/assets/blog-images/sep-2022-product-update-blog.png"
 status: publish
 permalink: monthly-updates-sep-2022
 author: "Sachin Jain"
