@@ -32984,7 +32984,7 @@ div span code {
 
 @media (min-width: 1024px) {
   .customer-stories {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
