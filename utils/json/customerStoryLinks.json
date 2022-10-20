@@ -25,5 +25,14 @@
     "companyLogo":"/assets/customer-stories/joyned/joyned.png",
     "companyName":"Joyned",
     "href":"/customer-stories/joyned-uses-requestly-to-test-local-js-sdk-changes-directly-on-customers-production-sites/"
+  },
+  {
+    "name":"Adam Wills",
+    "title":"Senior QA Tester",
+    "testimonial":"Requestly is a game-changer for us. It started with one person and now the entire team uses Requestly to test our Staging code on production customers & non-customer sites. We more confidently ship product updates now.",
+    "mugshot":"/assets/customer-stories/15gifts/adam.jpeg",
+    "companyLogo":"/assets/customer-stories/15gifts/15gifts-logo.png",
+    "companyName":"15Gifts",
+    "href":"/customer-stories/15gifts-uses-requestly-to-test-js-tags-on-external-websites/"
   }
 ]
