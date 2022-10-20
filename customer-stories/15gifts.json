@@ -1,0 +1,50 @@
+{
+    "title":"15Gifts uses Requestly to test JS tags on external websites",
+    "permalink":"15gifts-uses-requestly-to-test-js-tags-on-external-websites",
+    "excerpt": "",
+    "logo":"/assets/customer-stories/15gifts/15gifts-logo.png",
+    "sections":[
+        {
+            "heading": "Introduction",
+            "description": [
+                "<a class=\"customer-story-link\" href=\"https://15gifts.com/\" target=\"_blank\" rel=\"noreferrer noopener\">15Gifts</a> integrates recommendation technology into third party sites through their JS tag that helps customers find their ideal product quickly. 15gifts frontend & QA team migrated from Charles Proxy to Requestly after finding out how easy it is to test JS tags on external websites using Requestly.",
+                "This testimonial has been given by 15Gifts team who have been using Requestly for some time."]
+        },
+         {
+            "heading": "The Challenge",
+            "description": [
+              "At 15gifts, they provide a Javascript tag that their clients integrate into their websites. Their JS tag provides a guided shopping experience similar to in-store sales assistants. They wanted to test out the integration behavior on existing as well as potential customers sites. Which questions the sales assistant asks and at what point in the user journey and what recommendations etc are shown – are some parts of their testing workflow.",
+              "The team also wanted to test that new features run smoothly or break the integration and explore this. Any broken experience on the customer website can lead to significant loss for the customer, therefore testing their JS tag on external sites is extremely important for them."
+            ]
+          },
+            {
+                "heading": "Testimonial",
+                "testimonial": "15gifts enables in-store sales assistant experience on our customers' sites. It is critical & can be challenging to test our JS integration and ship new features without breaking integration on the external websites",
+                "author": {
+                  "name": "Pawel Nowak",
+                  "title": "Tester",
+                  "mugshot":"/assets/customer-stories/15gifts/Pawel-15gifts.png",
+                  "companyLogo":"/assets/customer-stories/15gifts/15gifts-logo.png"
+                }
+          },{
+            "heading": "The Solution",
+            "description": [
+              "15gifts QA team actively uses <a href=\"https://requestly.io/feature/redirect-url/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\"> Requestly Redirect feature </a> during their testing to replace key requests on the live environment with staging equivalents. With this setup, they are able to run their staging environment code on live production sites without changing a thing. They use <a href=\"https://requestly.io/blog/requestly-rule-operators/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\"> Requestly WildCard operator  </a> to create rules which work across multiple customers/projects. Rules are triggered to test if sensitive integration with client pages is operating as expected.",
+              "Using the <a href=\"https://requestly.io/feature/insert-custom-scripts/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\"> Requestly Insert Script feature, </a> the team is able to easily run code on a client's website to test an early cart integration which also helps them in exploring and solving any potential issues upfront thereby saving cost of communication/reporting by the customer.",
+              "They use <a href=\"https://requestly.io/feature/insert-custom-scripts/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\"> Requestly Insert Script feature, </a> for inserting pre production code on non-customer sites where their tag isn’t installed and check post-integration behavior without involving developers.",
+              "Their team uses <a href=\"https://requestly.io/blog/share-rules-with-other-users/\" class=\"customer-story-link\" target=\"_blank\" rel=\"noreferrer\"> SharedList feature </a> to share the rules that work and saves the hassle of other people having to set up their own rules or debug someone else’s configuration."
+            ]
+          },
+          {
+            "heading": "Testimonial",
+            "testimonial": "Requestly is a game-changer for us. It started with one person and now the entire team uses Requestly to test our Staging code on production customers & non-customer sites. We more confidently ship product updates now.",
+            "author": {
+              "name": "Adam Wills",
+              "title": "Senior QA Tester",
+              "mugshot":"/assets/customer-stories/15gifts/adam.jpeg",
+              "companyLogo":"/assets/customer-stories/15gifts/15gifts-logo.png"
+            }
+      }
+    ]
+
+}
