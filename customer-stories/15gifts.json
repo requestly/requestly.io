@@ -21,9 +21,9 @@
                 "heading": "Testimonial",
                 "testimonial": "15gifts enables in-store sales assistant experience on our customers' sites. It is critical & can be challenging to test our JS integration and ship new features without breaking integration on the external websites",
                 "author": {
-                  "name": "Pawel Nowak",
-                  "title": "Tester",
-                  "mugshot":"/assets/customer-stories/15gifts/Pawel-15gifts.png",
+                  "name": "Piers Carrigan",
+                  "title": "QA Lead",
+                  "mugshot":"/assets/customer-stories/15gifts/piers.jpeg",
                   "companyLogo":"/assets/customer-stories/15gifts/15gifts-logo.png"
                 }
           },{
@@ -39,9 +39,9 @@
             "heading": "Testimonial",
             "testimonial": "Requestly is a game-changer for us. It started with one person and now the entire team uses Requestly to test our Staging code on production customers & non-customer sites. We more confidently ship product updates now.",
             "author": {
-              "name": "Adam Wills",
-              "title": "Senior QA Tester",
-              "mugshot":"/assets/customer-stories/15gifts/adam.jpeg",
+              "name": "Piers Carrigan",
+              "title": "QA Lead",
+              "mugshot":"/assets/customer-stories/15gifts/piers.jpeg",
               "companyLogo":"/assets/customer-stories/15gifts/15gifts-logo.png"
             }
       }
