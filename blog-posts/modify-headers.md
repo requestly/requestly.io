@@ -1,6 +1,6 @@
 ---
 title: "Modify Headers in HTTP(s) Requests and Responses"
-coverImage: "https://d2365d0g6khx9l.cloudfront.net/blog/modify_headers.png"
+coverImage: "/assets/img/illustrations/headerRule.png"
 date: "2022-08-13T20:43:59+05:30"
 status: publish
 permalink: modify-headers-https-requests
