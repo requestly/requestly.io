@@ -8,7 +8,7 @@
     "icon": "fas fa-random",
     "description": "Redirect a request URL (or matching pattern) to another URL.",
     "briefContent": "Development is easy, Testing & Debugging is hard. Requestly makes your work easier for you. See how it works.",
-    "walkthrough": "https://www.youtube.com/embed/dTg0GNe8-aY",
+    "walkthrough": "https://www.youtube.com/embed/85GVaOWTnlE",
     "showcaseVideo": "/assets/videos/redirect-rule-showcase.mp4",
     "examples": [
       {
