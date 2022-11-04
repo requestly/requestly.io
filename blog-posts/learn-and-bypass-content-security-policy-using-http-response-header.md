@@ -1,7 +1,7 @@
 ---
 title: "Learn & bypass Content Security Policy using HTTP Response Header"
 date: "2022-11-04T02:53:17+05:30"
-coverImage: "/assets/blog-images/defaultBlogImage.jpg"
+coverImage: "/assets/blog-images/blog-bypass-csp.png"
 status: publish
 permalink: learn-and-bypass-content-security-policy-using-http-response-header
 author: "Sachin Jain"
