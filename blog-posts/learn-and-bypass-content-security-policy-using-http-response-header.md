@@ -12,7 +12,6 @@ category:
   - Guides
   - Debugging
   - Frontend Development
-  - HTTP Headers
 post_format: []
 hestia_layout_select:
   - default
