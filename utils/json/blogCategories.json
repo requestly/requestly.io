@@ -50,5 +50,9 @@
   "alternatives": {
     "title": "Alternatives",
     "style": "info"
-  }
+  },
+  "http-headers": {
+    "title": "HTTP Headers",
+    "style": "info"
+}
 }
