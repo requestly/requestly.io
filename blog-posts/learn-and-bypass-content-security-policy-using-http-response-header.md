@@ -1,9 +1,9 @@
 ---
-title: "Learn & bypass Content Security Policy using HTTP Response Header"
+title: "Learn & bypass Content Security Policy HTTP Response Header"
 date: "2022-11-04T02:53:17+05:30"
 coverImage: "/assets/blog-images/blog-bypass-csp.png"
 status: publish
-permalink: learn-and-bypass-content-security-policy-using-http-response-header
+permalink: learn-and-bypass-content-security-policy-http-response-header
 author: "Sachin Jain"
 excerpt: "Bypass CSP header to speed up your testing"
 type: post
