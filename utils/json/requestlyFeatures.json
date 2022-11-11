@@ -237,12 +237,20 @@
       {
         "title": "Can I run HTML files directly from GitHub, instead of just viewing their source?",
         "src": "https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source/37912931#37912931"
+      },
+      {
+        "title": "Learn & bypass Content Security Policy HTTP Response Header",
+        "src": "https://requestly.io/blog/learn-and-bypass-content-security-policy-http-response-header/"
+      },
+      {
+        "title": "Modify Headers in UI Automation Testing using Selenium & Puppeteer",
+        "src": "https://www.smashingmagazine.com/2021/12/headers-https-requests-ui-automation-testing/"
       }
     ],
     "showcaseVideo": "",
     "showMoreInfo": true,
     "moreInfo": {
-      "title": "Application and use cases",
+      "title": "Use cases",
       "description": "Here's how you can use Requestly's Modify Headers feature in your daily workflow...",
       "features": [
         {
@@ -306,10 +314,10 @@
     "walkthrough": "https://www.youtube.com/embed/KIPbxUGUYq8",
     "description": "Test edge cases in your app by simulating API responses",
     "subContentList": [
-      {"content": "Define fixed API responses"},
-      {"content": "Change responses programmatically"},
-      {"content": "Works with XHR and fetch requests"},
-      {"content": "Faster Debugging"}
+      { "content": "Define fixed API responses" },
+      { "content": "Change responses programmatically" },
+      { "content": "Works with XHR and fetch requests" },
+      { "content": "Faster Debugging" }
     ],
     "briefContent": "Modify response of AJAX request by programmatically inserting response via JS or static data or mapping local file.",
     "showcaseVideo": "",
