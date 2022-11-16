@@ -28,7 +28,7 @@ Being able to edit remote code can be a huge time saver and I hope this article 
 
 First, we will identify the request for our remote resource. You can use the chrome network tab for this. Search for the javascript or CSS file that you wish to debug. Click on the request log and copy the request URL, this will come in handy later.
 
-![original-request-uri.png](https://d2365d0g6khx9l.cloudfront.net/blog/original-uri.png)
+![original-request-uri.png](https://dhuecxx44iqxd.cloudfront.net/blog/original-uri.png)
 
 I have a debug version of the script served locally using a python server. The whole idea of remote debugging is to swap out the remote file with the local file. I have the launch script for adobe target that I found on [t-mobile.com](http://t-mobile.com) and I have also unminified it for convenience.
 
@@ -46,27 +46,27 @@ This just requires a simple redirect rule in Requestly. Click on **Create New Ru
 
 In the source url, paste the original url (one that you previously copied) and in the destination enter the path to local file served from the python server. 
 
-![requestly-redirect-rule.png](https://d2365d0g6khx9l.cloudfront.net/blog/redirect-rule.png)
+![requestly-redirect-rule.png](https://dhuecxx44iqxd.cloudfront.net/blog/redirect-rule.png)
 
 Give your rule a name, and click save. 
 
 You can also apply [advanced filters](https://docs.requestly.io/getting-started/features/source-filters) like host name matching or filtering based on resource type or request type by clicking on the small funnel icon. If you do it right, you will only need to specify the name of the file in the source field
 
-![advanced-filters-demo.gif](https://d2365d0g6khx9l.cloudfront.net/blog/filters-demo.gif)
+![advanced-filters-demo.gif](https://dhuecxx44iqxd.cloudfront.net/blog/filters-demo.gif)
 
 ## Start debugging.
 
 Now in the network tab, if you look for the same request it should look something like this
 
-![redirect-network-log.png](https://d2365d0g6khx9l.cloudfront.net/blog/redirect-network-log.png)
+![redirect-network-log.png](https://dhuecxx44iqxd.cloudfront.net/blog/redirect-network-log.png)
 
 This shows that the rule worked and now you are being served your local version of that file. But just be sure before you start debugging your site with this file, let us add a simple console log. 
 
-![add-console-log.png](https://d2365d0g6khx9l.cloudfront.net/blog/add-console-log.png)
+![add-console-log.png](https://dhuecxx44iqxd.cloudfront.net/blog/add-console-log.png)
 
 Now refresh the page and check the console. You will also notice the Requestly extension icon change colour whenever a rule is being applied
 
-![end-result.png](https://d2365d0g6khx9l.cloudfront.net/blog/end-result.png)
+![end-result.png](https://dhuecxx44iqxd.cloudfront.net/blog/end-result.png)
 
 ## Conclusion
 

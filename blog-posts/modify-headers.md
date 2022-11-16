@@ -29,7 +29,7 @@ Headers carry data about the data being transferred. The ability to modify the h
 
 ## To modify headers, select **Modify Headers** Rule.
 
-![Select modify headers from the rule selector](https://d2365d0g6khx9l.cloudfront.net/blog/annotated_rule-selector.png)
+![Select modify headers from the rule selector](https://dhuecxx44iqxd.cloudfront.net/blog/annotated_rule-selector.png)
 
 ## Select type of headers to modify- Request/Response
 
@@ -39,7 +39,7 @@ Headers carry data about the data being transferred. The ability to modify the h
 
 - Existing header’s value can be overridden.
 
-![Modify Headers editor](https://d2365d0g6khx9l.cloudfront.net/blog/headers_rule_annotated_editor.png)
+![Modify Headers editor](https://dhuecxx44iqxd.cloudfront.net/blog/headers_rule_annotated_editor.png)
 
 ## When modifying headers is helpful?
 
