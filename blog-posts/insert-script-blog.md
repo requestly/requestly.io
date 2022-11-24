@@ -1,7 +1,7 @@
 ---
 title: "Inserting scripts dynamically in a webpage"
 date: "2022-11-24T02:53:17+05:30"
-coverImage: "/assets/blog-images/defaultBlogImage.jpg"
+coverImage: "/assets/blog-images/insert-scripts-blog.png"
 status: publish
 permalink: inserting-scripts-dynamically-in-a-webpage
 author: "Team Requestly"
